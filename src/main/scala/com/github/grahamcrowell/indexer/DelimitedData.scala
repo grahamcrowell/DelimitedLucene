@@ -45,6 +45,9 @@ object DatedDataFolder {
 
 trait DelimitedDataFileTrait {
   val file: File
+  val hash: String = file.digest("MD5").toString.take(8)
+  val parent_relative_path: String = file.parent.path.subpath(esldata.path.getNameCount, file.parent.path.getNameCount).toString
+  val file_relative_path: String = file.path.subpath(esldata.path.getNameCount, file.path.getNameCount).toString
   val delimiter: Char
   val header: IndexedSeq[String]
   val nameValueMapIterator: Iterator[Map[String, String]]

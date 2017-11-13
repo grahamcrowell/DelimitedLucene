@@ -8,11 +8,6 @@ scalaVersion := "2.11.8"
 libraryDependencies += "com.github.pathikrit" %% "better-files" % "2.17.1"
 // https://github.com/nscala-time/nscala-time
 libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "1.8.0"
-// https://github.com/sksamuel/elastic4s
-//libraryDependencies += "com.sksamuel.elastic4s" %% "elastic4s-http" % "5.4.2"
-
-// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
-//libraryDependencies += "org.slf4j" % "slf4j-api" % "1.7.25"
 
 // scala test
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.4"

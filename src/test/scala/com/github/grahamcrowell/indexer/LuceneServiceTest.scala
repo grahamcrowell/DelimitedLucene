@@ -4,18 +4,19 @@ import java.nio.file.Paths
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer
 import org.apache.lucene.index.IndexWriterConfig.OpenMode
-import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig}
+import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig, IndexableField}
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser
 import org.apache.lucene.search.IndexSearcher
 import org.apache.lucene.store.FSDirectory
 import org.scalatest.{BeforeAndAfter, FunSpec}
 
+import scala.collection.JavaConverters._
 class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
   var tenantRoot: TenantRootTrait = _
   var sampleFolder: DatedDataFolderTrait = _
   var delimitedDataFile: DelimitedDataFileTrait = _
-  var luceneService = LuceneService
+  var luceneService: LuceneService.type = LuceneService
 
   before {
     tenantRoot = TenantRoot(esldata / tenant_code)
@@ -40,6 +41,7 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
   it("should search an index") {
     /**
+      * Sample file: /Users/gcrowell/workspace/esldata/WFF_m1f/20170625/Absence.csv
       *
       * AbsenceID,EventDate,EmployeeID,AbsenceReason0,AbsenceReason1,AbsenceHours,AbsenceDays,FunctionalCategory,PlanningCategory,CompensationCategory
       * Absence-1,2012-01-01,Employee-1850,Unpaid Sick Leave Scheduled,Reason1,24.0,3.0,Sick Leave,Scheduled,Unpaid
@@ -56,7 +58,6 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
     val searcher = new IndexSearcher(directoryReader)
     val fieldsToSearch = Array("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0")
-    //      AbsenceID,EventDate,EmployeeID,AbsenceReason0,AbsenceReason1,AbsenceHours,AbsenceDays,FunctionalCategory,PlanningCategory,CompensationCategory
     val analyzer = new StandardAnalyzer()
     val mqp = new MultiFieldQueryParser(fieldsToSearch, analyzer)
     val query = mqp.parse(keyword)
@@ -66,12 +67,13 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
     println(s"scoreDoc.size = ${scoreDoc.size}")
     scoreDoc.foreach(docs => {
       val doc = searcher.doc(docs.doc)
+      val fields = doc.getFields.asScala
       println("*** Document Found: ")
-      fieldsToSearch.foreach((field: String) =>
-        println(s"***** ${field}: ${doc.get(field)}")
-      )
-      //      println("***** Agency_Category: ")
-      //      println(doc.get("Agency_Category"))
+      fields.foreach((field: IndexableField) => println(s"${field.name()}: ${field.stringValue()}"))
+
+//      fieldsToSearch.foreach((field: String) =>
+//        println(s"***** ${field}: ${doc.get(field)}")
+//      )
     })
     println("*** Results Found: " + hits.totalHits)
     println("*** Max Score Found: " + hits.getMaxScore)
