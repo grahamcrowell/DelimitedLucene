@@ -1,4 +1,4 @@
-package com.search.indexer
+package com.github.grahamcrowell.indexer
 
 import org.apache.lucene.document.{Document, Field, TextField}
 import org.apache.lucene.index.IndexWriter

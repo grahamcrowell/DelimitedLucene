@@ -1,4 +1,4 @@
-package com.search
+package com.github.grahamcrowell
 
 import better.files.File
 

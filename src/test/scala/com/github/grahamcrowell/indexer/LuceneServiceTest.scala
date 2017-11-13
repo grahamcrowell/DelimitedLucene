@@ -1,4 +1,4 @@
-package com.search.indexer
+package com.github.grahamcrowell.indexer
 
 import java.nio.file.Paths
 
