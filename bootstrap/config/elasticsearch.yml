@@ -1,0 +1,5 @@
+path:
+  logs: ${HOME}/workspace/elasticsearch/logs
+  data: ${HOME}/workspace/elasticsearch/data
+cluster.name: visier_elasticsearch_cluster
+node.name: visier_elasticsearch_node-0
