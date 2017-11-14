@@ -2,43 +2,64 @@ package com.github.grahamcrowell.indexer
 
 import java.nio.file.Paths
 
+import better.files.File
 import org.apache.lucene.analysis.standard.StandardAnalyzer
-import org.apache.lucene.index.IndexWriterConfig.OpenMode
-import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig, IndexableField}
+import org.apache.lucene.index.{DirectoryReader, IndexableField}
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser
 import org.apache.lucene.search.IndexSearcher
 import org.apache.lucene.store.FSDirectory
 import org.scalatest.{BeforeAndAfter, FunSpec}
 
 import scala.collection.JavaConverters._
+
 class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
-  var tenantRoot: TenantRootTrait = _
-  var sampleFolder: DatedDataFolderTrait = _
-  var delimitedDataFile: DelimitedDataFileTrait = _
-  var luceneService: LuceneService.type = LuceneService
-
-  before {
-    tenantRoot = TenantRoot(esldata / tenant_code)
-    println(tenantRoot.file.pathAsString)
-
-    sampleFolder = tenantRoot.datedFolders.next()
-    delimitedDataFile = sampleFolder.delimitedDataFiles.next()
-  }
+  //  var tenantRoot: TenantRootTrait = _
+  //  var sampleFolder: DatedDataFolderTrait = _
+  //  var delimitedDataFile: DelimitedDataFileTrait = _
+  //  var luceneService: LuceneServiceTrait = _
+  //  before {
+  //
+  //  }
 
   it("should index a single file") {
-
-    val IndexStoreDir = Paths.get("/Users/gcrowell/Lucene/csv")
-    val analyzer = new StandardAnalyzer()
-    val writerConfig = new IndexWriterConfig(analyzer)
-    writerConfig.setOpenMode(OpenMode.CREATE)
-    writerConfig.setRAMBufferSizeMB(500)
-    val directory = FSDirectory.open(IndexStoreDir)
-    val indexWriter = new IndexWriter(directory, writerConfig)
-    luceneService.writeToDoc(delimitedDataFile, indexWriter)
-
+    val tenantRoot = TenantRoot(esldata / "WFF_m1f")
+    val indexDataDirectory = File("/Users/gcrowell/Lucene/csv")
+    val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
+    val sampleFolder: DatedDataFolderTrait = tenantRoot.datedFolders.next()
+    val delimitedDataFile: DelimitedDataFileTrait = sampleFolder.delimitedDataFiles.next()
+    println(tenantRoot.file.pathAsString)
+    luceneService.writeToDoc(delimitedDataFile)
   }
 
+  it("should use 1 index multiple subjects and folders") {
+    println("fuck")
+    // initialize a Lucene index
+    val indexDataDirectory = File("/Users/gcrowell/Lucene/csv3")
+    //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
+    // set source data directory
+    val tenantRoot = TenantRoot(esldata / "WFF_duplicate_files")
+    println(tenantRoot.file.pathAsString)
+    val list = tenantRoot.dataFiles.toList
+    println(list)
+    //    tenantRoot.dataFiles.foreach(println)
+    //    tenantRoot.dataFiles.foreach((delimitedDataFileTrait:DelimitedDataFileTrait) => LuceneService(File("/Users/gcrowell/Lucene/"+delimitedDataFileTrait.file.name)).writeToDoc(delimitedDataFileTrait))
+
+    // index all data files all folders
+    //    tenantRoot.datedFolders.toList.foreach(println)
+    ///    tenantRoot.datedFolders.toList.view.toList.foreach(println)
+    //    tenantRoot.datedFolders.toList.flatten.view.foreach(println(_))
+
+    //      (datedFolder: DatedDataFolderTrait) => {
+    //        println(s"${datedFolder.getClass.getName}: $datedFolder")
+    //        _.delimitedDataFiles.toList foreach {
+    //          println
+    ////          (dataFile: DelimitedDataFileTrait) =>
+    ////            println(s"${dataFile.getClass.getName}: $dataFile")
+    ////            luceneService.writeToDoc(dataFile)
+    //        }
+    //    }
+  }
   it("should search an index") {
     /**
       * Sample file: /Users/gcrowell/workspace/esldata/WFF_m1f/20170625/Absence.csv
@@ -71,12 +92,11 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
       println("*** Document Found: ")
       fields.foreach((field: IndexableField) => println(s"${field.name()}: ${field.stringValue()}"))
 
-//      fieldsToSearch.foreach((field: String) =>
-//        println(s"***** ${field}: ${doc.get(field)}")
-//      )
+      //      fieldsToSearch.foreach((field: String) =>
+      //        println(s"***** ${field}: ${doc.get(field)}")
+      //      )
     })
     println("*** Results Found: " + hits.totalHits)
     println("*** Max Score Found: " + hits.getMaxScore)
-
   }
 }

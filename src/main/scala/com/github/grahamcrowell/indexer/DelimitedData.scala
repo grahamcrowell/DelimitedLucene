@@ -9,27 +9,35 @@ import scala.io.Source
 import scala.util.Try
 
 trait TenantRootTrait {
-  val file: File
-  val datedFolders: Iterator[DatedDataFolderTrait]
-}
-
-case class TenantRoot(file: File) extends TenantRootTrait {
-  val datedFolders: Iterator[DatedDataFolderTrait] = {
+  lazy val datedFolders: Iterator[DatedDataFolderTrait] = {
     file.children
       .filter(DatedDataFolder.isDatedDataFolder)
       .map(DatedDataFolder(_))
   }
+  lazy val dataFiles: Iterator[DelimitedDataFileTrait] = {
+    datedFolders.map(_.delimitedDataFiles).flatten
+  }
+  val file: File
 }
+
+case class TenantRoot(file: File) extends TenantRootTrait
 
 trait DatedDataFolderTrait extends Logging {
   val file: File
   val delimitedDataFiles: Iterator[DelimitedDataFileTrait] = {
     logger.debug(s"delimitedDataFiles (${file.children.count(_ => true)})")
-    file.children.map {
-      DelimitedDataFile(_)
-    }
-      .filter(_.isDefined)
-      .flatten
+    file.children.filter((file: File) => file.exists)
+      .flatMap((dataFile: File) => DelimitedDataFile.toDelimitedDataFile(dataFile))
+  }
+  val datedDataFolders: Iterator[DatedDataFolder] = {
+    file.children.filter((dataFolder: File) => dataFolder.isDirectory).map(DatedDataFolder(_))
+    //    logger.debug(s"delimitedDataFiles (${file.children.count(_ => true)})")
+    //      Some(file.children.map {
+    //        (file: File) =>
+    //          DatedDataFolder(file).delimitedDataFiles.
+    //      })
+    //  }
+
   }
 }
 
@@ -75,9 +83,9 @@ case class DelimitedDataFile(file: File, delimiter: Char) extends DelimitedDataF
   }
 }
 
-//case class NaiveDelimitedDataFile(file: File) extends DelimitedDataFileTrait {
-object DelimitedDataFile {
-  def apply(file: File): Option[DelimitedDataFile] = {
+object DelimitedDataFile extends Logging {
+  def toDelimitedDataFile2(file: File): Option[DelimitedDataFile] = {
+    logger.info(s"${file.getClass.getName}: ${file.path}")
     val file_rdr = Source.fromFile(file.pathAsString)
     val sample = file_rdr.getLines()
     val header_line = sample.next()
@@ -94,6 +102,10 @@ object DelimitedDataFile {
     }
     delimiter.map(DelimitedDataFile(file, _))
   }
+  def toDelimitedDataFile(file: File): Option[DelimitedDataFile] = {
+    Some(DelimitedDataFile(file, ','))
+  }
+
 }
 
 
