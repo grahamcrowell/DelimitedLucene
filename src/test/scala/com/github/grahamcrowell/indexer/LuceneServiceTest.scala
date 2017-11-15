@@ -14,15 +14,7 @@ import scala.collection.JavaConverters._
 
 class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
-  //  var tenantRoot: TenantRootTrait = _
-  //  var sampleFolder: DatedDataFolderTrait = _
-  //  var delimitedDataFile: DelimitedDataFileTrait = _
-  //  var luceneService: LuceneServiceTrait = _
-  //  before {
-  //
-  //  }
-
-  it("should index a single file") {
+  it("should index a single file: WFF_m1f") {
     val tenantRoot = TenantRoot(esldata / "WFF_m1f")
     val indexDataDirectory = File("/Users/gcrowell/Lucene/csv")
     val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
@@ -32,7 +24,7 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
     luceneService.writeToDoc(delimitedDataFile)
   }
 
-  it("should use 1 index multiple subjects and folders") {
+  it("should index duplicate files: WFF_duplicate_files") {
     // initialize a Lucene index
     val indexDataDirectory = File("/Users/gcrowell/Lucene/csv4")
     //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
