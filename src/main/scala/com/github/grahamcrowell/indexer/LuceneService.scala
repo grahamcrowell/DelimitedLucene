@@ -12,15 +12,13 @@ trait LuceneServiceTrait extends Logging {
   val indexDataDirectory : File
   private lazy val directory = FSDirectory.open(indexDataDirectory.path)
 
-  lazy private val analyzer = new StandardAnalyzer()
-  lazy private val writerConfig = new IndexWriterConfig(analyzer)
-  writerConfig.setOpenMode(OpenMode.CREATE)
-  writerConfig.setRAMBufferSizeMB(500)
-
-  lazy val indexWriter = new IndexWriter(directory, writerConfig)
-
   def writeToDoc[DelimitedDataSource <: DelimitedDataFileTrait](delimitedDataFile: DelimitedDataSource): Unit = {
     logger.info("*****Indexing: " + delimitedDataFile.file.pathAsString)
+    val analyzer = new StandardAnalyzer()
+    val writerConfig = new IndexWriterConfig(analyzer)
+    writerConfig.setOpenMode(OpenMode.CREATE_OR_APPEND)
+    writerConfig.setRAMBufferSizeMB(500)
+    val indexWriter = new IndexWriter(directory, writerConfig)
     var line_number: Long = 1
     delimitedDataFile.nameValueMapIterator.foreach(
       lineNameValueMap => {

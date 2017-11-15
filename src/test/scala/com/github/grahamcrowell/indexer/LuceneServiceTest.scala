@@ -35,13 +35,16 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
   it("should use 1 index multiple subjects and folders") {
     println("fuck")
     // initialize a Lucene index
-    val indexDataDirectory = File("/Users/gcrowell/Lucene/csv3")
+    val indexDataDirectory = File("/Users/gcrowell/Lucene/csv4")
     //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
     // set source data directory
     val tenantRoot = TenantRoot(esldata / "WFF_duplicate_files")
     println(tenantRoot.file.pathAsString)
     val list = tenantRoot.dataFiles.toList
+    val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
     println(list)
+    list.foreach((delimitedDataFile: DelimitedDataFileTrait)=>luceneService.writeToDoc(delimitedDataFile))
+
     //    tenantRoot.dataFiles.foreach(println)
     //    tenantRoot.dataFiles.foreach((delimitedDataFileTrait:DelimitedDataFileTrait) => LuceneService(File("/Users/gcrowell/Lucene/"+delimitedDataFileTrait.file.name)).writeToDoc(delimitedDataFileTrait))
 
@@ -75,6 +78,36 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
 
     val IndexStoreDir = Paths.get("/Users/gcrowell/Lucene/csv")
+    var directoryReader = DirectoryReader.open(FSDirectory.open(IndexStoreDir))
+
+    val searcher = new IndexSearcher(directoryReader)
+    val fieldsToSearch = Array("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0")
+    val analyzer = new StandardAnalyzer()
+    val mqp = new MultiFieldQueryParser(fieldsToSearch, analyzer)
+    val query = mqp.parse(keyword)
+
+    val hits = searcher.search(query, 500)
+    val scoreDoc = hits.scoreDocs
+    println(s"scoreDoc.size = ${scoreDoc.size}")
+    scoreDoc.foreach(docs => {
+      val doc = searcher.doc(docs.doc)
+      val fields = doc.getFields.asScala
+      println("*** Document Found: ")
+      fields.foreach((field: IndexableField) => println(s"${field.name()}: ${field.stringValue()}"))
+
+      //      fieldsToSearch.foreach((field: String) =>
+      //        println(s"***** ${field}: ${doc.get(field)}")
+      //      )
+    })
+    println("*** Results Found: " + hits.totalHits)
+    println("*** Max Score Found: " + hits.getMaxScore)
+  }
+
+  it("should search across many indices") {
+    val keyword = "Unpaid Sick Leave Scheduled"
+
+
+    val IndexStoreDir = Paths.get("/Users/gcrowell/Lucene/csv3")
     var directoryReader = DirectoryReader.open(FSDirectory.open(IndexStoreDir))
 
     val searcher = new IndexSearcher(directoryReader)
