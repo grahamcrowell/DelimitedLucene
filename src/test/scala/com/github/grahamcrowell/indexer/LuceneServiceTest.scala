@@ -35,25 +35,21 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
     val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
     println(list)
     list.foreach((delimitedDataFile: DelimitedDataFileTrait)=>luceneService.writeToDoc(delimitedDataFile))
-
-    //    tenantRoot.dataFiles.foreach(println)
-    //    tenantRoot.dataFiles.foreach((delimitedDataFileTrait:DelimitedDataFileTrait) => LuceneService(File("/Users/gcrowell/Lucene/"+delimitedDataFileTrait.file.name)).writeToDoc(delimitedDataFileTrait))
-
-    // index all data files all folders
-    //    tenantRoot.datedFolders.toList.foreach(println)
-    ///    tenantRoot.datedFolders.toList.view.toList.foreach(println)
-    //    tenantRoot.datedFolders.toList.flatten.view.foreach(println(_))
-
-    //      (datedFolder: DatedDataFolderTrait) => {
-    //        println(s"${datedFolder.getClass.getName}: $datedFolder")
-    //        _.delimitedDataFiles.toList foreach {
-    //          println
-    ////          (dataFile: DelimitedDataFileTrait) =>
-    ////            println(s"${dataFile.getClass.getName}: $dataFile")
-    ////            luceneService.writeToDoc(dataFile)
-    //        }
-    //    }
   }
+
+  it("can reuse index WFF_cross_folder_subject") {
+    // initialize a Lucene index
+    val indexDataDirectory = File("/Users/gcrowell/Lucene/WFF_cross_folder_subject")
+    //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
+    // set source data directory
+    val tenantRoot = TenantRoot(esldata / "WFF_cross_folder_subject")
+    println(tenantRoot.file.pathAsString)
+    val list = tenantRoot.dataFiles.toList
+    val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
+    println(list)
+    list.foreach((delimitedDataFile: DelimitedDataFileTrait)=>luceneService.writeToDoc(delimitedDataFile))
+  }
+
   it("should search an index") {
     /**
       * Sample file: /Users/gcrowell/workspace/esldata/WFF_m1f/20170625/Absence.csv

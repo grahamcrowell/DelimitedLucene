@@ -26,18 +26,11 @@ trait DatedDataFolderTrait extends Logging {
   val file: File
   val delimitedDataFiles: Iterator[DelimitedDataFileTrait] = {
     logger.debug(s"delimitedDataFiles (${file.children.count(_ => true)})")
-    file.children.filter((file: File) => file.exists)
+    file.children.filter((file: File) => file.exists && file.isRegularFile).filter((file: File) =>
+      // filter out file if file.name matches any patterns in global list: source_data_file_ignore
+      source_data_file_ignore.forall((ignore_pattern) => !file.name.matches(ignore_pattern))
+    )
       .flatMap((dataFile: File) => DelimitedDataFile.toDelimitedDataFile(dataFile))
-  }
-  val datedDataFolders: Iterator[DatedDataFolder] = {
-    file.children.filter((dataFolder: File) => dataFolder.isDirectory).map(DatedDataFolder(_))
-    //    logger.debug(s"delimitedDataFiles (${file.children.count(_ => true)})")
-    //      Some(file.children.map {
-    //        (file: File) =>
-    //          DatedDataFolder(file).delimitedDataFiles.
-    //      })
-    //  }
-
   }
 }
 
@@ -102,6 +95,7 @@ object DelimitedDataFile extends Logging {
     }
     delimiter.map(DelimitedDataFile(file, _))
   }
+
   def toDelimitedDataFile(file: File): Option[DelimitedDataFile] = {
     Some(DelimitedDataFile(file, ','))
   }
