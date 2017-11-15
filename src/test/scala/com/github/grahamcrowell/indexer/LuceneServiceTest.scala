@@ -33,7 +33,6 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
   }
 
   it("should use 1 index multiple subjects and folders") {
-    println("fuck")
     // initialize a Lucene index
     val indexDataDirectory = File("/Users/gcrowell/Lucene/csv4")
     //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
