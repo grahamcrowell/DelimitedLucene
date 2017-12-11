@@ -84,7 +84,39 @@ case class DelimitedDataFile(file: File, delimiter: Char) extends DelimitedDataF
 }
 
 object DelimitedDataFile extends Logging {
-  def toDelimitedDataFile2(file: File): Option[DelimitedDataFile] = {
+  def inferDelimiter(file: File): Option[String] = {
+    logger.info(s"${this.getClass.getName}: ${file.path}")
+    val file_rdr = Source.fromFile(file.pathAsString)
+    val sample = file_rdr.getLines()
+    val header_line = sample.next()
+    val sample_lines = sample.take(11).toList
+    file_rdr.close()
+    println(header_line)
+//    sample_lines.foreach(println)
+//    println("please fucking work")
+    val scores = delimiters.map {
+      delimiter_pair => {
+        val delimiter_name = delimiter_pair._1
+        val delimiter_value = delimiter_pair._2
+        println(delimiter_name)
+        val header_count = header_line.split(delimiter_value).length.toDouble
+//        println(s"header field count($delimiter_name) = $header_count")
+        val field_counts = sample_lines.map {
+          sample_line => sample_line.split(delimiter_value).length.toDouble
+        } :+ header_count
+        val average = field_counts.sum / field_counts.length
+        val variance = field_counts.map {
+          sample_count => Math.pow(sample_count - average,2)
+        }.sum / field_counts.length
+        println(average, variance)
+        (delimiter_name, average, variance)
+      }
+    }.filter(_._2 != 1.0)
+
+    Option("")
+  }
+
+  def toDelimitedDataFile(file: File): Option[DelimitedDataFile] = {
     logger.info(s"${file.getClass.getName}: ${file.path}")
     val file_rdr = Source.fromFile(file.pathAsString)
     val sample = file_rdr.getLines()
@@ -103,7 +135,7 @@ object DelimitedDataFile extends Logging {
     delimiter.map(DelimitedDataFile(file, _))
   }
 
-  def toDelimitedDataFile(file: File): Option[DelimitedDataFile] = {
+  def toDelimitedDataFile2(file: File): Option[DelimitedDataFile] = {
     Some(DelimitedDataFile(file, ','))
   }
 
