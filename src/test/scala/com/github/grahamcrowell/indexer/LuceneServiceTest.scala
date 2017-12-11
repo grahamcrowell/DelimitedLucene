@@ -1,8 +1,5 @@
 package com.github.grahamcrowell.indexer
 
-import java.nio.file.Paths
-
-import better.files.File
 import org.apache.lucene.analysis.standard.StandardAnalyzer
 import org.apache.lucene.index.{DirectoryReader, IndexableField}
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser
@@ -14,9 +11,22 @@ import scala.collection.JavaConverters._
 
 class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
+  before {
+//    val folders = esldata.children.filter(file=>file.isDirectory).map(tenant_root=>tenant_root.children).flatten.filter(_.name.contains(".LuceneIndex"))
+//    println("Remove Lucene Index Data Files")
+//    for (elem <- folders) {
+//      println(elem.delete())
+//    }
+//    println("Remove Lucene Index Data Files")
+//    val temp = esldata.children.filter(file=>file.isDirectory).map(tenant_root=>tenant_root.children).flatten.filter(_.name.contains(".LuceneIndex"))
+//    println(s"Index Folders: ${temp.length}")
+  }
+
   it("should index a single file: WFF_m1f") {
+    // set source data directory
     val tenantRoot = TenantRoot(esldata / "WFF_m1f")
-    val indexDataDirectory = File("/Users/gcrowell/Lucene/csv")
+    // set Lucene index data folder to be in tenant root
+    val indexDataDirectory = tenantRoot.file / ".LuceneIndex"
     val luceneService: LuceneIndexServiceTrait = LuceneIndexService(indexDataDirectory)
     val sampleFolder: DatedDataFolderTrait = tenantRoot.datedFolders.next()
     val delimitedDataFile: DelimitedDataFileTrait = sampleFolder.delimitedDataFiles.next()
@@ -25,11 +35,10 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
   }
 
   it("should index duplicate files: WFF_duplicate_files") {
-    // initialize a Lucene index
-    val indexDataDirectory = File("/Users/gcrowell/Lucene/csv4")
-    //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
     // set source data directory
     val tenantRoot = TenantRoot(esldata / "WFF_duplicate_files")
+    // set Lucene index data folder to be in tenant root
+    val indexDataDirectory = tenantRoot.file / ".LuceneIndex"
     println(tenantRoot.file.pathAsString)
     val list = tenantRoot.dataFiles.toList
     val luceneService: LuceneIndexServiceTrait = LuceneIndexService(indexDataDirectory)
@@ -38,11 +47,10 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
   }
 
   it("can reuse index WFF_cross_folder_subject") {
-    // initialize a Lucene index
-    val indexDataDirectory = File("/Users/gcrowell/Lucene/WFF_cross_folder_subject")
-    //    val luceneService: LuceneServiceTrait  = LuceneService(indexDataDirectory)
     // set source data directory
     val tenantRoot = TenantRoot(esldata / "WFF_cross_folder_subject")
+    // set Lucene index data folder to be in tenant root
+    val indexDataDirectory = tenantRoot.file / ".LuceneIndex"
     println(tenantRoot.file.pathAsString)
     val list = tenantRoot.dataFiles.toList
     val luceneService: LuceneIndexServiceTrait = LuceneIndexService(indexDataDirectory)
@@ -63,9 +71,12 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
       */
     val keyword = "Unpaid Sick Leave Scheduled"
 
-
-    val IndexStoreDir = Paths.get("/Users/gcrowell/Lucene/csv")
-    var directoryReader = DirectoryReader.open(FSDirectory.open(IndexStoreDir))
+    // set source data directory
+    val tenantRoot = TenantRoot(esldata / "WFF_m1f")
+    // set Lucene index data folder to be in tenant root
+    val indexDataDirectory = tenantRoot.file / ".LuceneIndex"
+    // initialize a Lucene index reader
+    var directoryReader = DirectoryReader.open(FSDirectory.open(indexDataDirectory.path))
 
     val searcher = new IndexSearcher(directoryReader)
     val fieldsToSearch = Array("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0")
@@ -92,10 +103,12 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
 
   it("should search across many indices") {
     val keyword = "Unpaid Sick Leave Scheduled"
-
-
-    val IndexStoreDir = Paths.get("/Users/gcrowell/Lucene/csv3")
-    var directoryReader = DirectoryReader.open(FSDirectory.open(IndexStoreDir))
+    // set source data directory
+    val tenantRoot = TenantRoot(esldata / "WFF_cross_folder_subject")
+    // set Lucene index data folder to be in tenant root
+    val indexDataDirectory = tenantRoot.file / ".LuceneIndex"
+    // initialize a Lucene index reader
+    var directoryReader = DirectoryReader.open(FSDirectory.open(indexDataDirectory.path))
 
     val searcher = new IndexSearcher(directoryReader)
     val fieldsToSearch = Array("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0")
@@ -112,9 +125,6 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
       println("*** Document Found: ")
       fields.foreach((field: IndexableField) => println(s"${field.name()}: ${field.stringValue()}"))
 
-      //      fieldsToSearch.foreach((field: String) =>
-      //        println(s"***** ${field}: ${doc.get(field)}")
-      //      )
     })
     println("*** Results Found: " + hits.totalHits)
     println("*** Max Score Found: " + hits.getMaxScore)
