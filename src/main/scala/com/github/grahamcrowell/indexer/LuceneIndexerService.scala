@@ -8,22 +8,29 @@ import org.apache.lucene.index.IndexWriterConfig.OpenMode
 import org.apache.lucene.index.{IndexWriter, IndexWriterConfig}
 import org.apache.lucene.store.FSDirectory
 
-trait LuceneServiceTrait extends Logging {
+// @TODO reuse Document and Field instance to reduce GC (@SEE https://wiki.apache.org/lucene-java/ImproveIndexingSpeed)
+trait LuceneIndexServiceTrait extends Logging {
+  // path of lucene root data folder
   val indexDataDirectory : File
-  private lazy val directory = FSDirectory.open(indexDataDirectory.path)
-
+  // lucene index data files stored under this root folder
+  private lazy val luceneIndexDirectory = FSDirectory.open(indexDataDirectory.path)
+  // load data file into index
   def writeToDoc[DelimitedDataSource <: DelimitedDataFileTrait](delimitedDataFile: DelimitedDataSource): Unit = {
     logger.info("*****Indexing: " + delimitedDataFile.file.pathAsString)
     val analyzer = new StandardAnalyzer()
+    // writeConfig cannot be reused
     val writerConfig = new IndexWriterConfig(analyzer)
     writerConfig.setOpenMode(OpenMode.CREATE_OR_APPEND)
     writerConfig.setRAMBufferSizeMB(500)
-    val indexWriter = new IndexWriter(directory, writerConfig)
+    // main index builder object
+    val indexWriter = new IndexWriter(luceneIndexDirectory, writerConfig)
+    // track line number of each row (ie Lucuene Document)
     var line_number: Long = 1
     delimitedDataFile.nameValueMapIterator.foreach(
       lineNameValueMap => {
         line_number = line_number + 1
         var doc = new Document()
+        // add row meta data to index
         val parent_relative_path_field = new TextField("_relative_parent_path", delimitedDataFile.parent_relative_path, Field.Store.YES)
         doc.add(parent_relative_path_field)
         val filename_field = new TextField("_filename", delimitedDataFile.file.name, Field.Store.YES)
@@ -34,9 +41,12 @@ trait LuceneServiceTrait extends Logging {
         doc.add(line_number_field)
         val line_number_str_field = new TextField("_line_number_str", line_number.toString, Field.Store.YES)
         doc.add(line_number_str_field)
-
+        // add rows of column_name:column_value pairs
         lineNameValueMap.foreach {
           named_pairs => {
+            // named_pairs._1 : column name
+            // named_pairs._2 : column value
+            // @TODO reuse Document and Field instance to reduce GC (@SEE https://wiki.apache.org/lucene-java/ImproveIndexingSpeed)
             val field = new TextField(named_pairs._1, named_pairs._2, Field.Store.YES)
             doc.add(field)
           }
@@ -50,9 +60,10 @@ trait LuceneServiceTrait extends Logging {
 //    logger.info(s"*****Completed: ${delimitedDataFile.file.pathAsString} ($line_number lines)")
   }
 }
-case class LuceneService(indexDataDirectory : File) extends LuceneServiceTrait
 
-object LuceneService extends Logging {
+case class LuceneIndexService(indexDataDirectory : File) extends LuceneIndexServiceTrait
+
+object LuceneIndexService extends Logging {
   /**
     * @see https://stackoverflow.com/questions/39442110/search-using-thread-in-lucene-6-2-using-scala
 

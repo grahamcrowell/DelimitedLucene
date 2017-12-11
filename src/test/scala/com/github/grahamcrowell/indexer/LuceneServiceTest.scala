@@ -17,7 +17,7 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
   it("should index a single file: WFF_m1f") {
     val tenantRoot = TenantRoot(esldata / "WFF_m1f")
     val indexDataDirectory = File("/Users/gcrowell/Lucene/csv")
-    val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
+    val luceneService: LuceneIndexServiceTrait = LuceneIndexService(indexDataDirectory)
     val sampleFolder: DatedDataFolderTrait = tenantRoot.datedFolders.next()
     val delimitedDataFile: DelimitedDataFileTrait = sampleFolder.delimitedDataFiles.next()
     println(tenantRoot.file.pathAsString)
@@ -32,7 +32,7 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
     val tenantRoot = TenantRoot(esldata / "WFF_duplicate_files")
     println(tenantRoot.file.pathAsString)
     val list = tenantRoot.dataFiles.toList
-    val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
+    val luceneService: LuceneIndexServiceTrait = LuceneIndexService(indexDataDirectory)
     println(list)
     list.foreach((delimitedDataFile: DelimitedDataFileTrait)=>luceneService.writeToDoc(delimitedDataFile))
   }
@@ -45,7 +45,7 @@ class LuceneServiceTest extends FunSpec with BeforeAndAfter {
     val tenantRoot = TenantRoot(esldata / "WFF_cross_folder_subject")
     println(tenantRoot.file.pathAsString)
     val list = tenantRoot.dataFiles.toList
-    val luceneService: LuceneServiceTrait = LuceneService(indexDataDirectory)
+    val luceneService: LuceneIndexServiceTrait = LuceneIndexService(indexDataDirectory)
     println(list)
     list.foreach((delimitedDataFile: DelimitedDataFileTrait)=>luceneService.writeToDoc(delimitedDataFile))
   }

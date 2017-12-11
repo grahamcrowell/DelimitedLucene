@@ -8,6 +8,10 @@ import org.joda.time.format.DateTimeFormat
 import scala.io.Source
 import scala.util.Try
 
+/**
+  * Each tenant has one of these.
+  * `/esldata/WFF_xxy0z/`
+  */
 trait TenantRootTrait {
   lazy val datedFolders: Iterator[DatedDataFolderTrait] = {
     file.children
@@ -64,6 +68,9 @@ case class DelimitedDataFile(file: File, delimiter: Char) extends DelimitedDataF
     }
   })")
 
+  /**
+    * Iterator over rows.  Each row is a Map[COLUMN_NAME, VALUE]
+    */
   lazy val nameValueMapIterator: Iterator[Map[String, String]] = {
     lines.map {
       (line: String) => (header, line.split(delimiter)).zipped.toMap

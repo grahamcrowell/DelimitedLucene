@@ -18,4 +18,13 @@ Search results include
 - matched line number
 - names and values of other columns on matched line
 
+## Overview of Per Tenant Indexing
 
+Each data is organized physically (ie. in `/esldata/`) hierarchially as follows
+
+- Tenant has 1 or more:
+    - Dated folder has 1 or more:
+        - Delimited data file has 1:
+            - Header, delimiter
+
+An efficient Lucene =
