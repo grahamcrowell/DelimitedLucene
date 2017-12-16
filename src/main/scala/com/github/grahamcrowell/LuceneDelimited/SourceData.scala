@@ -6,13 +6,14 @@ import org.apache.lucene.index.IndexWriter
 import org.apache.lucene.search.IndexSearcher
 
 /**
-  * Base class for a file object.  Built from Lucene query or from
+  * Base class representing any file (physical and/or indexed).
+  * Isn't necessarily delimited.
+  * Can be built from Lucene query or from File system
   */
-trait DataSource extends Comparable[DataSource] {
+trait DataSourceTrait extends Comparable[DataSourceTrait] {
   val absolutePath: String
   val hash: String
-
-  override def compareTo(o: DataSource): Int = {
+  override def compareTo(o: DataSourceTrait): Int = {
     val this_tmp = this.absolutePath + this.hash
     val rhs = o.absolutePath + o.hash
     if (this_tmp < rhs)
@@ -22,16 +23,26 @@ trait DataSource extends Comparable[DataSource] {
     0
   }
 }
-trait DelimitedFile extends DataSource {
+
+/**
+  * Adds
+  */
+trait DelimitedFile extends DataSourceTrait {
   val delimiter: String
   val columnNames: IndexedSeq[String]
 }
-trait DelimitedSourceFile extends DelimitedFile {
+trait DelimitedPhysicalFileTrait extends DelimitedFile {
+  protected val file: File
   val nameValueMapIterator: Iterator[Map[String, String]]
   val luceneDocumentIterator: Iterator[Document]
 }
+
+/**
+  * Represents the root data folder of a tenant.
+  * esldata/WFF_f0o
+  */
 trait TenantSourceFileService {
-  val delimitedSourceDataFileIterator: Iterator[DelimitedSourceDataFile]
+  val delimitedSourceFileIterator: Iterator[DelimitedPhysicalFileTrait]
 }
 trait TenantLuceneService {
   val tenantRootPath: String
@@ -39,15 +50,17 @@ trait TenantLuceneService {
   val tenantIndexSearcher: IndexSearcher
 }
 
-trait SourceFile {
-  val file: File
-  val hash: Option[String]
-  val folderDateStamp: Option[String]
-  val filename: Option[String]
-}
 
-trait DelimitedSourceDataFile extends SourceFile {
-  val delimiter: String
-  val columnNames: IndexedSeq[String]
-  val nameValueMapIterator: Iterator[Map[String, String]]
-}
+//
+//trait SourceFile {
+//  val file: File
+//  val hash: Option[String]
+//  val folderDateStamp: Option[String]
+//  val filename: Option[String]
+//}
+//
+//trait DelimitedSourceDataFile extends SourceFile {
+//  val delimiter: String
+//  val columnNames: IndexedSeq[String]
+//  val nameValueMapIterator: Iterator[Map[String, String]]
+//}
