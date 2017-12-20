@@ -9,7 +9,7 @@ import org.apache.lucene.index.{IndexWriter, IndexWriterConfig}
 import org.apache.lucene.store.FSDirectory
 
 // @TODO reuse Document and Field instance to reduce GC (@SEE https://wiki.apache.org/lucene-java/ImproveIndexingSpeed)
-trait DocumentBuilder extends Logging {
+trait DocumentBuilder extends Logging   {
   // path of lucene root data folder
   val indexDataDirectory: File
   // lucene index data files stored under this root folder
