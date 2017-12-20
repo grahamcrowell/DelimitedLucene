@@ -1,0 +1,18 @@
+CertificationID,EventDate,EmployeeID,Certification_Name,Certification_Type,Certification_Category,Certification_Authority,Certification_Date,Certification_Expiry_Date,Region,Country,State,City,Site,EconomicLevel
+Certification-171,2017-07-05,Employee-3903,AppleCertification,Skills,Soft,Internal,2017-07-05,2020-07-05,North America,United States,California,San Francisco,San Francisco,High
+Certification-195,2017-07-03,Employee-1240,Sales102,Skills,Soft,Miller Heiman,2017-07-03,2022-07-03,North America,Canada,Ontario,Toronto,Toronto,High
+Certification-196,2017-07-05,Employee-648,Sales102,Skills,Soft,Miller Heiman,2017-07-05,2022-07-05,EMEA,United Kingdom,England,London,London,High
+Certification-205,2017-07-03,Employee-3634,LeadershipCertification,Program,Soft,SHRM,2017-07-03,2020-07-03,South America,Argentina,Buenos Aires,Buenos Aires,Buenos Aires,Low
+Certification-220,2017-07-03,Employee-3766,BetterNegotiating,Skills,Soft,Miller Heiman,2017-07-03,2022-07-03,APAC,Australia,Western Australia,Perth,Perth,High
+Certification-221,2017-07-07,Employee-458,BetterNegotiating,Skills,Soft,Miller Heiman,2017-07-07,2022-07-07,APAC,Australia,Western Australia,Perth,Perth,High
+Certification-224,2017-07-05,Employee-3419,BetterNegotiating,Skills,Soft,Miller Heiman,2017-07-05,2022-07-05,APAC,Australia,Western Australia,Perth,Perth,High
+Certification-228,2017-07-06,Employee-305,BetterNegotiating,Skills,Soft,Miller Heiman,2017-07-06,2022-07-06,APAC,Australia,Western Australia,Perth,Perth,High
+Certification-235,2017-07-06,Employee-1622,Sales102,Skills,Soft,Miller Heiman,2017-07-06,2022-07-06,North America,Canada,Ontario,Toronto,Toronto,High
+Certification-241,2017-07-04,Employee-273,Sales102,Skills,Soft,Miller Heiman,2017-07-04,2022-07-04,APAC,Australia,Western Australia,Perth,Perth,High
+Certification-253,2017-07-04,Employee-1491,OperatorSafetyCertification,Safety,Legal,Operation Safety Board,2017-07-04,2018-07-04,North America,United States,New York,New York,New York,High
+Certification-255,2017-07-05,Employee-738,MicrosoftTrainingCertification,Skills,Soft,Microsoft,2017-07-05,2022-07-05,EMEA,United Kingdom,England,London,London,High
+Certification-259,2017-07-03,Employee-3118,MeyersBriggsCertification,Skills,Soft,SHRM,2017-07-03,2022-07-03,North America,United States,Colorado,Denver,Denver,High
+Certification-265,2017-07-04,Employee-1858,Sales102,Skills,Soft,Miller Heiman,2017-07-04,2022-07-04,EMEA,United Kingdom,Scotland,Glasgow,Glasgow,High
+Certification-7,2017-07-05,Employee-1611,DisclosureCertification,Legal,Legal,Company,2017-07-05,2020-07-05,North America,Canada,Ontario,Toronto,Toronto,High
+Certification-8,2017-07-06,Employee-3642,MicrosoftTrainingCertification,Skills,Soft,Microsoft,2017-07-06,2022-07-06,North America,United States,New York,New York,New York,High
+Certification-13,2017-07-07,Employee-903,Sales102,Skills,Soft,Miller Heiman,2017-07-07,2022-07-07,North America,United States,Colorado,Denver,Denver,High

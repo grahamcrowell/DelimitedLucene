@@ -22,6 +22,7 @@ trait DataSourceTrait extends Comparable[DataSourceTrait] {
       return 1
     0
   }
+  val lineIterator: Iterator[String]
 }
 
 /**
@@ -31,10 +32,12 @@ trait DelimitedFile extends DataSourceTrait {
   val delimiter: String
   val columnNames: IndexedSeq[String]
 }
-trait DelimitedPhysicalFileTrait extends DelimitedFile {
+trait LuceneDocumentIterator {
+  val luceneDocumentIterator: Iterator[Document]
+}
+trait DelimitedPhysicalFileTrait extends DelimitedFile with LuceneDocumentIterator {
   protected val file: File
   val nameValueMapIterator: Iterator[Map[String, String]]
-  val luceneDocumentIterator: Iterator[Document]
 }
 
 /**

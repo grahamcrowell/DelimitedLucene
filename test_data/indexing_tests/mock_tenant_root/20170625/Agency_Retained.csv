@@ -1,0 +1,133 @@
+AgencyID,RequisitionID,EventDate,Caption,Agency_Name,Agency_Category,Estimated_Cost_of_Agency,ShareOfComp
+Agency_Retained-1,Requisition-28,2012-02-20,Manpower - IT:Hire Manufacturing Applications Specialist - North America : Requisition-28,Manpower,Staffing Solutions,25000.0,0.1
+Agency_Retained-2,Requisition-38,2012-02-21,TempMasters - Finance:Hire Financial Analyst - North America : Requisition-38,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-3,Requisition-39,2012-02-22,Manpower - IT:Hire IT Project Analyst - North America : Requisition-39,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-4,Requisition-63,2012-04-10,Message Kings - Marketing:Hire Marketing Manager - APAC : Requisition-63,Message Kings,Speciality Recruiters,125000.0,0.2
+Agency_Retained-5,Requisition-64,2012-04-11,Plant Power - Operations:Hire Plant Supervisor - North America : Requisition-64,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-6,Requisition-77,2012-05-07,Message Kings - Marketing:Hire Marketing Sr. Vice President : Requisition-77,Message Kings,Speciality Recruiters,50000.0,0.2
+Agency_Retained-7,Requisition-99,2012-07-17,TempMasters - Finance:Hire Financial Analyst - EMEA : Requisition-99,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-8,Requisition-105,2012-07-30,Manpower - Customer Support:Hire Customer Support Manager - North America : Requisition-105,Manpower,Staffing Solutions,35000.0,0.1
+Agency_Retained-9,Requisition-109,2012-08-01,Smith Recruiters - HR:Hire HR Services Director : Requisition-109,Smith Recruiters,Executive Search,200000.0,0.25
+Agency_Retained-10,Requisition-124,2012-08-24,Manpower - IT:Hire IT Project Office Director : Requisition-124,Manpower,Staffing Solutions,20000.0,0.1
+Agency_Retained-11,Requisition-122,2012-08-24,Manpower - IT:Hire IT Infrastructure Specialist - North America : Requisition-122,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-12,Requisition-149,2012-11-07,Smith Recruiters - HR:Hire Trainer - North America : Requisition-149,Smith Recruiters,Executive Search,400000.0,0.25
+Agency_Retained-13,Requisition-167,2012-12-10,Plant Power - Operations:Hire Maintenance Engineer - South America : Requisition-167,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-14,Requisition-162,2012-12-13,Manpower - IT:Hire IT Project Analyst - North America : Requisition-162,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-15,Requisition-174,2012-12-17,TempMasters - Finance:Hire Finance Vice President : Requisition-174,TempMasters,Staffing Solutions,10000.0,0.1
+Agency_Retained-16,Requisition-165,2012-12-17,Plant Power - Operations:Hire Maintenance Engineer - North America : Requisition-165,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-17,Requisition-190,2013-01-14,TempMasters - Finance:Hire Financial Analyst - EMEA : Requisition-190,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-18,Requisition-199,2013-01-28,TempMasters - Finance:Hire Financial Analyst - EMEA : Requisition-199,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-19,Requisition-202,2013-02-06,TempMasters - Finance:Hire Senior Accountant - North America : Requisition-202,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-20,Requisition-204,2013-02-11,TempMasters - Finance:Hire Accountant - A/R - North America : Requisition-204,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-21,Requisition-206,2013-02-12,TempMasters - Finance:Hire Finance Manager - Procurement - North America : Requisition-206,TempMasters,Staffing Solutions,25000.0,0.1
+Agency_Retained-22,Requisition-216,2013-02-27,Plant Power - Operations:Hire Plant Supervisor - South America : Requisition-216,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-23,Requisition-211,2013-03-01,TempMasters - Finance:Hire Finance Manager - Financial Reporting - North America : Requisition-211,TempMasters,Staffing Solutions,25000.0,0.1
+Agency_Retained-24,Requisition-210,2013-03-06,Plant Power - Operations:Hire Product Development Manager  - North America : Requisition-210,Plant Power,Executive Search,250000.0,0.2
+Agency_Retained-25,Requisition-212,2013-03-08,Message Kings - Marketing:Hire Marketing Sr. Vice President : Requisition-212,Message Kings,Speciality Recruiters,50000.0,0.2
+Agency_Retained-26,Requisition-220,2013-03-27,Plant Power - Operations:Hire Plant Supervisor - North America : Requisition-220,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-27,Requisition-231,2013-03-29,TempMasters - Finance:Hire Finance Manager - Procurement - North America : Requisition-231,TempMasters,Staffing Solutions,25000.0,0.1
+Agency_Retained-28,Requisition-233,2013-04-03,Manpower - IT:Hire Manufacturing Applications Specialist - North America : Requisition-233,Manpower,Staffing Solutions,25000.0,0.1
+Agency_Retained-29,Requisition-229,2013-04-05,Plant Power - Operations:Hire Software Developer - North America : Requisition-229,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-30,Requisition-254,2013-05-20,Message Kings - Marketing:Hire Marketing  Director - EMEA : Requisition-254,Message Kings,Speciality Recruiters,125000.0,0.2
+Agency_Retained-31,Requisition-262,2013-05-28,Plant Power - Operations:Hire Software Developer - EMEA : Requisition-262,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-32,Requisition-270,2013-06-12,Manpower - IT:Hire IT Project Analyst - North America : Requisition-270,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-33,Requisition-268,2013-06-12,Manpower - IT:Hire Enterprise Applications Specialist - North America : Requisition-268,Manpower,Staffing Solutions,20000.0,0.1
+Agency_Retained-34,Requisition-283,2013-07-01,Plant Power - Operations:Hire Plant Operations Analyst - North America : Requisition-283,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-35,Requisition-294,2013-07-22,TempMasters - Finance:Hire Financial Analyst - APAC : Requisition-294,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-36,Requisition-308,2013-08-05,Message Kings - Marketing:Hire Marketing Sr. Vice President : Requisition-308,Message Kings,Speciality Recruiters,50000.0,0.2
+Agency_Retained-37,Requisition-317,2013-08-15,Manpower - IT:Hire Enterprise Applications Specialist - North America : Requisition-317,Manpower,Staffing Solutions,20000.0,0.1
+Agency_Retained-38,Requisition-324,2013-09-10,Plant Power - Operations:Hire Operations Director : Requisition-324,Plant Power,Executive Search,200000.0,0.2
+Agency_Retained-39,Requisition-331,2013-10-07,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-331,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-40,Requisition-347,2013-10-23,TempMasters - Finance:Hire Financial Analyst - North America : Requisition-347,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-41,Requisition-355,2013-11-20,TempMasters - Finance:Hire Financial Analyst - APAC : Requisition-355,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-42,Requisition-363,2013-12-02,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-363,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-43,Requisition-410,2014-02-10,Smith Recruiters - HR:Hire Trainer - APAC : Requisition-410,Smith Recruiters,Executive Search,400000.0,0.25
+Agency_Retained-44,Requisition-419,2014-02-18,Manpower - Customer Support:Hire Customer Support Team Lead - APAC : Requisition-419,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-45,Requisition-420,2014-02-25,Manpower - IT:Hire IT Project Analyst - North America : Requisition-420,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-46,Requisition-418,2014-03-10,Smith Recruiters - HR:Hire HR Services Manager - North America : Requisition-418,Smith Recruiters,Executive Search,250000.0,0.25
+Agency_Retained-47,Requisition-434,2014-03-11,Plant Power - Operations:Hire Maintenance Engineer - North America : Requisition-434,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-48,Requisition-430,2014-03-12,Offshore India - Customer Support:Hire Customer Support Regional Director : Requisition-430,Offshore India,Off shore talent,75000.0,0.1
+Agency_Retained-49,Requisition-439,2014-03-18,TempMasters - Finance:Hire Senior Accountant - North America : Requisition-439,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-50,Requisition-448,2014-04-14,TempMasters - Finance:Hire Accountant - A/R - APAC : Requisition-448,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-51,Requisition-457,2014-04-25,Top Reps - Sales:Hire Senior Sales Executive - North America : Requisition-457,Top Reps,Executive Search,400000.0,0.3
+Agency_Retained-52,Requisition-462,2014-05-05,Manpower - IT:Hire IT Project Analyst - North America : Requisition-462,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-53,Requisition-458,2014-05-12,Manpower - IT:Hire IT Project Analyst - North America : Requisition-458,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-54,Requisition-482,2014-06-23,TempMasters - Finance:Hire Financial Analyst - APAC : Requisition-482,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-55,Requisition-491,2014-07-03,Message Kings - Marketing:Hire Marketing Manager - EMEA : Requisition-491,Message Kings,Speciality Recruiters,125000.0,0.2
+Agency_Retained-56,Requisition-492,2014-07-11,Manpower - IT:Hire Information Security Specialist - EMEA : Requisition-492,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-57,Requisition-507,2014-07-21,Plant Power - Operations:Hire Plant Operations Analyst - North America : Requisition-507,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-58,Requisition-496,2014-07-21,Smith Recruiters - HR:Hire Talent Management Specialist - North America : Requisition-496,Smith Recruiters,Executive Search,400000.0,0.25
+Agency_Retained-59,Requisition-521,2014-08-13,Manpower - IT:Hire Manufacturing Applications Specialist - North America : Requisition-521,Manpower,Staffing Solutions,25000.0,0.1
+Agency_Retained-60,Requisition-531,2014-08-22,Plant Power - Operations:Hire Plant Manager - APAC : Requisition-531,Plant Power,Executive Search,250000.0,0.2
+Agency_Retained-61,Requisition-526,2014-08-22,TempMasters - Finance:Hire Accountant - A/R - South America : Requisition-526,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-62,Requisition-532,2014-08-26,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-532,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-63,Requisition-543,2014-09-22,TempMasters - Finance:Hire Accountant - A/R - EMEA : Requisition-543,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-64,Requisition-568,2014-10-23,Manpower - IT:Hire IT Infrastructure Specialist - North America : Requisition-568,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-65,Requisition-592,2014-12-11,Manpower - IT:Hire IT Project Analyst - North America : Requisition-592,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-66,Requisition-608,2015-01-07,Smith Recruiters - HR:Hire HR Business Partner - North America : Requisition-608,Smith Recruiters,Executive Search,600000.0,0.25
+Agency_Retained-67,Requisition-611,2015-01-13,TempMasters - Finance:Hire Financial Analyst - North America : Requisition-611,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-68,Requisition-630,2015-02-18,Manpower - IT:Hire Information Security Manager - North America : Requisition-630,Manpower,Staffing Solutions,5000.0,0.1
+Agency_Retained-69,Requisition-646,2015-03-23,Manpower - IT:Hire IT Project Office Vice President : Requisition-646,Manpower,Staffing Solutions,10000.0,0.1
+Agency_Retained-70,Requisition-658,2015-04-20,Manpower - IT:Hire IT Infrastructure Vice President : Requisition-658,Manpower,Staffing Solutions,10000.0,0.1
+Agency_Retained-71,Requisition-668,2015-05-07,Plant Power - Operations:Hire Plant Operations Analyst - North America : Requisition-668,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-72,Requisition-694,2015-07-17,Plant Power - Operations:Hire Maintenance Engineer - APAC : Requisition-694,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-73,Requisition-712,2015-07-31,Manpower - IT:Hire Information Security Specialist - North America : Requisition-712,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-74,Requisition-725,2015-08-03,Manpower - IT:Hire Manufacturing Applications Specialist - North America : Requisition-725,Manpower,Staffing Solutions,25000.0,0.1
+Agency_Retained-75,Requisition-721,2015-08-03,Manpower - IT:Hire Information Security Specialist - North America : Requisition-721,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-76,Requisition-724,2015-08-10,Manpower - IT:Hire IT Project Analyst - North America : Requisition-724,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-77,Requisition-751,2015-09-14,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-751,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-78,Requisition-747,2015-09-24,Message Kings - Marketing:Hire Marketing Regional Director : Requisition-747,Message Kings,Speciality Recruiters,100000.0,0.2
+Agency_Retained-79,Requisition-761,2015-10-16,Manpower - IT:Hire IT Project Analyst - North America : Requisition-761,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-80,Requisition-773,2015-11-12,Plant Power - Operations:Hire Software Developer - North America : Requisition-773,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-81,Requisition-779,2015-11-26,TempMasters - Finance:Hire Financial Analyst - North America : Requisition-779,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-82,Requisition-781,2015-12-07,TempMasters - Finance:Hire Financial Analyst - EMEA : Requisition-781,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-83,Requisition-807,2015-12-29,Manpower - IT:Hire IT Project Analyst - EMEA : Requisition-807,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-84,Requisition-818,2016-01-04,Manpower - Customer Support:Hire Customer Support Team Lead - APAC : Requisition-818,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-85,Requisition-820,2016-01-18,Message Kings - Marketing:Hire Marketing Sr. Vice President : Requisition-820,Message Kings,Speciality Recruiters,50000.0,0.2
+Agency_Retained-86,Requisition-833,2016-02-03,Manpower - IT:Hire IT Project Analyst - EMEA : Requisition-833,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-87,Requisition-839,2016-02-18,Manpower - IT:Hire IT Infrastructure Vice President : Requisition-839,Manpower,Staffing Solutions,10000.0,0.1
+Agency_Retained-88,Requisition-862,2016-03-18,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-862,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-89,Requisition-858,2016-03-29,Plant Power - Operations:Hire Plant Supervisor - North America : Requisition-858,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-90,Requisition-866,2016-04-14,Manpower - IT:Hire IT Project Analyst - North America : Requisition-866,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-91,Requisition-875,2016-04-15,Plant Power - Operations:Hire Assistant Plant Manager - North America : Requisition-875,Plant Power,Executive Search,250000.0,0.2
+Agency_Retained-92,Requisition-876,2016-04-19,Message Kings - Marketing:Hire Marketing Manager - EMEA : Requisition-876,Message Kings,Speciality Recruiters,125000.0,0.2
+Agency_Retained-93,Requisition-885,2016-05-04,TempMasters - Finance:Hire Finance Manager - Procurement - North America : Requisition-885,TempMasters,Staffing Solutions,25000.0,0.1
+Agency_Retained-94,Requisition-894,2016-05-18,TempMasters - Finance:Hire Accountant - A/R - North America : Requisition-894,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-95,Requisition-899,2016-05-26,Top Reps - Customer Support:Hire Customer Support Team Lead - North America : Requisition-899,Top Reps,Executive Search,400000.0,0.3
+Agency_Retained-96,Requisition-891,2016-05-27,TempMasters - Finance:Hire Accountant - A/R - APAC : Requisition-891,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-97,Requisition-907,2016-06-13,TempMasters - Finance:Hire Financial Analyst - EMEA : Requisition-907,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-98,Requisition-905,2016-06-20,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-905,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-99,Requisition-916,2016-07-04,Message Kings - Marketing:Hire Marketing Specialist - North America : Requisition-916,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-100,Requisition-924,2016-07-18,Manpower - IT:Hire Information Security Specialist - North America : Requisition-924,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-101,Requisition-930,2016-07-25,Manpower - IT:Hire IT Project Analyst - EMEA : Requisition-930,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-102,Requisition-968,2016-08-30,Plant Power - Operations:Hire Software Developer - North America : Requisition-968,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-103,Requisition-970,2016-09-09,Plant Power - Operations:Hire Software Developer - APAC : Requisition-970,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-104,Requisition-981,2016-09-29,TempMasters - Finance:Hire Senior Accountant - APAC : Requisition-981,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-105,Requisition-978,2016-10-03,Message Kings - Marketing:Hire Marketing Sr. Vice President : Requisition-978,Message Kings,Speciality Recruiters,50000.0,0.2
+Agency_Retained-106,Requisition-1002,2016-10-28,Plant Power - Operations:Hire Software Developer - APAC : Requisition-1002,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-107,Requisition-999,2016-11-07,TempMasters - Finance:Hire Finance Manager - A/R - North America : Requisition-999,TempMasters,Staffing Solutions,25000.0,0.1
+Agency_Retained-108,Requisition-1007,2016-11-08,Manpower - IT:Hire IT Project Analyst - North America : Requisition-1007,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-109,Requisition-1014,2016-11-09,Plant Power - Operations:Hire Plant Supervisor - North America : Requisition-1014,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-110,Requisition-1017,2016-11-17,Message Kings - Marketing:Hire Marketing Regional Director : Requisition-1017,Message Kings,Speciality Recruiters,100000.0,0.2
+Agency_Retained-111,Requisition-1040,2016-12-16,Manpower - IT:Hire Manufacturing Applications Specialist - North America : Requisition-1040,Manpower,Staffing Solutions,25000.0,0.1
+Agency_Retained-112,Requisition-1042,2016-12-26,Manpower - IT:Hire IT Project Analyst - North America : Requisition-1042,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-113,Requisition-1052,2016-12-28,TempMasters - Finance:Hire Finance Manager - A/R - North America : Requisition-1052,TempMasters,Staffing Solutions,25000.0,0.1
+Agency_Retained-114,Requisition-1053,2016-12-29,Smith Recruiters - HR:Hire Staffing Manager - North America : Requisition-1053,Smith Recruiters,Executive Search,250000.0,0.25
+Agency_Retained-115,Requisition-1057,2017-01-16,Plant Power - Operations:Hire Plant Operations Analyst - North America : Requisition-1057,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-116,Requisition-1050,2017-01-18,Plant Power - Operations:Hire Software Developer - North America : Requisition-1050,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-117,Requisition-1080,2017-02-07,TempMasters - Finance:Hire Financial Analyst - North America : Requisition-1080,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-118,Requisition-1079,2017-02-15,Manpower - IT:Hire IT Project Analyst - North America : Requisition-1079,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-119,Requisition-1084,2017-02-17,Plant Power - Operations:Hire Software Developer - EMEA : Requisition-1084,Plant Power,Executive Search,100000.0,0.2
+Agency_Retained-120,Requisition-1095,2017-02-20,Manpower - IT:Hire Enterprise Applications Specialist - North America : Requisition-1095,Manpower,Staffing Solutions,20000.0,0.1
+Agency_Retained-121,Requisition-1107,2017-03-08,Plant Power - Operations:Hire Plant Supervisor - APAC : Requisition-1107,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-122,Requisition-1127,2017-04-04,Top Reps - Sales:Hire Sales Regional Director : Requisition-1127,Top Reps,Executive Search,200000.0,0.3
+Agency_Retained-123,Requisition-1150,2017-05-19,Manpower - IT:Hire IT Project Analyst - North America : Requisition-1150,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-124,Requisition-1157,2017-05-22,TempMasters - Finance:Hire Accountant - A/R - North America : Requisition-1157,TempMasters,Staffing Solutions,40000.0,0.1
+Agency_Retained-125,Requisition-1155,2017-05-22,Plant Power - Operations:Hire Plant Supervisor - North America : Requisition-1155,Plant Power,Executive Search,400000.0,0.2
+Agency_Retained-126,Requisition-1152,2017-05-22,Manpower - IT:Hire Information Security Vice President : Requisition-1152,Manpower,Staffing Solutions,10000.0,0.1
+Agency_Retained-127,Requisition-1156,2017-05-30,Smith Recruiters - HR:Hire Talent Management Specialist - North America : Requisition-1156,Smith Recruiters,Executive Search,400000.0,0.25
+Agency_Retained-128,Requisition-1171,2017-06-12,Message Kings - Marketing:Hire Senior Marketing Specialist - North America : Requisition-1171,Message Kings,Speciality Recruiters,200000.0,0.2
+Agency_Retained-129,Requisition-1162,2017-06-12,Manpower - IT:Hire IT Infrastructure Specialist - North America : Requisition-1162,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-130,Requisition-1168,2017-06-13,Manpower - IT:Hire IT Project Analyst - North America : Requisition-1168,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-131,Requisition-1178,2017-06-19,Manpower - IT:Hire IT Infrastructure Specialist - North America : Requisition-1178,Manpower,Staffing Solutions,40000.0,0.1
+Agency_Retained-132,Requisition-1174,2017-06-19,Manpower - IT:Hire IT Infrastructure Specialist - North America : Requisition-1174,Manpower,Staffing Solutions,40000.0,0.1

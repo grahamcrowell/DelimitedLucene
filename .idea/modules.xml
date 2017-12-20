@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sourcesearch.iml" filepath="$PROJECT_DIR$/.idea/modules/sourcesearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sourcesearch-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sourcesearch-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delimitedlucene.iml" filepath="$PROJECT_DIR$/.idea/modules/delimitedlucene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delimitedlucene-build.iml" filepath="$PROJECT_DIR$/.idea/modules/delimitedlucene-build.iml" />
     </modules>
   </component>
 </project>

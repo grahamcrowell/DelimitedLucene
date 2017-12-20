@@ -1,0 +1,846 @@
+EducationID,CandidateID,EventDate,Institution,Degree,Start_Date,End_Date,Level
+Candidate-Education-2681,Candidate-174575,2017-06-26,Marshall University,Bachelor of Computer Applications,2005-06-05,2008-06-05,Bachelor
+Candidate-Education-2682,Candidate-174575,2017-06-26,University of Central Florida,Doctor of Business Administration,2008-06-05,2012-06-05,Doctor
+Candidate-Education-2683,Candidate-174579,2017-06-26,University of South Carolina,Bachelor of Computer Applications,2007-01-09,2010-01-09,Bachelor
+Candidate-Education-2684,Candidate-174579,2017-06-26,Baylor University,Master of Applied Science,2010-01-09,2013-01-09,Master
+Candidate-Education-2685,Candidate-174579,2017-06-26,Brown University,Doctor of Business Administration,2013-01-09,2017-01-09,Doctor
+Candidate-Education-2686,Candidate-174581,2017-06-26,Florida State University,Bachelor of Computer Applications,2008-01-04,2011-01-04,Bachelor
+Candidate-Education-2687,Candidate-174581,2017-06-26,University of Georgia,Master of Applied Science,2011-01-04,2014-01-04,Master
+Candidate-Education-2688,Candidate-174581,2017-06-26,University of California Santa Barbara,Doctor of Business Administration,2014-01-04,2018-01-04,Doctor
+Candidate-Education-2689,Candidate-174585,2017-06-26,West Virginia University,Bachelor of Business Administration,2007-06-25,2010-06-25,Bachelor
+Candidate-Education-2690,Candidate-174585,2017-06-26,East Carolina University,Doctor of Business Administration,2010-06-25,2014-06-25,Doctor
+Candidate-Education-2691,Candidate-174586,2017-06-26,Utah State University,Bachelor of Business Administration,2005-04-09,2008-04-09,Bachelor
+Candidate-Education-2692,Candidate-174586,2017-06-26,Wake Forest University,Master of Accountancy,2008-04-09,2011-04-09,Master
+Candidate-Education-2693,Candidate-174586,2017-06-26,University of Colorado Boulder,Doctor of Business Administration,2011-04-09,2015-04-09,Doctor
+Candidate-Education-2694,Candidate-174590,2017-06-26,Texas Christian University,Bachelor of Construction Technology,2005-04-13,2008-04-13,Bachelor
+Candidate-Education-2695,Candidate-174590,2017-06-26,University of Florida,Master of Bioinformatics,2008-04-13,2011-04-13,Master
+Candidate-Education-2696,Candidate-174593,2017-06-26,Brown University,Bachelor of Computer Applications,2005-02-04,2008-02-04,Bachelor
+Candidate-Education-2697,Candidate-174593,2017-06-26,Yale University,Master of Applied Science,2008-02-04,2011-02-04,Master
+Candidate-Education-2698,Candidate-174596,2017-06-26,University of Arizona,Bachelor of Business Administration,2008-11-11,2011-11-11,Bachelor
+Candidate-Education-2699,Candidate-174599,2017-06-26,University of Maryland,Bachelor of Construction Technology,2006-08-01,2009-08-01,Bachelor
+Candidate-Education-2700,Candidate-174599,2017-06-26,Mississippi State University,Master of Bioinformatics,2009-08-01,2012-08-01,Master
+Candidate-Education-2701,Candidate-174599,2017-06-26,Princeton University,Doctor of Business Administration,2012-08-01,2016-08-01,Doctor
+Candidate-Education-2702,Candidate-174600,2017-06-26,University of North Texas,Bachelor of Architecture,2003-01-20,2006-01-20,Bachelor
+Candidate-Education-2703,Candidate-174600,2017-06-26,Tulane University,Master of Business Administration,2006-01-20,2009-01-20,Master
+Candidate-Education-2704,Candidate-174602,2017-06-26,California State University Fullerton,Bachelor of Computer Applications,2005-09-18,2008-09-18,Bachelor
+Candidate-Education-2705,Candidate-174602,2017-06-26,Princeton University,Master of Applied Science,2008-09-18,2011-09-18,Master
+Candidate-Education-2706,Candidate-174602,2017-06-26,Temple University,Doctor of Business Administration,2011-09-18,2015-09-18,Doctor
+Candidate-Education-2707,Candidate-174605,2017-06-26,University of Kansas,Bachelor of Business Administration,2006-01-01,2009-01-01,Bachelor
+Candidate-Education-2708,Candidate-174605,2017-06-26,Washington State University,Master of Accountancy,2009-01-01,2012-01-01,Master
+Candidate-Education-2709,Candidate-174605,2017-06-26,Rutgers University,Doctor of Business Administration,2012-01-01,2016-01-01,Doctor
+Candidate-Education-2710,Candidate-174608,2017-06-26,Duke University,Associate of Applied Science (AAS) of Business Information Systems,2008-10-14,2010-10-14,Associate of Applied Science (AAS)
+Candidate-Education-2711,Candidate-174609,2017-06-26,Oregon State University,Bachelor of Computer Applications,2008-05-20,2012-05-20,Bachelor
+Candidate-Education-2712,Candidate-174610,2017-06-26,University of Tennessee,Bachelor of Computer Applications,2005-12-11,2008-12-11,Bachelor
+Candidate-Education-2713,Candidate-174611,2017-06-26,University of Montana,Associate of Applied Science (AAS) of Business Information Systems,2005-02-06,2007-02-06,Associate of Applied Science (AAS)
+Candidate-Education-2714,Candidate-174612,2017-06-26,University of Pennsylvania,Bachelor of Business Administration,2007-07-16,2010-07-16,Bachelor
+Candidate-Education-2715,Candidate-174612,2017-06-26,Ohio State University,Master of Business Administration,2010-07-16,2013-07-16,Master
+Candidate-Education-2716,Candidate-174612,2017-06-26,Boise State University,Doctor of Business Administration,2013-07-16,2017-07-16,Doctor
+Candidate-Education-2717,Candidate-174613,2017-06-26,Yale University,Bachelor of Business Administration,2007-10-31,2010-10-31,Bachelor
+Candidate-Education-2718,Candidate-174613,2017-06-26,University of Oklahoma,Master of Business Administration,2010-10-31,2013-10-31,Master
+Candidate-Education-2719,Candidate-174613,2017-06-26,Iowa State University,Doctor of Business Administration,2013-10-31,2017-10-31,Doctor
+Candidate-Education-2720,Candidate-174614,2017-06-26,University of Louisville,Bachelor of Business Administration,2008-05-03,2011-05-03,Bachelor
+Candidate-Education-2721,Candidate-174614,2017-06-26,Indiana University,Doctor of Business Administration,2011-05-03,2015-05-03,Doctor
+Candidate-Education-2722,Candidate-174615,2017-06-26,Duke University,Bachelor of Business Administration,2005-03-27,2008-03-27,Bachelor
+Candidate-Education-2723,Candidate-174615,2017-06-26,Baylor University,Master of Accountancy,2008-03-27,2011-03-27,Master
+Candidate-Education-2724,Candidate-174616,2017-06-26,Tulane University,Bachelor of Business Administration,2005-04-03,2008-04-03,Bachelor
+Candidate-Education-2725,Candidate-174616,2017-06-26,Arizona State University,Master of Accountancy,2008-04-03,2011-04-03,Master
+Candidate-Education-2726,Candidate-174617,2017-06-26,University of California Davis,Associate of Applied Science (AAS) of Accounting Specialist,2006-05-13,2008-05-13,Associate of Applied Science (AAS)
+Candidate-Education-2727,Candidate-174618,2017-06-26,Southern Methodist University,Bachelor of Business Administration,2008-06-19,2011-06-19,Bachelor
+Candidate-Education-2728,Candidate-174618,2017-06-26,University of Washington,Master of Business Administration,2011-06-19,2014-06-19,Master
+Candidate-Education-2729,Candidate-174618,2017-06-26,San Diego State University,Doctor of Business Administration,2014-06-19,2018-06-19,Doctor
+Candidate-Education-2730,Candidate-174620,2017-06-26,University of Missouri,Bachelor of Business Administration,2010-06-20,2013-06-20,Bachelor
+Candidate-Education-2731,Candidate-174620,2017-06-26,Kansas State University,Doctor of Business Administration,2013-06-20,2017-06-20,Doctor
+Candidate-Education-2732,Candidate-174621,2017-06-26,University of North Carolina at Chapel Hill,Bachelor of Business Administration,2008-01-28,2011-01-28,Bachelor
+Candidate-Education-2733,Candidate-174621,2017-06-26,North Carolina State University,Master of Business Administration,2011-01-28,2014-01-28,Master
+Candidate-Education-2734,Candidate-174621,2017-06-26,Boston College,Doctor of Business Administration,2014-01-28,2018-01-28,Doctor
+Candidate-Education-2735,Candidate-174625,2017-06-26,Dartmouth College,Bachelor of Architecture,2007-03-28,2010-03-28,Bachelor
+Candidate-Education-2736,Candidate-174625,2017-06-26,University of Florida,Master of Business Administration,2010-03-28,2013-03-28,Master
+Candidate-Education-2737,Candidate-174626,2017-06-26,University of Cincinnati,Bachelor of Architecture,2004-09-02,2007-09-02,Bachelor
+Candidate-Education-2738,Candidate-174626,2017-06-26,University of Texas at San Antonio,Master of Business Administration,2007-09-02,2010-09-02,Master
+Candidate-Education-2739,Candidate-174626,2017-06-26,University of North Texas,Doctor of Business Administration,2010-09-02,2014-09-02,Doctor
+Candidate-Education-2740,Candidate-174627,2017-06-26,Cornell University,Bachelor of Computer Applications,2007-04-02,2010-04-02,Bachelor
+Candidate-Education-2741,Candidate-174627,2017-06-26,North Carolina State University,Master of Applied Science,2010-04-02,2013-04-02,Master
+Candidate-Education-2742,Candidate-174627,2017-06-26,University of Alabama,Doctor of Business Administration,2013-04-02,2017-04-02,Doctor
+Candidate-Education-2743,Candidate-174630,2017-06-26,North Carolina State University,Bachelor of Construction Technology,2006-07-02,2009-07-02,Bachelor
+Candidate-Education-2744,Candidate-174630,2017-06-26,Arizona State University,Master of Bioinformatics,2009-07-02,2012-07-02,Master
+Candidate-Education-2745,Candidate-174630,2017-06-26,San Diego State University,Doctor of Business Administration,2012-07-02,2016-07-02,Doctor
+Candidate-Education-2746,Candidate-174633,2017-06-26,University of North Carolina at Charlotte,Bachelor of Construction Technology,2013-10-03,2016-10-03,Bachelor
+Candidate-Education-2747,Candidate-174637,2017-06-26,Louisiana Tech University,Associate of Applied Science (AAS) of Accounting Specialist,2009-07-27,2011-07-27,Associate of Applied Science (AAS)
+Candidate-Education-2748,Candidate-174638,2017-06-26,North Carolina State University,Bachelor of Business Administration,2007-01-28,2010-01-28,Bachelor
+Candidate-Education-2749,Candidate-174638,2017-06-26,University of Southern California,Doctor of Business Administration,2010-01-28,2014-01-28,Doctor
+Candidate-Education-2750,Candidate-174640,2017-06-26,Tulane University,Bachelor of Business Administration,2010-02-11,2014-02-11,Bachelor
+Candidate-Education-2751,Candidate-174643,2017-06-26,Cornell University,Bachelor of Business Administration,2009-03-15,2013-03-15,Bachelor
+Candidate-Education-2752,Candidate-174644,2017-06-26,University of Alabama at Birmingham,Bachelor of Business Administration,2005-10-12,2008-10-12,Bachelor
+Candidate-Education-2753,Candidate-174644,2017-06-26,Baylor University,Master of Business Administration,2008-10-12,2011-10-12,Master
+Candidate-Education-2754,Candidate-174646,2017-06-26,University of Mississippi,Bachelor of Computer Applications,2007-08-05,2010-08-05,Bachelor
+Candidate-Education-2755,Candidate-174646,2017-06-26,Duke University,Doctor of Business Administration,2010-08-05,2014-08-05,Doctor
+Candidate-Education-2756,Candidate-174647,2017-06-26,Boston College,Bachelor of Construction Technology,2005-01-12,2008-01-12,Bachelor
+Candidate-Education-2757,Candidate-174647,2017-06-26,University of Notre Dame,Master of Bioinformatics,2008-01-12,2011-01-12,Master
+Candidate-Education-2758,Candidate-174651,2017-06-26,Texas Christian University,Associate of Applied Science (AAS) of Accounting Specialist,2009-09-24,2011-09-24,Associate of Applied Science (AAS)
+Candidate-Education-2759,Candidate-174653,2017-06-26,Louisiana State University,Bachelor of Computer Applications,2003-09-07,2006-09-07,Bachelor
+Candidate-Education-2760,Candidate-174653,2017-06-26,Brown University,Master of Applied Science,2006-09-07,2009-09-07,Master
+Candidate-Education-2761,Candidate-174655,2017-06-26,Harvard University,Associate Degree of General Psychology,2010-03-07,2012-03-07,Associate Degree
+Candidate-Education-2762,Candidate-174658,2017-06-26,Arizona State University,Associate Degree of General Psychology,2009-10-22,2011-10-22,Associate Degree
+Candidate-Education-2763,Candidate-174660,2017-06-26,Stanford University,Bachelor of Computer Applications,2005-07-17,2008-07-17,Bachelor
+Candidate-Education-2764,Candidate-174660,2017-06-26,San Jose State University,Master of Applied Science,2008-07-17,2011-07-17,Master
+Candidate-Education-2765,Candidate-174660,2017-06-26,University of Mississippi,Doctor of Business Administration,2011-07-17,2015-07-17,Doctor
+Candidate-Education-2766,Candidate-174661,2017-06-26,University of Utah,Bachelor of Computer Applications,2005-05-15,2008-05-15,Bachelor
+Candidate-Education-2767,Candidate-174661,2017-06-26,University of Utah,Master of Applied Science,2008-05-15,2011-05-15,Master
+Candidate-Education-2768,Candidate-174663,2017-06-26,University of Texas at San Antonio,Bachelor of Construction Technology,2004-03-10,2007-03-10,Bachelor
+Candidate-Education-2769,Candidate-174663,2017-06-26,University of Texas at Austin,Master of Bioinformatics,2007-03-10,2009-03-10,Master
+Candidate-Education-2770,Candidate-174665,2017-06-26,California State University Fullerton,Bachelor of Construction Technology,2003-10-21,2006-10-21,Bachelor
+Candidate-Education-2771,Candidate-174665,2017-06-26,Louisiana State University,Doctor of Business Administration,2006-10-21,2010-10-21,Doctor
+Candidate-Education-2772,Candidate-174668,2017-06-26,Columbia University,Bachelor of Construction Technology,2009-05-23,2012-05-23,Bachelor
+Candidate-Education-2773,Candidate-174668,2017-06-26,University of Colorado Boulder,Master of Bioinformatics,2012-05-23,2014-05-23,Master
+Candidate-Education-2774,Candidate-174670,2017-06-26,Duke University,Associate of Applied Science (AAS) of Business Administration,2007-05-17,2009-05-17,Associate of Applied Science (AAS)
+Candidate-Education-2775,Candidate-174673,2017-06-26,Stanford University,Associate of Applied Science (AAS) of Business Administration,2008-12-26,2010-12-26,Associate of Applied Science (AAS)
+Candidate-Education-2776,Candidate-174676,2017-06-26,Yale University,Associate Degree of Automotive Maintenance Technology,2003-01-16,2005-01-16,Associate Degree
+Candidate-Education-2777,Candidate-174677,2017-06-26,University of Oklahoma,Bachelor of Business Administration,2011-02-16,2014-02-16,Bachelor
+Candidate-Education-2778,Candidate-174677,2017-06-26,Florida International University,Master of Business Administration,2014-02-16,2017-02-16,Master
+Candidate-Education-2779,Candidate-174678,2017-06-26,Ohio State University,Bachelor of Business Administration,2013-06-12,2017-06-12,Bachelor
+Candidate-Education-2780,Candidate-174679,2017-06-26,Auburn University,Bachelor of Computer Applications,2003-12-19,2006-12-19,Bachelor
+Candidate-Education-2781,Candidate-174679,2017-06-26,University of Georgia,Master of Applied Science,2006-12-19,2009-12-19,Master
+Candidate-Education-2782,Candidate-174682,2017-06-26,University of Montana,Bachelor of Business Administration,2011-11-25,2014-11-25,Bachelor
+Candidate-Education-2783,Candidate-174682,2017-06-26,Florida Atlantic University,Master of Accountancy,2014-11-25,2016-11-25,Master
+Candidate-Education-2784,Candidate-174684,2017-06-26,University of Missouri,Bachelor of Business Administration,2009-12-25,2012-12-25,Bachelor
+Candidate-Education-2785,Candidate-174684,2017-06-26,Boise State University,Doctor of Business Administration,2012-12-25,2016-12-25,Doctor
+Candidate-Education-2786,Candidate-174685,2017-06-26,University of Missouri,Associate of Applied Science (AAS) of Accounting Specialist,2008-09-07,2010-09-07,Associate of Applied Science (AAS)
+Candidate-Education-2787,Candidate-174686,2017-06-26,University of Arkansas,Bachelor of Business Administration,2008-12-03,2011-12-03,Bachelor
+Candidate-Education-2788,Candidate-174686,2017-06-26,Southern Methodist University,Master of Accountancy,2011-12-03,2014-12-03,Master
+Candidate-Education-2789,Candidate-174688,2017-06-26,University of Southern Mississippi,Associate of Applied Science (AAS) of Business Information Systems,2007-08-19,2009-08-19,Associate of Applied Science (AAS)
+Candidate-Education-2790,Candidate-174690,2017-06-26,Washington State University,Bachelor of Management,2005-05-19,2008-05-19,Bachelor
+Candidate-Education-2791,Candidate-174690,2017-06-26,University of Mississippi,Master of Arts of Liberal Studies,2008-05-19,2010-05-19,Master of Arts
+Candidate-Education-2792,Candidate-174691,2017-06-26,Duke University,Bachelor of Management,2006-12-16,2009-12-16,Bachelor
+Candidate-Education-2793,Candidate-174691,2017-06-26,San Diego State University,Master of Arts of Liberal Studies,2009-12-16,2012-12-16,Master of Arts
+Candidate-Education-2794,Candidate-174691,2017-06-26,Middle Tennessee State University,Doctor of Business Administration,2012-12-16,2016-12-16,Doctor
+Candidate-Education-2795,Candidate-174692,2017-06-26,Iowa State University,Bachelor of Computer Applications,2007-06-08,2010-06-08,Bachelor
+Candidate-Education-2796,Candidate-174692,2017-06-26,University of Notre Dame,Master of Applied Science,2010-06-08,2013-06-08,Master
+Candidate-Education-2797,Candidate-174693,2017-06-26,Western Kentucky University,Bachelor of Computer Applications,2007-10-10,2010-10-10,Bachelor
+Candidate-Education-2798,Candidate-174693,2017-06-26,University of Louisville,Master of Applied Science,2010-10-10,2013-10-10,Master
+Candidate-Education-2799,Candidate-174693,2017-06-26,San Diego State University,Doctor of Business Administration,2013-10-10,2017-10-10,Doctor
+Candidate-Education-2800,Candidate-174696,2017-06-26,University of Michigan,Bachelor of Business Administration,1998-07-09,2001-07-09,Bachelor
+Candidate-Education-2801,Candidate-174696,2017-06-26,Cornell University,Master of Accountancy,2001-07-09,2004-07-09,Master
+Candidate-Education-2802,Candidate-174698,2017-06-26,University of Arizona,Associate Degree of General Psychology,2011-02-05,2013-02-05,Associate Degree
+Candidate-Education-2803,Candidate-174699,2017-06-26,Texas Christian University,Bachelor of Construction Technology,2009-04-10,2012-04-10,Bachelor
+Candidate-Education-2804,Candidate-174699,2017-06-26,University of North Carolina at Chapel Hill,Master of Bioinformatics,2012-04-10,2015-04-10,Master
+Candidate-Education-2805,Candidate-174700,2017-06-26,University of Missouri,Bachelor of Construction Technology,2009-05-20,2012-05-20,Bachelor
+Candidate-Education-2806,Candidate-174700,2017-06-26,Oregon State University,Master of Bioinformatics,2012-05-20,2014-05-20,Master
+Candidate-Education-2807,Candidate-174701,2017-06-26,Middle Tennessee State University,Associate Degree of Automotive Maintenance Technology,2009-01-11,2011-01-11,Associate Degree
+Candidate-Education-2808,Candidate-174704,2017-06-26,University of Texas at San Antonio,Bachelor of Business Administration,2007-06-04,2011-06-04,Bachelor
+Candidate-Education-2809,Candidate-174705,2017-06-26,University of Virginia,Bachelor of Business Administration,2007-02-05,2010-02-05,Bachelor
+Candidate-Education-2810,Candidate-174705,2017-06-26,Auburn University,Master of Accountancy,2010-02-05,2013-02-05,Master
+Candidate-Education-2811,Candidate-174708,2017-06-26,Temple University,Bachelor of Computer Applications,2009-04-15,2012-04-15,Bachelor
+Candidate-Education-2812,Candidate-174708,2017-06-26,Georgia Institute of Technology,Master of Applied Science,2012-04-15,2015-04-15,Master
+Candidate-Education-2813,Candidate-174709,2017-06-26,Iowa State University,Bachelor of Construction Technology,2005-08-09,2008-08-09,Bachelor
+Candidate-Education-2814,Candidate-174709,2017-06-26,Mississippi State University,Master of Bioinformatics,2008-08-09,2011-08-09,Master
+Candidate-Education-2815,Candidate-174711,2017-06-26,University of California Berkeley,Bachelor of Computer Applications,2004-10-10,2007-10-10,Bachelor
+Candidate-Education-2816,Candidate-174717,2017-06-26,Rutgers University,Bachelor of Construction Technology,2010-04-25,2013-04-25,Bachelor
+Candidate-Education-2817,Candidate-174717,2017-06-26,Harvard University,Doctor of Business Administration,2013-04-25,2017-04-25,Doctor
+Candidate-Education-2818,Candidate-174718,2017-06-26,Auburn University,Bachelor of Construction Technology,2007-09-15,2010-09-15,Bachelor
+Candidate-Education-2819,Candidate-174718,2017-06-26,Portland State University,Master of Bioinformatics,2010-09-15,2013-09-15,Master
+Candidate-Education-2820,Candidate-174718,2017-06-26,University of Maryland,Doctor of Business Administration,2013-09-15,2017-09-15,Doctor
+Candidate-Education-2821,Candidate-174719,2017-06-26,Louisiana Tech University,Bachelor of Construction Technology,2009-03-11,2012-03-11,Bachelor
+Candidate-Education-2822,Candidate-174719,2017-06-26,University of Florida,Master of Bioinformatics,2012-03-11,2015-03-11,Master
+Candidate-Education-2823,Candidate-174721,2017-06-26,Louisiana State University,Bachelor of Construction Technology,2010-10-01,2013-10-01,Bachelor
+Candidate-Education-2824,Candidate-174721,2017-06-26,University of Oregon,Master of Bioinformatics,2013-10-01,2016-10-01,Master
+Candidate-Education-2825,Candidate-174722,2017-06-26,Washington State University,Bachelor of Construction Technology,2008-05-07,2011-05-07,Bachelor
+Candidate-Education-2826,Candidate-174722,2017-06-26,University of Connecticut,Master of Bioinformatics,2011-05-07,2014-05-07,Master
+Candidate-Education-2827,Candidate-174722,2017-06-26,Louisiana Tech University,Doctor of Business Administration,2014-05-07,2018-05-07,Doctor
+Candidate-Education-2828,Candidate-174723,2017-06-26,University of Tennessee,Bachelor of Business Administration,2007-05-02,2010-05-02,Bachelor
+Candidate-Education-2829,Candidate-174723,2017-06-26,University of California Santa Barbara,Master of Business Administration,2010-05-02,2013-05-02,Master
+Candidate-Education-2830,Candidate-174723,2017-06-26,University of Georgia,Doctor of Business Administration,2013-05-02,2017-05-02,Doctor
+Candidate-Education-2831,Candidate-174724,2017-06-26,Boston College,Bachelor of Business Administration,2009-06-01,2012-06-01,Bachelor
+Candidate-Education-2832,Candidate-174724,2017-06-26,University of Colorado Boulder,Master of Business Administration,2012-06-01,2015-06-01,Master
+Candidate-Education-2833,Candidate-174725,2017-06-26,University of Connecticut,Bachelor of Computer Applications,2009-11-05,2012-11-05,Bachelor
+Candidate-Education-2834,Candidate-174725,2017-06-26,University of Maryland,Doctor of Business Administration,2012-11-05,2016-11-05,Doctor
+Candidate-Education-2835,Candidate-174727,2017-06-26,University of Maryland,Bachelor of Computer Applications,2009-05-23,2012-05-23,Bachelor
+Candidate-Education-2836,Candidate-174727,2017-06-26,Marshall University,Master of Applied Science,2012-05-23,2015-05-23,Master
+Candidate-Education-2837,Candidate-174729,2017-06-26,University of South Florida,Bachelor of Management,2007-04-14,2010-04-14,Bachelor
+Candidate-Education-2838,Candidate-174729,2017-06-26,North Carolina State University,Master of Arts of Liberal Studies,2010-04-14,2013-04-14,Master of Arts
+Candidate-Education-2839,Candidate-174729,2017-06-26,University of Memphis,Doctor of Business Administration,2013-04-14,2017-04-14,Doctor
+Candidate-Education-2840,Candidate-174730,2017-06-26,University of California Berkeley,Bachelor of Management,2007-01-20,2010-01-20,Bachelor
+Candidate-Education-2841,Candidate-174730,2017-06-26,Mississippi State University,Master of Arts of Liberal Studies,2010-01-20,2013-01-20,Master of Arts
+Candidate-Education-2842,Candidate-174730,2017-06-26,Middle Tennessee State University,Doctor of Business Administration,2013-01-20,2017-01-20,Doctor
+Candidate-Education-2843,Candidate-174731,2017-06-26,University of North Carolina at Chapel Hill,Bachelor of Management,2007-06-12,2010-06-12,Bachelor
+Candidate-Education-2844,Candidate-174731,2017-06-26,University of Utah,Master of Arts of Liberal Studies,2010-06-12,2013-06-12,Master of Arts
+Candidate-Education-2845,Candidate-174731,2017-06-26,California State University Fresno,Doctor of Business Administration,2013-06-12,2017-06-12,Doctor
+Candidate-Education-2846,Candidate-174732,2017-06-26,Portland State University,Bachelor of Management,2008-06-25,2011-06-25,Bachelor
+Candidate-Education-2847,Candidate-174732,2017-06-26,University of California Davis,Master of Arts of Liberal Studies,2011-06-25,2014-06-25,Master of Arts
+Candidate-Education-2848,Candidate-174732,2017-06-26,University of California Davis,Doctor of Business Administration,2014-06-25,2018-06-25,Doctor
+Candidate-Education-2849,Candidate-174733,2017-06-26,Texas Tech University,Bachelor of Management,2009-08-08,2012-08-08,Bachelor
+Candidate-Education-2850,Candidate-174733,2017-06-26,Princeton University,Doctor of Business Administration,2012-08-08,2016-08-08,Doctor
+Candidate-Education-2851,Candidate-174735,2017-06-26,University of Michigan,Bachelor of Business Administration,2011-08-09,2014-08-09,Bachelor
+Candidate-Education-2852,Candidate-174735,2017-06-26,Kansas State University,Master of Accountancy,2014-08-09,2016-08-09,Master
+Candidate-Education-2853,Candidate-174736,2017-06-26,Rutgers University,Bachelor of Business Administration,2011-03-13,2014-03-13,Bachelor
+Candidate-Education-2854,Candidate-174736,2017-06-26,Auburn University,Master of Accountancy,2014-03-13,2017-03-13,Master
+Candidate-Education-2855,Candidate-174737,2017-06-26,Kansas State University,Bachelor of Business Administration,2011-11-30,2014-11-30,Bachelor
+Candidate-Education-2856,Candidate-174737,2017-06-26,West Virginia University,Master of Accountancy,2014-11-30,2016-11-30,Master
+Candidate-Education-2857,Candidate-174739,2017-06-27,Rutgers University,Bachelor of Construction Technology,2004-08-15,2007-08-15,Bachelor
+Candidate-Education-2858,Candidate-174739,2017-06-27,Louisiana Tech University,Master of Bioinformatics,2007-08-15,2010-08-15,Master
+Candidate-Education-2859,Candidate-174741,2017-06-27,Portland State University,Bachelor of Computer Applications,2006-12-02,2009-12-02,Bachelor
+Candidate-Education-2860,Candidate-174741,2017-06-27,Florida Atlantic University,Doctor of Business Administration,2009-12-02,2013-12-02,Doctor
+Candidate-Education-2861,Candidate-174743,2017-06-27,Oregon State University,Bachelor of Computer Applications,2009-05-03,2012-05-03,Bachelor
+Candidate-Education-2862,Candidate-174746,2017-06-27,University of Cincinnati,Bachelor of Construction Technology,2004-08-07,2007-08-07,Bachelor
+Candidate-Education-2863,Candidate-174746,2017-06-27,University of Houston,Doctor of Business Administration,2007-08-07,2011-08-07,Doctor
+Candidate-Education-2864,Candidate-174747,2017-06-27,Georgia Institute of Technology,Bachelor of Construction Technology,2005-09-10,2008-09-10,Bachelor
+Candidate-Education-2865,Candidate-174747,2017-06-27,University of Connecticut,Master of Bioinformatics,2008-09-10,2011-09-10,Master
+Candidate-Education-2866,Candidate-174750,2017-06-27,California Polytechnic State University,Bachelor of Construction Technology,2008-08-08,2011-08-08,Bachelor
+Candidate-Education-2867,Candidate-174750,2017-06-27,Cornell University,Master of Bioinformatics,2011-08-08,2014-08-08,Master
+Candidate-Education-2868,Candidate-174752,2017-06-27,California State University Fresno,Bachelor of Computer Applications,2007-04-18,2010-04-18,Bachelor
+Candidate-Education-2869,Candidate-174752,2017-06-27,University of Connecticut,Master of Applied Science,2010-04-18,2013-04-18,Master
+Candidate-Education-2870,Candidate-174757,2017-06-27,University of North Texas,Bachelor of Construction Technology,2006-12-18,2009-12-18,Bachelor
+Candidate-Education-2871,Candidate-174757,2017-06-27,Middle Tennessee State University,Doctor of Business Administration,2009-12-18,2013-12-18,Doctor
+Candidate-Education-2872,Candidate-174758,2017-06-27,Oregon State University,Associate Degree of Automotive Maintenance Technology,2005-11-22,2007-11-22,Associate Degree
+Candidate-Education-2873,Candidate-174760,2017-06-27,University of Southern California,Bachelor of Computer Applications,2006-08-30,2009-08-30,Bachelor
+Candidate-Education-2874,Candidate-174760,2017-06-27,University of Utah,Master of Applied Science,2009-08-30,2012-08-30,Master
+Candidate-Education-2875,Candidate-174760,2017-06-27,Southern Methodist University,Doctor of Business Administration,2012-08-30,2016-08-30,Doctor
+Candidate-Education-2876,Candidate-174761,2017-06-27,California Polytechnic State University,Bachelor of Architecture,2006-03-20,2009-03-20,Bachelor
+Candidate-Education-2877,Candidate-174761,2017-06-27,Auburn University,Master of Business Administration,2009-03-20,2012-03-20,Master
+Candidate-Education-2878,Candidate-174761,2017-06-27,University of Florida,Doctor of Business Administration,2012-03-20,2016-03-20,Doctor
+Candidate-Education-2879,Candidate-174763,2017-06-27,Texas Christian University,Bachelor of Construction Technology,2001-09-20,2004-09-20,Bachelor
+Candidate-Education-2880,Candidate-174763,2017-06-27,California Polytechnic State University,Master of Bioinformatics,2004-09-20,2007-09-20,Master
+Candidate-Education-2881,Candidate-174764,2017-06-27,University of Louisville,Associate of Applied Science (AAS) of Business Information Systems,2007-08-12,2009-08-12,Associate of Applied Science (AAS)
+Candidate-Education-2882,Candidate-174767,2017-06-27,University of Arizona,Bachelor of Management,2007-12-03,2010-12-03,Bachelor
+Candidate-Education-2883,Candidate-174767,2017-06-27,University of South Carolina,Master of Arts of Liberal Studies,2010-12-03,2013-12-03,Master of Arts
+Candidate-Education-2884,Candidate-174772,2017-06-27,University of Notre Dame,Bachelor of Business Administration,2004-11-12,2007-11-12,Bachelor
+Candidate-Education-2885,Candidate-174774,2017-06-27,Mississippi State University,Bachelor of Computer Applications,2007-08-01,2011-08-01,Bachelor
+Candidate-Education-2886,Candidate-174775,2017-06-27,University of Arizona,Bachelor of Computer Applications,2008-09-29,2011-09-29,Bachelor
+Candidate-Education-2887,Candidate-174775,2017-06-27,Pennsylvania State University,Doctor of Business Administration,2011-09-29,2015-09-29,Doctor
+Candidate-Education-2888,Candidate-174777,2017-06-27,University of Montana,Bachelor of Computer Applications,2005-01-07,2008-01-07,Bachelor
+Candidate-Education-2889,Candidate-174777,2017-06-27,University of California Berkeley,Master of Applied Science,2008-01-07,2011-01-07,Master
+Candidate-Education-2890,Candidate-174778,2017-06-27,Mississippi State University,Bachelor of Business Administration,2006-07-27,2009-07-27,Bachelor
+Candidate-Education-2891,Candidate-174778,2017-06-27,University of Notre Dame,Doctor of Business Administration,2009-07-27,2013-07-27,Doctor
+Candidate-Education-2892,Candidate-174779,2017-06-27,University of California Berkeley,Bachelor of Computer Applications,2009-12-25,2012-12-25,Bachelor
+Candidate-Education-2893,Candidate-174779,2017-06-27,University of California Davis,Doctor of Business Administration,2012-12-25,2016-12-25,Doctor
+Candidate-Education-2894,Candidate-174781,2017-06-27,California State University Fullerton,Bachelor of Architecture,2006-10-13,2009-10-13,Bachelor
+Candidate-Education-2895,Candidate-174786,2017-06-27,University of Utah,Bachelor of Construction Technology,2009-08-09,2012-08-09,Bachelor
+Candidate-Education-2896,Candidate-174786,2017-06-27,Stanford University,Doctor of Business Administration,2012-08-09,2016-08-09,Doctor
+Candidate-Education-2897,Candidate-174787,2017-06-27,Western Kentucky University,Bachelor of Computer Applications,2006-05-25,2009-05-25,Bachelor
+Candidate-Education-2898,Candidate-174787,2017-06-27,West Virginia University,Master of Applied Science,2009-05-25,2012-05-25,Master
+Candidate-Education-2899,Candidate-174789,2017-06-27,Louisiana Tech University,Bachelor of Computer Applications,2005-11-18,2008-11-18,Bachelor
+Candidate-Education-2900,Candidate-174789,2017-06-27,University of California Davis,Doctor of Business Administration,2008-11-18,2012-11-18,Doctor
+Candidate-Education-2901,Candidate-174790,2017-06-27,University of Houston,Associate of Applied Science (AAS) of Accounting Specialist,2004-11-24,2006-11-24,Associate of Applied Science (AAS)
+Candidate-Education-2902,Candidate-174792,2017-06-27,Brown University,Bachelor of Computer Applications,2006-05-09,2009-05-09,Bachelor
+Candidate-Education-2903,Candidate-174792,2017-06-27,Texas A&M University,Master of Applied Science,2009-05-09,2012-05-09,Master
+Candidate-Education-2904,Candidate-174793,2017-06-27,Princeton University,Associate of Applied Science (AAS) of Accounting Specialist,2002-08-01,2004-08-01,Associate of Applied Science (AAS)
+Candidate-Education-2905,Candidate-174794,2017-06-27,Kansas State University,Bachelor of Construction Technology,2005-10-07,2008-10-07,Bachelor
+Candidate-Education-2906,Candidate-174794,2017-06-27,California State University Bakersfield,Master of Bioinformatics,2008-10-07,2011-10-07,Master
+Candidate-Education-2907,Candidate-174796,2017-06-27,Old Dominion University,Bachelor of Construction Technology,2006-05-05,2009-05-05,Bachelor
+Candidate-Education-2908,Candidate-174798,2017-06-27,Columbia University,Bachelor of Business Administration,2011-11-17,2014-11-17,Bachelor
+Candidate-Education-2909,Candidate-174798,2017-06-27,Wake Forest University,Master of Business Administration,2014-11-17,2016-11-17,Master
+Candidate-Education-2910,Candidate-174799,2017-06-27,Temple University,Bachelor of Business Administration,2009-11-14,2012-11-14,Bachelor
+Candidate-Education-2911,Candidate-174799,2017-06-27,University of North Carolina at Chapel Hill,Doctor of Business Administration,2012-11-14,2016-11-14,Doctor
+Candidate-Education-2912,Candidate-174802,2017-06-27,University of South Carolina,Bachelor of Computer Applications,2005-05-28,2008-05-28,Bachelor
+Candidate-Education-2913,Candidate-174803,2017-06-27,University of Florida,Associate of Applied Science (AAS) of Business Information Systems,2007-09-12,2009-09-12,Associate of Applied Science (AAS)
+Candidate-Education-2914,Candidate-174804,2017-06-27,Brown University,Bachelor of Business Administration,2007-03-05,2010-03-05,Bachelor
+Candidate-Education-2915,Candidate-174811,2017-06-27,Vanderbilt University,Bachelor of Business Administration,2009-11-15,2012-11-15,Bachelor
+Candidate-Education-2916,Candidate-174811,2017-06-27,California State University Fullerton,Master of Business Administration,2012-11-15,2015-11-15,Master
+Candidate-Education-2917,Candidate-174812,2017-06-27,Utah State University,Bachelor of Computer Applications,2005-08-26,2008-08-26,Bachelor
+Candidate-Education-2918,Candidate-174812,2017-06-27,University of North Texas,Master of Applied Science,2008-08-26,2011-08-26,Master
+Candidate-Education-2919,Candidate-174813,2017-06-27,Michigan State University,Bachelor of Computer Applications,2009-08-05,2012-08-05,Bachelor
+Candidate-Education-2920,Candidate-174813,2017-06-27,Marshall University,Doctor of Business Administration,2012-08-05,2016-08-05,Doctor
+Candidate-Education-2921,Candidate-174815,2017-06-27,University of Florida,Bachelor of Architecture,2005-05-02,2009-05-02,Bachelor
+Candidate-Education-2922,Candidate-174816,2017-06-27,University of Missouri,Bachelor of Management,2008-02-07,2011-02-07,Bachelor
+Candidate-Education-2923,Candidate-174816,2017-06-27,University of Florida,Master of Arts of Liberal Studies,2011-02-07,2014-02-07,Master of Arts
+Candidate-Education-2924,Candidate-174816,2017-06-27,Utah State University,Doctor of Business Administration,2014-02-07,2018-02-07,Doctor
+Candidate-Education-2925,Candidate-174818,2017-06-27,Brown University,Bachelor of Management,2007-08-08,2010-08-08,Bachelor
+Candidate-Education-2926,Candidate-174818,2017-06-27,California Polytechnic State University,Master of Arts of Liberal Studies,2010-08-08,2013-08-08,Master of Arts
+Candidate-Education-2927,Candidate-174818,2017-06-27,Boise State University,Doctor of Business Administration,2013-08-08,2017-08-08,Doctor
+Candidate-Education-2928,Candidate-174823,2017-06-27,Iowa State University,Bachelor of Business Administration,2009-12-12,2012-12-12,Bachelor
+Candidate-Education-2929,Candidate-174823,2017-06-27,Georgia Institute of Technology,Doctor of Business Administration,2012-12-12,2016-12-12,Doctor
+Candidate-Education-2930,Candidate-174826,2017-06-27,University of Georgia,Bachelor of Computer Applications,2005-01-31,2008-01-31,Bachelor
+Candidate-Education-2931,Candidate-174826,2017-06-27,Boston College,Master of Applied Science,2008-01-31,2011-01-31,Master
+Candidate-Education-2932,Candidate-174826,2017-06-27,Florida Atlantic University,Doctor of Business Administration,2011-01-31,2015-01-31,Doctor
+Candidate-Education-2933,Candidate-174827,2017-06-27,Louisiana Tech University,Bachelor of Computer Applications,2009-09-05,2012-09-05,Bachelor
+Candidate-Education-2934,Candidate-174827,2017-06-27,University of Texas at Austin,Doctor of Business Administration,2012-09-05,2016-09-05,Doctor
+Candidate-Education-2935,Candidate-174833,2017-06-27,Middle Tennessee State University,Bachelor of Computer Applications,2008-01-09,2011-01-09,Bachelor
+Candidate-Education-2936,Candidate-174833,2017-06-27,Michigan State University,Master of Applied Science,2011-01-09,2014-01-09,Master
+Candidate-Education-2937,Candidate-174833,2017-06-27,University of Texas at El Paso,Doctor of Business Administration,2014-01-09,2018-01-09,Doctor
+Candidate-Education-2938,Candidate-174834,2017-06-27,University of Houston,Bachelor of Management,2009-10-21,2012-10-21,Bachelor
+Candidate-Education-2939,Candidate-174834,2017-06-27,University of North Texas,Doctor of Business Administration,2012-10-21,2016-10-21,Doctor
+Candidate-Education-2940,Candidate-174835,2017-06-27,Old Dominion University,Bachelor of Management,2007-01-25,2010-01-25,Bachelor
+Candidate-Education-2941,Candidate-174835,2017-06-27,Oklahoma State University,Master of Arts of Liberal Studies,2010-01-25,2012-01-25,Master of Arts
+Candidate-Education-2942,Candidate-174838,2017-06-27,Southern Methodist University,Bachelor of Business Administration,2009-02-21,2012-02-21,Bachelor
+Candidate-Education-2943,Candidate-174839,2017-06-27,Texas A&M University,Associate of Applied Science (AAS) of Business Administration,2003-09-10,2005-09-10,Associate of Applied Science (AAS)
+Candidate-Education-2944,Candidate-174840,2017-06-27,Louisiana State University,Bachelor of Management,2001-11-11,2004-11-11,Bachelor
+Candidate-Education-2945,Candidate-174840,2017-06-27,University of Texas at San Antonio,Master of Arts of Liberal Studies,2004-11-11,2007-11-11,Master of Arts
+Candidate-Education-2946,Candidate-174843,2017-06-27,University of North Carolina at Charlotte,Bachelor of Business Administration,2007-12-05,2010-12-05,Bachelor
+Candidate-Education-2947,Candidate-174843,2017-06-27,Wake Forest University,Master of Accountancy,2010-12-05,2013-12-05,Master
+Candidate-Education-2948,Candidate-174843,2017-06-27,California State University Fullerton,Doctor of Business Administration,2013-12-05,2017-12-05,Doctor
+Candidate-Education-2949,Candidate-174844,2017-06-27,Princeton University,Bachelor of Business Administration,2005-08-15,2008-08-15,Bachelor
+Candidate-Education-2950,Candidate-174844,2017-06-27,Stanford University,Master of Accountancy,2008-08-15,2011-08-15,Master
+Candidate-Education-2951,Candidate-174845,2017-06-27,California State University Fresno,Bachelor of Business Administration,2007-12-15,2010-12-15,Bachelor
+Candidate-Education-2952,Candidate-174845,2017-06-27,Western Kentucky University,Master of Accountancy,2010-12-15,2013-12-15,Master
+Candidate-Education-2953,Candidate-174845,2017-06-27,Princeton University,Doctor of Business Administration,2013-12-15,2017-12-15,Doctor
+Candidate-Education-2954,Candidate-174846,2017-06-27,University of Alabama at Birmingham,Bachelor of Business Administration,2009-02-01,2012-02-01,Bachelor
+Candidate-Education-2955,Candidate-174846,2017-06-27,Texas Tech University,Master of Business Administration,2012-02-01,2014-02-01,Master
+Candidate-Education-2956,Candidate-174851,2017-06-27,University of California Los Angeles,Bachelor of Computer Applications,2007-09-26,2010-09-26,Bachelor
+Candidate-Education-2957,Candidate-174851,2017-06-27,Kansas State University,Master of Applied Science,2010-09-26,2013-09-26,Master
+Candidate-Education-2958,Candidate-174851,2017-06-27,San Jose State University,Doctor of Business Administration,2013-09-26,2017-09-26,Doctor
+Candidate-Education-2959,Candidate-174853,2017-06-27,University of California Santa Barbara,Bachelor of Business Administration,2007-03-11,2010-03-11,Bachelor
+Candidate-Education-2960,Candidate-174853,2017-06-27,University of Oklahoma,Master of Accountancy,2010-03-11,2013-03-11,Master
+Candidate-Education-2961,Candidate-174853,2017-06-27,Tulane University,Doctor of Business Administration,2013-03-11,2017-03-11,Doctor
+Candidate-Education-2962,Candidate-174854,2017-06-27,Florida State University,Bachelor of Business Administration,2006-03-21,2009-03-21,Bachelor
+Candidate-Education-2963,Candidate-174854,2017-06-27,Boise State University,Master of Accountancy,2009-03-21,2012-03-21,Master
+Candidate-Education-2964,Candidate-174854,2017-06-27,University of Colorado Boulder,Doctor of Business Administration,2012-03-21,2016-03-21,Doctor
+Candidate-Education-2965,Candidate-174855,2017-06-27,University of Southern Mississippi,Associate of Applied Science (AAS) of Business Administration,2006-09-20,2008-09-20,Associate of Applied Science (AAS)
+Candidate-Education-2966,Candidate-174857,2017-06-27,Temple University,Bachelor of Business Administration,2009-03-31,2013-03-31,Bachelor
+Candidate-Education-2967,Candidate-174859,2017-06-27,University of Oklahoma,Bachelor of Architecture,2003-12-02,2006-12-02,Bachelor
+Candidate-Education-2968,Candidate-174859,2017-06-27,California State University Bakersfield,Master of Business Administration,2006-12-02,2009-12-02,Master
+Candidate-Education-2969,Candidate-174859,2017-06-27,Harvard University,Doctor of Business Administration,2009-12-02,2013-12-02,Doctor
+Candidate-Education-2970,Candidate-174860,2017-06-27,University of Pittsburgh,Bachelor of Computer Applications,2004-08-16,2007-08-16,Bachelor
+Candidate-Education-2971,Candidate-174860,2017-06-27,Texas Christian University,Master of Applied Science,2007-08-16,2010-08-16,Master
+Candidate-Education-2972,Candidate-174860,2017-06-27,Oregon State University,Doctor of Business Administration,2010-08-16,2014-08-16,Doctor
+Candidate-Education-2973,Candidate-174862,2017-06-27,Portland State University,Bachelor of Business Administration,2009-08-18,2012-08-18,Bachelor
+Candidate-Education-2974,Candidate-174862,2017-06-27,University of Alabama,Doctor of Business Administration,2012-08-18,2016-08-18,Doctor
+Candidate-Education-2975,Candidate-174865,2017-06-27,University of Kansas,Bachelor of Construction Technology,2010-05-31,2013-05-31,Bachelor
+Candidate-Education-2976,Candidate-174865,2017-06-27,Brown University,Doctor of Business Administration,2013-05-31,2017-05-31,Doctor
+Candidate-Education-2977,Candidate-174868,2017-06-27,Southern Methodist University,Bachelor of Construction Technology,2008-02-11,2011-02-11,Bachelor
+Candidate-Education-2978,Candidate-174868,2017-06-27,Boise State University,Master of Bioinformatics,2011-02-11,2014-02-11,Master
+Candidate-Education-2979,Candidate-174868,2017-06-27,Portland State University,Doctor of Business Administration,2014-02-11,2018-02-11,Doctor
+Candidate-Education-2980,Candidate-174872,2017-06-27,Clemson University,Bachelor of Business Administration,2009-06-29,2012-06-29,Bachelor
+Candidate-Education-2981,Candidate-174872,2017-06-27,Washington State University,Doctor of Business Administration,2012-06-29,2016-06-29,Doctor
+Candidate-Education-2982,Candidate-174873,2017-06-27,University of Virginia,Bachelor of Business Administration,2008-05-18,2011-05-18,Bachelor
+Candidate-Education-2983,Candidate-174873,2017-06-27,University of Southern California,Master of Business Administration,2011-05-18,2014-05-18,Master
+Candidate-Education-2984,Candidate-174873,2017-06-27,Columbia University,Doctor of Business Administration,2014-05-18,2018-05-18,Doctor
+Candidate-Education-2985,Candidate-174874,2017-06-27,University of Pittsburgh,Bachelor of Computer Applications,2009-10-09,2012-10-09,Bachelor
+Candidate-Education-2986,Candidate-174874,2017-06-27,University of Tulsa,Doctor of Business Administration,2012-10-09,2016-10-09,Doctor
+Candidate-Education-2987,Candidate-174876,2017-06-27,University of Montana,Bachelor of Computer Applications,2009-05-15,2012-05-15,Bachelor
+Candidate-Education-2988,Candidate-174876,2017-06-27,Georgia Institute of Technology,Master of Applied Science,2012-05-15,2015-05-15,Master
+Candidate-Education-2989,Candidate-174879,2017-06-27,University of Georgia,Bachelor of Business Administration,2008-02-23,2011-02-23,Bachelor
+Candidate-Education-2990,Candidate-174879,2017-06-27,Yale University,Master of Accountancy,2011-02-23,2014-02-23,Master
+Candidate-Education-2991,Candidate-174879,2017-06-27,University of Arizona,Doctor of Business Administration,2014-02-23,2018-02-23,Doctor
+Candidate-Education-2992,Candidate-174880,2017-06-27,Duke University,Bachelor of Business Administration,2007-05-05,2010-05-05,Bachelor
+Candidate-Education-2993,Candidate-174880,2017-06-27,University of Alabama,Master of Accountancy,2010-05-05,2013-05-05,Master
+Candidate-Education-2994,Candidate-174880,2017-06-27,California Polytechnic State University,Doctor of Business Administration,2013-05-05,2017-05-05,Doctor
+Candidate-Education-2995,Candidate-174881,2017-06-27,San Jose State University,Bachelor of Business Administration,2009-10-06,2012-10-06,Bachelor
+Candidate-Education-2996,Candidate-174881,2017-06-27,Louisiana Tech University,Doctor of Business Administration,2012-10-06,2016-10-06,Doctor
+Candidate-Education-2997,Candidate-174882,2017-06-27,Florida State University,Bachelor of Business Administration,2010-03-24,2013-03-24,Bachelor
+Candidate-Education-2998,Candidate-174882,2017-06-27,California State University Fullerton,Doctor of Business Administration,2013-03-24,2017-03-24,Doctor
+Candidate-Education-2999,Candidate-174883,2017-06-27,Arizona State University,Bachelor of Architecture,2007-04-11,2010-04-11,Bachelor
+Candidate-Education-3000,Candidate-174883,2017-06-27,Boston College,Master of Business Administration,2010-04-11,2013-04-11,Master
+Candidate-Education-3001,Candidate-174883,2017-06-27,University of Idaho,Doctor of Business Administration,2013-04-11,2017-04-11,Doctor
+Candidate-Education-3002,Candidate-174884,2017-06-27,Louisiana State University,Bachelor of Architecture,2008-03-27,2011-03-27,Bachelor
+Candidate-Education-3003,Candidate-174884,2017-06-27,Louisiana Tech University,Master of Business Administration,2011-03-27,2014-03-27,Master
+Candidate-Education-3004,Candidate-174884,2017-06-27,Texas Tech University,Doctor of Business Administration,2014-03-27,2018-03-27,Doctor
+Candidate-Education-3005,Candidate-174885,2017-06-27,University of Montana,Bachelor of Architecture,2007-06-12,2010-06-12,Bachelor
+Candidate-Education-3006,Candidate-174885,2017-06-27,University of Southern California,Master of Business Administration,2010-06-12,2013-06-12,Master
+Candidate-Education-3007,Candidate-174885,2017-06-27,University of North Carolina at Charlotte,Doctor of Business Administration,2013-06-12,2017-06-12,Doctor
+Candidate-Education-3008,Candidate-174888,2017-06-27,University of Washington,Bachelor of Architecture,2009-12-18,2012-12-18,Bachelor
+Candidate-Education-3009,Candidate-174888,2017-06-27,Louisiana Tech University,Doctor of Business Administration,2012-12-18,2016-12-18,Doctor
+Candidate-Education-3010,Candidate-174889,2017-06-27,California State University Fullerton,Bachelor of Architecture,2009-02-13,2012-02-13,Bachelor
+Candidate-Education-3011,Candidate-174889,2017-06-27,Portland State University,Master of Business Administration,2012-02-13,2015-02-13,Master
+Candidate-Education-3012,Candidate-174890,2017-06-28,Ohio State University,Bachelor of Construction Technology,2007-11-08,2010-11-08,Bachelor
+Candidate-Education-3013,Candidate-174890,2017-06-28,Louisiana State University,Master of Bioinformatics,2010-11-08,2013-11-08,Master
+Candidate-Education-3014,Candidate-174893,2017-06-28,Louisiana Tech University,Bachelor of Computer Applications,2005-11-24,2008-11-24,Bachelor
+Candidate-Education-3015,Candidate-174893,2017-06-28,Texas Christian University,Master of Applied Science,2008-11-24,2011-11-24,Master
+Candidate-Education-3016,Candidate-174893,2017-06-28,Texas A&M University,Doctor of Business Administration,2011-11-24,2015-11-24,Doctor
+Candidate-Education-3017,Candidate-174903,2017-06-28,California State University Fullerton,Bachelor of Business Administration,2005-07-11,2008-07-11,Bachelor
+Candidate-Education-3018,Candidate-174903,2017-06-28,Dartmouth College,Master of Accountancy,2008-07-11,2011-07-11,Master
+Candidate-Education-3019,Candidate-174905,2017-06-28,University of Texas at El Paso,Bachelor of Business Administration,2005-10-07,2008-10-07,Bachelor
+Candidate-Education-3020,Candidate-174905,2017-06-28,Oklahoma State University,Doctor of Business Administration,2008-10-07,2012-10-07,Doctor
+Candidate-Education-3021,Candidate-174911,2017-06-28,University of Colorado Boulder,Bachelor of Computer Applications,2004-12-24,2008-12-24,Bachelor
+Candidate-Education-3022,Candidate-174914,2017-06-28,California Polytechnic State University,Bachelor of Business Administration,2009-02-08,2012-02-08,Bachelor
+Candidate-Education-3023,Candidate-174914,2017-06-28,University of Texas at San Antonio,Master of Accountancy,2012-02-08,2015-02-08,Master
+Candidate-Education-3024,Candidate-174918,2017-06-28,Louisiana State University,Bachelor of Construction Technology,2005-04-11,2008-04-11,Bachelor
+Candidate-Education-3025,Candidate-174918,2017-06-28,California State University Fullerton,Master of Bioinformatics,2008-04-11,2011-04-11,Master
+Candidate-Education-3026,Candidate-174919,2017-06-28,Baylor University,Bachelor of Construction Technology,2005-04-11,2008-04-11,Bachelor
+Candidate-Education-3027,Candidate-174919,2017-06-28,Texas Tech University,Master of Bioinformatics,2008-04-11,2011-04-11,Master
+Candidate-Education-3028,Candidate-174923,2017-06-28,University of Mississippi,Bachelor of Management,2009-07-11,2012-07-11,Bachelor
+Candidate-Education-3029,Candidate-174923,2017-06-28,Florida State University,Doctor of Business Administration,2012-07-11,2016-07-11,Doctor
+Candidate-Education-3030,Candidate-174924,2017-06-28,Florida State University,Bachelor of Management,2003-09-10,2006-09-10,Bachelor
+Candidate-Education-3031,Candidate-174926,2017-06-28,Virginia Tech,Bachelor of Business Administration,2005-10-23,2008-10-23,Bachelor
+Candidate-Education-3032,Candidate-174926,2017-06-28,Auburn University,Master of Accountancy,2008-10-23,2011-10-23,Master
+Candidate-Education-3033,Candidate-174926,2017-06-28,San Diego State University,Doctor of Business Administration,2011-10-23,2015-10-23,Doctor
+Candidate-Education-3034,Candidate-174929,2017-06-28,Old Dominion University,Bachelor of Computer Applications,2006-05-15,2009-05-15,Bachelor
+Candidate-Education-3035,Candidate-174929,2017-06-28,San Diego State University,Master of Applied Science,2009-05-15,2012-05-15,Master
+Candidate-Education-3036,Candidate-174929,2017-06-28,Virginia Tech,Doctor of Business Administration,2012-05-15,2016-05-15,Doctor
+Candidate-Education-3037,Candidate-174930,2017-06-28,University of South Florida,Bachelor of Computer Applications,2007-10-20,2010-10-20,Bachelor
+Candidate-Education-3038,Candidate-174930,2017-06-28,Princeton University,Master of Applied Science,2010-10-20,2013-10-20,Master
+Candidate-Education-3039,Candidate-174930,2017-06-28,University of Miami,Doctor of Business Administration,2013-10-20,2017-10-20,Doctor
+Candidate-Education-3040,Candidate-174933,2017-06-28,University of Miami,Associate Degree of Advertising,2008-05-08,2010-05-08,Associate Degree
+Candidate-Education-3041,Candidate-174934,2017-06-28,Western Kentucky University,Bachelor of Business Administration,2007-06-02,2010-06-02,Bachelor
+Candidate-Education-3042,Candidate-174934,2017-06-28,University of Arizona,Master of Accountancy,2010-06-02,2013-06-02,Master
+Candidate-Education-3043,Candidate-174936,2017-06-28,Texas A&M University,Bachelor of Business Administration,2007-05-17,2010-05-17,Bachelor
+Candidate-Education-3044,Candidate-174938,2017-06-28,Princeton University,Bachelor of Computer Applications,2003-03-01,2006-03-01,Bachelor
+Candidate-Education-3045,Candidate-174938,2017-06-28,University of Georgia,Master of Applied Science,2006-03-01,2009-03-01,Master
+Candidate-Education-3046,Candidate-174938,2017-06-28,University of Florida,Doctor of Business Administration,2009-03-01,2013-03-01,Doctor
+Candidate-Education-3047,Candidate-174941,2017-06-28,University of Cincinnati,Bachelor of Business Administration,2004-06-01,2007-06-01,Bachelor
+Candidate-Education-3048,Candidate-174941,2017-06-28,University of Alabama at Birmingham,Master of Accountancy,2007-06-01,2010-06-01,Master
+Candidate-Education-3049,Candidate-174941,2017-06-28,University of Tulsa,Doctor of Business Administration,2010-06-01,2014-06-01,Doctor
+Candidate-Education-3050,Candidate-174943,2017-06-28,University of Pittsburgh,Bachelor of Construction Technology,2008-03-01,2011-03-01,Bachelor
+Candidate-Education-3051,Candidate-174943,2017-06-28,University of Louisville,Master of Bioinformatics,2011-03-01,2014-03-01,Master
+Candidate-Education-3052,Candidate-174943,2017-06-28,University of Georgia,Doctor of Business Administration,2014-03-01,2018-03-01,Doctor
+Candidate-Education-3053,Candidate-174946,2017-06-28,Arizona State University,Bachelor of Business Administration,2007-05-26,2010-05-26,Bachelor
+Candidate-Education-3054,Candidate-174946,2017-06-28,Clemson University,Master of Accountancy,2010-05-26,2013-05-26,Master
+Candidate-Education-3055,Candidate-174948,2017-06-28,Florida State University,Bachelor of Business Administration,2008-11-28,2011-11-28,Bachelor
+Candidate-Education-3056,Candidate-174948,2017-06-28,Pennsylvania State University,Master of Accountancy,2011-11-28,2014-11-28,Master
+Candidate-Education-3057,Candidate-174949,2017-06-28,Kansas State University,Bachelor of Business Administration,2009-08-01,2012-08-01,Bachelor
+Candidate-Education-3058,Candidate-174949,2017-06-28,University of Texas at San Antonio,Doctor of Business Administration,2012-08-01,2016-08-01,Doctor
+Candidate-Education-3059,Candidate-174950,2017-06-28,Mississippi State University,Bachelor of Business Administration,2006-10-24,2009-10-24,Bachelor
+Candidate-Education-3060,Candidate-174950,2017-06-28,Iowa State University,Master of Accountancy,2009-10-24,2011-10-24,Master
+Candidate-Education-3061,Candidate-174951,2017-06-28,San Diego State University,Bachelor of Business Administration,2006-09-19,2009-09-19,Bachelor
+Candidate-Education-3062,Candidate-174951,2017-06-28,University of Michigan,Master of Accountancy,2009-09-19,2012-09-19,Master
+Candidate-Education-3063,Candidate-174951,2017-06-28,California Polytechnic State University,Doctor of Business Administration,2012-09-19,2016-09-19,Doctor
+Candidate-Education-3064,Candidate-174953,2017-06-28,Utah State University,Associate of Applied Science (AAS) of Business Information Systems,2006-05-25,2008-05-25,Associate of Applied Science (AAS)
+Candidate-Education-3065,Candidate-174956,2017-06-28,Stanford University,Bachelor of Computer Applications,2009-05-02,2012-05-02,Bachelor
+Candidate-Education-3066,Candidate-174956,2017-06-28,Texas A&M University,Master of Applied Science,2012-05-02,2015-05-02,Master
+Candidate-Education-3067,Candidate-174957,2017-06-28,California Polytechnic State University,Associate of Applied Science (AAS) of Business Information Systems,2008-09-01,2010-09-01,Associate of Applied Science (AAS)
+Candidate-Education-3068,Candidate-174959,2017-06-28,University of Idaho,Associate of Applied Science (AAS) of Accounting Specialist,1997-11-22,1999-11-22,Associate of Applied Science (AAS)
+Candidate-Education-3069,Candidate-174964,2017-06-28,Boise State University,Bachelor of Management,1996-04-17,1999-04-17,Bachelor
+Candidate-Education-3070,Candidate-174964,2017-06-28,Michigan State University,Master of Arts of Liberal Studies,1999-04-17,2002-04-17,Master of Arts
+Candidate-Education-3071,Candidate-174966,2017-06-28,Oklahoma State University,Bachelor of Construction Technology,2009-03-23,2012-03-23,Bachelor
+Candidate-Education-3072,Candidate-174966,2017-06-28,Boston College,Master of Bioinformatics,2012-03-23,2015-03-23,Master
+Candidate-Education-3073,Candidate-174967,2017-06-28,University of Virginia,Bachelor of Construction Technology,2010-12-07,2013-12-07,Bachelor
+Candidate-Education-3074,Candidate-174967,2017-06-28,Oklahoma State University,Master of Bioinformatics,2013-12-07,2016-12-07,Master
+Candidate-Education-3075,Candidate-174970,2017-06-28,North Carolina State University,Bachelor of Business Administration,2004-08-22,2007-08-22,Bachelor
+Candidate-Education-3076,Candidate-174970,2017-06-28,Rutgers University,Master of Accountancy,2007-08-22,2010-08-22,Master
+Candidate-Education-3077,Candidate-174973,2017-06-28,University of Michigan,Bachelor of Business Administration,2007-07-11,2010-07-11,Bachelor
+Candidate-Education-3078,Candidate-174973,2017-06-28,Marshall University,Master of Accountancy,2010-07-11,2013-07-11,Master
+Candidate-Education-3079,Candidate-174977,2017-06-28,University of Oregon,Bachelor of Computer Applications,2007-01-30,2011-01-30,Bachelor
+Candidate-Education-3080,Candidate-174981,2017-06-28,Portland State University,Bachelor of Management,2002-06-09,2005-06-09,Bachelor
+Candidate-Education-3081,Candidate-174981,2017-06-28,Iowa State University,Master of Arts of Liberal Studies,2005-06-09,2008-06-09,Master of Arts
+Candidate-Education-3082,Candidate-174981,2017-06-28,University of Miami,Doctor of Business Administration,2008-06-09,2012-06-09,Doctor
+Candidate-Education-3083,Candidate-174982,2017-06-28,Portland State University,Bachelor of Construction Technology,2007-06-09,2010-06-09,Bachelor
+Candidate-Education-3084,Candidate-174982,2017-06-28,University of Michigan,Master of Bioinformatics,2010-06-09,2013-06-09,Master
+Candidate-Education-3085,Candidate-174982,2017-06-28,Tulane University,Doctor of Business Administration,2013-06-09,2017-06-09,Doctor
+Candidate-Education-3086,Candidate-174984,2017-06-28,California State University Fullerton,Bachelor of Computer Applications,2006-01-30,2009-01-30,Bachelor
+Candidate-Education-3087,Candidate-174984,2017-06-28,University of Oregon,Master of Applied Science,2009-01-30,2012-01-30,Master
+Candidate-Education-3088,Candidate-174985,2017-06-28,University of South Florida,Bachelor of Construction Technology,2005-01-24,2008-01-24,Bachelor
+Candidate-Education-3089,Candidate-174985,2017-06-28,California Polytechnic State University,Master of Bioinformatics,2008-01-24,2011-01-24,Master
+Candidate-Education-3090,Candidate-174986,2017-06-28,University of Georgia,Bachelor of Construction Technology,2003-03-07,2006-03-07,Bachelor
+Candidate-Education-3091,Candidate-174986,2017-06-28,University of Louisville,Master of Bioinformatics,2006-03-07,2009-03-07,Master
+Candidate-Education-3092,Candidate-174988,2017-06-28,University of Alabama,Bachelor of Architecture,2005-01-20,2008-01-20,Bachelor
+Candidate-Education-3093,Candidate-174988,2017-06-28,Brown University,Master of Business Administration,2008-01-20,2011-01-20,Master
+Candidate-Education-3094,Candidate-174990,2017-06-28,Brown University,Bachelor of Management,2009-02-01,2013-02-01,Bachelor
+Candidate-Education-3095,Candidate-174992,2017-06-28,University of California Santa Barbara,Bachelor of Construction Technology,2003-08-21,2006-08-21,Bachelor
+Candidate-Education-3096,Candidate-174992,2017-06-28,Southern Methodist University,Doctor of Business Administration,2006-08-21,2010-08-21,Doctor
+Candidate-Education-3097,Candidate-174994,2017-06-28,University of Miami,Bachelor of Business Administration,2009-08-08,2012-08-08,Bachelor
+Candidate-Education-3098,Candidate-174994,2017-06-28,West Virginia University,Doctor of Business Administration,2012-08-08,2016-08-08,Doctor
+Candidate-Education-3099,Candidate-174995,2017-06-28,University of Virginia,Associate Degree of General Psychology,2009-05-25,2011-05-25,Associate Degree
+Candidate-Education-3100,Candidate-174996,2017-06-28,University of Pennsylvania,Bachelor of Business Administration,2009-01-14,2012-01-14,Bachelor
+Candidate-Education-3101,Candidate-174996,2017-06-28,University of Kentucky,Master of Business Administration,2012-01-14,2015-01-14,Master
+Candidate-Education-3102,Candidate-174998,2017-06-28,University of Texas at San Antonio,Bachelor of Computer Applications,2003-09-20,2006-09-20,Bachelor
+Candidate-Education-3103,Candidate-174998,2017-06-28,University of Kentucky,Master of Applied Science,2006-09-20,2009-09-20,Master
+Candidate-Education-3104,Candidate-174998,2017-06-28,Ohio State University,Doctor of Business Administration,2009-09-20,2013-09-20,Doctor
+Candidate-Education-3105,Candidate-174999,2017-06-28,West Virginia University,Bachelor of Computer Applications,2006-04-09,2009-04-09,Bachelor
+Candidate-Education-3106,Candidate-174999,2017-06-28,University of Cincinnati,Master of Applied Science,2009-04-09,2012-04-09,Master
+Candidate-Education-3107,Candidate-175000,2017-06-28,University of California Berkeley,Bachelor of Management,2007-05-18,2010-05-18,Bachelor
+Candidate-Education-3108,Candidate-175000,2017-06-28,Boise State University,Master of Arts of Liberal Studies,2010-05-18,2013-05-18,Master of Arts
+Candidate-Education-3109,Candidate-175002,2017-06-28,University of Texas at San Antonio,Bachelor of Business Administration,2005-03-24,2008-03-24,Bachelor
+Candidate-Education-3110,Candidate-175002,2017-06-28,University of Texas at San Antonio,Master of Accountancy,2008-03-24,2011-03-24,Master
+Candidate-Education-3111,Candidate-175003,2017-06-28,University of Montana,Bachelor of Computer Applications,2008-01-30,2012-01-30,Bachelor
+Candidate-Education-3112,Candidate-175004,2017-06-28,Middle Tennessee State University,Associate of Applied Science (AAS) of Business Information Systems,2007-11-04,2009-11-04,Associate of Applied Science (AAS)
+Candidate-Education-3113,Candidate-175007,2017-06-28,Washington State University,Bachelor of Computer Applications,2006-12-16,2009-12-16,Bachelor
+Candidate-Education-3114,Candidate-175009,2017-06-28,Wake Forest University,Bachelor of Computer Applications,1999-01-30,2003-01-30,Bachelor
+Candidate-Education-3115,Candidate-175010,2017-06-28,Washington State University,Bachelor of Management,2006-03-07,2009-03-07,Bachelor
+Candidate-Education-3116,Candidate-175010,2017-06-28,Rice University,Master of Arts of Liberal Studies,2009-03-07,2012-03-07,Master of Arts
+Candidate-Education-3117,Candidate-175011,2017-06-28,California State University Fullerton,Bachelor of Management,2006-08-04,2009-08-04,Bachelor
+Candidate-Education-3118,Candidate-175011,2017-06-28,University of Central Florida,Master of Arts of Liberal Studies,2009-08-04,2012-08-04,Master of Arts
+Candidate-Education-3119,Candidate-175011,2017-06-28,University of Central Florida,Doctor of Business Administration,2012-08-04,2016-08-04,Doctor
+Candidate-Education-3120,Candidate-175012,2017-06-28,Florida State University,Bachelor of Management,2009-03-09,2012-03-09,Bachelor
+Candidate-Education-3121,Candidate-175012,2017-06-28,University of Central Florida,Master of Arts of Liberal Studies,2012-03-09,2015-03-09,Master of Arts
+Candidate-Education-3122,Candidate-175013,2017-06-28,University of Central Florida,Bachelor of Management,2008-12-02,2011-12-02,Bachelor
+Candidate-Education-3123,Candidate-175013,2017-06-28,University of Pennsylvania,Master of Arts of Liberal Studies,2011-12-02,2014-12-02,Master of Arts
+Candidate-Education-3124,Candidate-175015,2017-06-28,Wake Forest University,Bachelor of Management,2010-07-16,2013-07-16,Bachelor
+Candidate-Education-3125,Candidate-175015,2017-06-28,University of California Los Angeles,Master of Arts of Liberal Studies,2013-07-16,2015-07-16,Master of Arts
+Candidate-Education-3126,Candidate-175016,2017-06-28,University of Central Florida,Bachelor of Construction Technology,2004-06-17,2007-06-17,Bachelor
+Candidate-Education-3127,Candidate-175016,2017-06-28,Louisiana State University,Master of Bioinformatics,2007-06-17,2010-06-17,Master
+Candidate-Education-3128,Candidate-175018,2017-06-28,University of Arizona,Bachelor of Construction Technology,2005-06-15,2008-06-15,Bachelor
+Candidate-Education-3129,Candidate-175018,2017-06-28,Rice University,Master of Bioinformatics,2008-06-15,2011-06-15,Master
+Candidate-Education-3130,Candidate-175019,2017-06-28,University of Notre Dame,Bachelor of Computer Applications,2009-10-04,2012-10-04,Bachelor
+Candidate-Education-3131,Candidate-175019,2017-06-28,West Virginia University,Doctor of Business Administration,2012-10-04,2016-10-04,Doctor
+Candidate-Education-3132,Candidate-175021,2017-06-28,University of Alabama at Birmingham,Bachelor of Computer Applications,2006-01-29,2009-01-29,Bachelor
+Candidate-Education-3133,Candidate-175021,2017-06-28,University of Tulsa,Master of Applied Science,2009-01-29,2012-01-29,Master
+Candidate-Education-3134,Candidate-175023,2017-06-28,University of Connecticut,Bachelor of Business Administration,2007-02-03,2010-02-03,Bachelor
+Candidate-Education-3135,Candidate-175023,2017-06-28,University of Miami,Master of Business Administration,2010-02-03,2013-02-03,Master
+Candidate-Education-3136,Candidate-175023,2017-06-28,University of Idaho,Doctor of Business Administration,2013-02-03,2017-02-03,Doctor
+Candidate-Education-3137,Candidate-175025,2017-06-28,Baylor University,Bachelor of Management,2005-08-11,2008-08-11,Bachelor
+Candidate-Education-3138,Candidate-175025,2017-06-28,Florida Atlantic University,Master of Arts of Liberal Studies,2008-08-11,2011-08-11,Master of Arts
+Candidate-Education-3139,Candidate-175025,2017-06-28,Yale University,Doctor of Business Administration,2011-08-11,2015-08-11,Doctor
+Candidate-Education-3140,Candidate-175026,2017-06-28,Marshall University,Bachelor of Management,2006-04-25,2009-04-25,Bachelor
+Candidate-Education-3141,Candidate-175027,2017-06-28,University of Oklahoma,Bachelor of Business Administration,2009-01-21,2012-01-21,Bachelor
+Candidate-Education-3142,Candidate-175027,2017-06-28,University of California Santa Barbara,Master of Accountancy,2012-01-21,2015-01-21,Master
+Candidate-Education-3143,Candidate-175028,2017-06-28,Middle Tennessee State University,Associate of Applied Science (AAS) of Accounting Specialist,2008-03-08,2010-03-08,Associate of Applied Science (AAS)
+Candidate-Education-3144,Candidate-175029,2017-06-28,University of Oklahoma,Bachelor of Computer Applications,2007-03-13,2010-03-13,Bachelor
+Candidate-Education-3145,Candidate-175029,2017-06-28,University of Alabama,Master of Applied Science,2010-03-13,2013-03-13,Master
+Candidate-Education-3146,Candidate-175029,2017-06-28,University of Kentucky,Doctor of Business Administration,2013-03-13,2017-03-13,Doctor
+Candidate-Education-3147,Candidate-175030,2017-06-28,Rice University,Bachelor of Architecture,2006-06-10,2009-06-10,Bachelor
+Candidate-Education-3148,Candidate-175032,2017-06-28,University of Virginia,Bachelor of Computer Applications,2007-04-25,2010-04-25,Bachelor
+Candidate-Education-3149,Candidate-175032,2017-06-28,Georgia Institute of Technology,Master of Applied Science,2010-04-25,2013-04-25,Master
+Candidate-Education-3150,Candidate-175032,2017-06-28,California State University Fullerton,Doctor of Business Administration,2013-04-25,2017-04-25,Doctor
+Candidate-Education-3151,Candidate-175033,2017-06-28,California State University Fresno,Bachelor of Business Administration,2007-03-24,2010-03-24,Bachelor
+Candidate-Education-3152,Candidate-175033,2017-06-28,University of Oklahoma,Master of Business Administration,2010-03-24,2013-03-24,Master
+Candidate-Education-3153,Candidate-175033,2017-06-28,Yale University,Doctor of Business Administration,2013-03-24,2017-03-24,Doctor
+Candidate-Education-3154,Candidate-175034,2017-06-28,University of Washington,Bachelor of Business Administration,2008-04-10,2011-04-10,Bachelor
+Candidate-Education-3155,Candidate-175034,2017-06-28,Boston College,Master of Business Administration,2011-04-10,2014-04-10,Master
+Candidate-Education-3156,Candidate-175037,2017-06-28,University of Central Florida,Bachelor of Construction Technology,2010-01-30,2013-01-30,Bachelor
+Candidate-Education-3157,Candidate-175037,2017-06-28,San Diego State University,Doctor of Business Administration,2013-01-30,2017-01-30,Doctor
+Candidate-Education-3158,Candidate-175039,2017-06-28,Kansas State University,Bachelor of Business Administration,2008-08-19,2011-08-19,Bachelor
+Candidate-Education-3159,Candidate-175039,2017-06-28,Kansas State University,Master of Business Administration,2011-08-19,2014-08-19,Master
+Candidate-Education-3160,Candidate-175041,2017-06-28,University of California Berkeley,Bachelor of Business Administration,2009-03-02,2012-03-02,Bachelor
+Candidate-Education-3161,Candidate-175041,2017-06-28,University of Central Florida,Master of Business Administration,2012-03-02,2015-03-02,Master
+Candidate-Education-3162,Candidate-175042,2017-06-28,University of California Los Angeles,Bachelor of Business Administration,2009-04-30,2012-04-30,Bachelor
+Candidate-Education-3163,Candidate-175042,2017-06-28,University of Idaho,Master of Business Administration,2012-04-30,2015-04-30,Master
+Candidate-Education-3164,Candidate-175043,2017-06-28,University of Washington,Bachelor of Computer Applications,2010-01-01,2013-01-01,Bachelor
+Candidate-Education-3165,Candidate-175043,2017-06-28,University of Southern California,Doctor of Business Administration,2013-01-01,2017-01-01,Doctor
+Candidate-Education-3166,Candidate-175044,2017-06-28,Boise State University,Bachelor of Computer Applications,2009-12-05,2012-12-05,Bachelor
+Candidate-Education-3167,Candidate-175044,2017-06-28,Western Kentucky University,Doctor of Business Administration,2012-12-05,2016-12-05,Doctor
+Candidate-Education-3168,Candidate-175046,2017-06-28,Portland State University,Bachelor of Computer Applications,2007-05-04,2010-05-04,Bachelor
+Candidate-Education-3169,Candidate-175046,2017-06-28,University of South Carolina,Master of Applied Science,2010-05-04,2013-05-04,Master
+Candidate-Education-3170,Candidate-175046,2017-06-28,University of Oregon,Doctor of Business Administration,2013-05-04,2017-05-04,Doctor
+Candidate-Education-3171,Candidate-175048,2017-06-28,University of Louisville,Bachelor of Business Administration,2010-01-28,2013-01-28,Bachelor
+Candidate-Education-3172,Candidate-175048,2017-06-28,California Polytechnic State University,Doctor of Business Administration,2013-01-28,2017-01-28,Doctor
+Candidate-Education-3173,Candidate-175051,2017-06-28,Oregon State University,Bachelor of Business Administration,2009-12-31,2012-12-31,Bachelor
+Candidate-Education-3174,Candidate-175051,2017-06-28,Virginia Tech,Doctor of Business Administration,2012-12-31,2016-12-31,Doctor
+Candidate-Education-3175,Candidate-175052,2017-06-28,California Polytechnic State University,Bachelor of Business Administration,2009-02-08,2012-02-08,Bachelor
+Candidate-Education-3176,Candidate-175052,2017-06-28,Southern Methodist University,Master of Accountancy,2012-02-08,2015-02-08,Master
+Candidate-Education-3177,Candidate-175053,2017-06-28,Michigan State University,Bachelor of Business Administration,2009-08-30,2012-08-30,Bachelor
+Candidate-Education-3178,Candidate-175053,2017-06-28,University of Oregon,Doctor of Business Administration,2012-08-30,2016-08-30,Doctor
+Candidate-Education-3179,Candidate-175054,2017-06-28,University of Alabama at Birmingham,Bachelor of Business Administration,2009-07-19,2012-07-19,Bachelor
+Candidate-Education-3180,Candidate-175054,2017-06-28,Tulane University,Doctor of Business Administration,2012-07-19,2016-07-19,Doctor
+Candidate-Education-3181,Candidate-175056,2017-06-28,University of Colorado Boulder,Bachelor of Architecture,2009-03-16,2012-03-16,Bachelor
+Candidate-Education-3182,Candidate-175056,2017-06-28,University of Miami,Master of Business Administration,2012-03-16,2015-03-16,Master
+Candidate-Education-3183,Candidate-175058,2017-06-28,University of Washington,Bachelor of Architecture,2008-02-02,2011-02-02,Bachelor
+Candidate-Education-3184,Candidate-175058,2017-06-28,West Virginia University,Master of Business Administration,2011-02-02,2014-02-02,Master
+Candidate-Education-3185,Candidate-175058,2017-06-28,Indiana University,Doctor of Business Administration,2014-02-02,2018-02-02,Doctor
+Candidate-Education-3186,Candidate-175062,2017-06-29,University of Florida,Bachelor of Computer Applications,2006-04-21,2009-04-21,Bachelor
+Candidate-Education-3187,Candidate-175062,2017-06-29,University of Oklahoma,Master of Applied Science,2009-04-21,2012-04-21,Master
+Candidate-Education-3188,Candidate-175064,2017-06-29,University of Pennsylvania,Bachelor of Computer Applications,2009-12-24,2012-12-24,Bachelor
+Candidate-Education-3189,Candidate-175064,2017-06-29,University of Alabama at Birmingham,Doctor of Business Administration,2012-12-24,2016-12-24,Doctor
+Candidate-Education-3190,Candidate-175072,2017-06-29,Stanford University,Bachelor of Business Administration,2007-02-06,2010-02-06,Bachelor
+Candidate-Education-3191,Candidate-175072,2017-06-29,Baylor University,Master of Business Administration,2010-02-06,2013-02-06,Master
+Candidate-Education-3192,Candidate-175072,2017-06-29,University of California Los Angeles,Doctor of Business Administration,2013-02-06,2017-02-06,Doctor
+Candidate-Education-3193,Candidate-175080,2017-06-29,Rice University,Associate of Applied Science (AAS) of Business Information Systems,2006-09-30,2008-09-30,Associate of Applied Science (AAS)
+Candidate-Education-3194,Candidate-175081,2017-06-29,Middle Tennessee State University,Bachelor of Architecture,2006-05-12,2009-05-12,Bachelor
+Candidate-Education-3195,Candidate-175081,2017-06-29,University of Southern Mississippi,Doctor of Business Administration,2009-05-12,2013-05-12,Doctor
+Candidate-Education-3196,Candidate-175082,2017-06-29,University of Pennsylvania,Bachelor of Architecture,2007-10-01,2010-10-01,Bachelor
+Candidate-Education-3197,Candidate-175082,2017-06-29,San Diego State University,Master of Business Administration,2010-10-01,2013-10-01,Master
+Candidate-Education-3198,Candidate-175082,2017-06-29,Florida State University,Doctor of Business Administration,2013-10-01,2017-10-01,Doctor
+Candidate-Education-3199,Candidate-175084,2017-06-29,Portland State University,Associate of Applied Science (AAS) of Business Information Systems,2009-04-22,2011-04-22,Associate of Applied Science (AAS)
+Candidate-Education-3200,Candidate-175085,2017-06-29,University of Kentucky,Bachelor of Architecture,2001-02-23,2004-02-23,Bachelor
+Candidate-Education-3201,Candidate-175088,2017-06-29,University of Montana,Bachelor of Management,2001-03-18,2004-03-18,Bachelor
+Candidate-Education-3202,Candidate-175088,2017-06-29,Columbia University,Master of Arts of Liberal Studies,2004-03-18,2007-03-18,Master of Arts
+Candidate-Education-3203,Candidate-175092,2017-06-29,University of Kentucky,Bachelor of Business Administration,2008-01-10,2011-01-10,Bachelor
+Candidate-Education-3204,Candidate-175092,2017-06-29,University of Missouri,Master of Business Administration,2011-01-10,2014-01-10,Master
+Candidate-Education-3205,Candidate-175092,2017-06-29,University of Texas at San Antonio,Doctor of Business Administration,2014-01-10,2018-01-10,Doctor
+Candidate-Education-3206,Candidate-175093,2017-06-29,Texas Tech University,Associate of Applied Science (AAS) of Business Information Systems,2009-04-25,2011-04-25,Associate of Applied Science (AAS)
+Candidate-Education-3207,Candidate-175094,2017-06-29,University of Alabama,Bachelor of Computer Applications,2008-04-16,2011-04-16,Bachelor
+Candidate-Education-3208,Candidate-175094,2017-06-29,Southern Methodist University,Master of Applied Science,2011-04-16,2014-04-16,Master
+Candidate-Education-3209,Candidate-175094,2017-06-29,West Virginia University,Doctor of Business Administration,2014-04-16,2018-04-16,Doctor
+Candidate-Education-3210,Candidate-175096,2017-06-29,University of Maryland,Bachelor of Business Administration,2007-05-30,2010-05-30,Bachelor
+Candidate-Education-3211,Candidate-175096,2017-06-29,Florida International University,Master of Accountancy,2010-05-30,2013-05-30,Master
+Candidate-Education-3212,Candidate-175096,2017-06-29,Oregon State University,Doctor of Business Administration,2013-05-30,2017-05-30,Doctor
+Candidate-Education-3213,Candidate-175097,2017-06-29,Columbia University,Bachelor of Business Administration,2008-02-26,2011-02-26,Bachelor
+Candidate-Education-3214,Candidate-175097,2017-06-29,San Diego State University,Master of Accountancy,2011-02-26,2014-02-26,Master
+Candidate-Education-3215,Candidate-175097,2017-06-29,University of Missouri,Doctor of Business Administration,2014-02-26,2018-02-26,Doctor
+Candidate-Education-3216,Candidate-175107,2017-06-29,University of Alabama at Birmingham,Bachelor of Computer Applications,2005-08-01,2008-08-01,Bachelor
+Candidate-Education-3217,Candidate-175107,2017-06-29,University of North Carolina at Chapel Hill,Master of Applied Science,2008-08-01,2011-08-01,Master
+Candidate-Education-3218,Candidate-175109,2017-06-29,University of Southern California,Bachelor of Computer Applications,2006-02-07,2009-02-07,Bachelor
+Candidate-Education-3219,Candidate-175109,2017-06-29,Tulane University,Master of Applied Science,2009-02-07,2012-02-07,Master
+Candidate-Education-3220,Candidate-175112,2017-06-29,Old Dominion University,Bachelor of Business Administration,2009-03-18,2012-03-18,Bachelor
+Candidate-Education-3221,Candidate-175112,2017-06-29,Indiana University,Master of Business Administration,2012-03-18,2015-03-18,Master
+Candidate-Education-3222,Candidate-175113,2017-06-29,Temple University,Bachelor of Business Administration,2007-04-18,2010-04-18,Bachelor
+Candidate-Education-3223,Candidate-175113,2017-06-29,University of Montana,Master of Accountancy,2010-04-18,2013-04-18,Master
+Candidate-Education-3224,Candidate-175113,2017-06-29,University of Connecticut,Doctor of Business Administration,2013-04-18,2017-04-18,Doctor
+Candidate-Education-3225,Candidate-175114,2017-06-29,University of Michigan,Bachelor of Business Administration,2007-06-19,2010-06-19,Bachelor
+Candidate-Education-3226,Candidate-175114,2017-06-29,University of South Florida,Master of Accountancy,2010-06-19,2013-06-19,Master
+Candidate-Education-3227,Candidate-175119,2017-06-29,University of Washington,Bachelor of Business Administration,2003-12-28,2006-12-28,Bachelor
+Candidate-Education-3228,Candidate-175119,2017-06-29,Tulane University,Doctor of Business Administration,2006-12-28,2010-12-28,Doctor
+Candidate-Education-3229,Candidate-175122,2017-06-29,Indiana University,Associate Degree of Automotive Maintenance Technology,2007-09-20,2009-09-20,Associate Degree
+Candidate-Education-3230,Candidate-175123,2017-06-29,University of Oregon,Bachelor of Business Administration,2009-11-02,2012-11-02,Bachelor
+Candidate-Education-3231,Candidate-175123,2017-06-29,Washington State University,Doctor of Business Administration,2012-11-02,2016-11-02,Doctor
+Candidate-Education-3232,Candidate-175126,2017-06-29,University of Tennessee,Bachelor of Construction Technology,2005-09-29,2008-09-29,Bachelor
+Candidate-Education-3233,Candidate-175126,2017-06-29,Syracuse University,Master of Bioinformatics,2008-09-29,2011-09-29,Master
+Candidate-Education-3234,Candidate-175126,2017-06-29,University of Florida,Doctor of Business Administration,2011-09-29,2015-09-29,Doctor
+Candidate-Education-3235,Candidate-175128,2017-06-29,University of Virginia,Bachelor of Business Administration,2006-01-07,2009-01-07,Bachelor
+Candidate-Education-3236,Candidate-175128,2017-06-29,Syracuse University,Master of Business Administration,2009-01-07,2012-01-07,Master
+Candidate-Education-3237,Candidate-175130,2017-06-29,Utah State University,Bachelor of Business Administration,2009-06-15,2012-06-15,Bachelor
+Candidate-Education-3238,Candidate-175130,2017-06-29,University of Idaho,Master of Business Administration,2012-06-15,2015-06-15,Master
+Candidate-Education-3239,Candidate-175131,2017-06-29,Southern Methodist University,Associate of Applied Science (AAS) of Accounting Specialist,2007-07-23,2009-07-23,Associate of Applied Science (AAS)
+Candidate-Education-3240,Candidate-175132,2017-06-29,Texas Christian University,Bachelor of Business Administration,2006-09-17,2009-09-17,Bachelor
+Candidate-Education-3241,Candidate-175132,2017-06-29,Virginia Tech,Master of Accountancy,2009-09-17,2012-09-17,Master
+Candidate-Education-3242,Candidate-175132,2017-06-29,University of Colorado Boulder,Doctor of Business Administration,2012-09-17,2016-09-17,Doctor
+Candidate-Education-3243,Candidate-175134,2017-06-29,Utah State University,Bachelor of Management,2006-01-08,2009-01-08,Bachelor
+Candidate-Education-3244,Candidate-175134,2017-06-29,University of Southern California,Master of Arts of Liberal Studies,2009-01-08,2012-01-08,Master of Arts
+Candidate-Education-3245,Candidate-175139,2017-06-29,Cornell University,Bachelor of Business Administration,2003-09-05,2006-09-05,Bachelor
+Candidate-Education-3246,Candidate-175139,2017-06-29,Southern Methodist University,Master of Accountancy,2006-09-05,2009-09-05,Master
+Candidate-Education-3247,Candidate-175140,2017-06-29,Florida State University,Bachelor of Computer Applications,2006-08-18,2009-08-18,Bachelor
+Candidate-Education-3248,Candidate-175140,2017-06-29,University of Alabama,Master of Applied Science,2009-08-18,2012-08-18,Master
+Candidate-Education-3249,Candidate-175140,2017-06-29,University of Connecticut,Doctor of Business Administration,2012-08-18,2016-08-18,Doctor
+Candidate-Education-3250,Candidate-175143,2017-06-29,University of Memphis,Bachelor of Computer Applications,2004-05-30,2007-05-30,Bachelor
+Candidate-Education-3251,Candidate-175143,2017-06-29,University of Cincinnati,Doctor of Business Administration,2007-05-30,2011-05-30,Doctor
+Candidate-Education-3252,Candidate-175144,2017-06-29,University of California Berkeley,Bachelor of Business Administration,2009-04-08,2012-04-08,Bachelor
+Candidate-Education-3253,Candidate-175144,2017-06-29,Middle Tennessee State University,Master of Business Administration,2012-04-08,2015-04-08,Master
+Candidate-Education-3254,Candidate-175149,2017-06-29,University of California Santa Barbara,Bachelor of Business Administration,2009-11-24,2012-11-24,Bachelor
+Candidate-Education-3255,Candidate-175150,2017-06-29,West Virginia University,Bachelor of Business Administration,2011-02-11,2014-02-11,Bachelor
+Candidate-Education-3256,Candidate-175150,2017-06-29,University of Arizona,Master of Business Administration,2014-02-11,2017-02-11,Master
+Candidate-Education-3257,Candidate-175151,2017-06-29,University of California Davis,Bachelor of Management,2006-04-28,2009-04-28,Bachelor
+Candidate-Education-3258,Candidate-175151,2017-06-29,Utah State University,Master of Arts of Liberal Studies,2009-04-28,2012-04-28,Master of Arts
+Candidate-Education-3259,Candidate-175154,2017-06-29,Utah State University,Associate of Applied Science (AAS) of Business Information Systems,2008-10-06,2010-10-06,Associate of Applied Science (AAS)
+Candidate-Education-3260,Candidate-175159,2017-06-29,California State University Bakersfield,Bachelor of Construction Technology,2007-08-27,2010-08-27,Bachelor
+Candidate-Education-3261,Candidate-175160,2017-06-29,University of Alabama,Associate Degree of Automotive Maintenance Technology,2015-04-08,2017-04-08,Associate Degree
+Candidate-Education-3262,Candidate-175162,2017-06-29,University of Montana,Bachelor of Management,2008-03-29,2011-03-29,Bachelor
+Candidate-Education-3263,Candidate-175162,2017-06-29,University of Oklahoma,Master of Arts of Liberal Studies,2011-03-29,2014-03-29,Master of Arts
+Candidate-Education-3264,Candidate-175162,2017-06-29,Washington State University,Doctor of Business Administration,2014-03-29,2018-03-29,Doctor
+Candidate-Education-3265,Candidate-175163,2017-06-29,University of Alabama,Bachelor of Management,2007-11-16,2010-11-16,Bachelor
+Candidate-Education-3266,Candidate-175163,2017-06-29,University of Mississippi,Master of Arts of Liberal Studies,2010-11-16,2012-11-16,Master of Arts
+Candidate-Education-3267,Candidate-175164,2017-06-29,West Virginia University,Bachelor of Management,2008-08-03,2011-08-03,Bachelor
+Candidate-Education-3268,Candidate-175164,2017-06-29,California Polytechnic State University,Master of Arts of Liberal Studies,2011-08-03,2014-08-03,Master of Arts
+Candidate-Education-3269,Candidate-175165,2017-06-29,East Carolina University,Bachelor of Management,2005-06-07,2008-06-07,Bachelor
+Candidate-Education-3270,Candidate-175166,2017-06-29,University of Washington,Associate Degree of Automotive Maintenance Technology,2004-09-02,2006-09-02,Associate Degree
+Candidate-Education-3271,Candidate-175167,2017-06-29,Western Kentucky University,Bachelor of Business Administration,2009-08-22,2012-08-22,Bachelor
+Candidate-Education-3272,Candidate-175167,2017-06-29,University of Missouri,Doctor of Business Administration,2012-08-22,2016-08-22,Doctor
+Candidate-Education-3273,Candidate-175168,2017-06-29,University of Oregon,Bachelor of Business Administration,2011-01-31,2014-01-31,Bachelor
+Candidate-Education-3274,Candidate-175168,2017-06-29,University of Utah,Master of Business Administration,2014-01-31,2017-01-31,Master
+Candidate-Education-3275,Candidate-175169,2017-06-29,California State University Fresno,Bachelor of Computer Applications,2003-12-14,2006-12-14,Bachelor
+Candidate-Education-3276,Candidate-175169,2017-06-29,Portland State University,Master of Applied Science,2006-12-14,2009-12-14,Master
+Candidate-Education-3277,Candidate-175169,2017-06-29,Kansas State University,Doctor of Business Administration,2009-12-14,2013-12-14,Doctor
+Candidate-Education-3278,Candidate-175172,2017-06-29,Utah State University,Bachelor of Computer Applications,2006-02-07,2009-02-07,Bachelor
+Candidate-Education-3279,Candidate-175172,2017-06-29,Vanderbilt University,Master of Applied Science,2009-02-07,2012-02-07,Master
+Candidate-Education-3280,Candidate-175172,2017-06-29,Kansas State University,Doctor of Business Administration,2012-02-07,2016-02-07,Doctor
+Candidate-Education-3281,Candidate-175173,2017-06-29,Texas Tech University,Bachelor of Computer Applications,2006-09-08,2009-09-08,Bachelor
+Candidate-Education-3282,Candidate-175173,2017-06-29,University of North Carolina at Chapel Hill,Master of Applied Science,2009-09-08,2012-09-08,Master
+Candidate-Education-3283,Candidate-175173,2017-06-29,University of Alabama at Birmingham,Doctor of Business Administration,2012-09-08,2016-09-08,Doctor
+Candidate-Education-3284,Candidate-175175,2017-06-29,University of California Berkeley,Bachelor of Computer Applications,2006-05-15,2009-05-15,Bachelor
+Candidate-Education-3285,Candidate-175175,2017-06-29,Oregon State University,Master of Applied Science,2009-05-15,2012-05-15,Master
+Candidate-Education-3286,Candidate-175179,2017-06-29,University of Arizona,Associate Degree of Automotive Maintenance Technology,2007-01-10,2009-01-10,Associate Degree
+Candidate-Education-3287,Candidate-175180,2017-06-29,University of North Carolina at Charlotte,Bachelor of Computer Applications,2009-01-22,2012-01-22,Bachelor
+Candidate-Education-3288,Candidate-175180,2017-06-29,Indiana University,Master of Applied Science,2012-01-22,2015-01-22,Master
+Candidate-Education-3289,Candidate-175181,2017-06-29,University of Idaho,Bachelor of Computer Applications,2005-08-27,2008-08-27,Bachelor
+Candidate-Education-3290,Candidate-175181,2017-06-29,Harvard University,Master of Applied Science,2008-08-27,2011-08-27,Master
+Candidate-Education-3291,Candidate-175183,2017-06-29,Auburn University,Bachelor of Management,2004-10-08,2007-10-08,Bachelor
+Candidate-Education-3292,Candidate-175183,2017-06-29,University of North Carolina at Chapel Hill,Master of Arts of Liberal Studies,2007-10-08,2010-10-08,Master of Arts
+Candidate-Education-3293,Candidate-175185,2017-06-29,Rice University,Associate of Applied Science (AAS) of Business Information Systems,2006-02-21,2008-02-21,Associate of Applied Science (AAS)
+Candidate-Education-3294,Candidate-175186,2017-06-29,California State University Bakersfield,Associate of Applied Science (AAS) of Business Information Systems,2007-08-16,2009-08-16,Associate of Applied Science (AAS)
+Candidate-Education-3295,Candidate-175187,2017-06-29,University of Arkansas,Bachelor of Business Administration,2009-02-27,2012-02-27,Bachelor
+Candidate-Education-3296,Candidate-175187,2017-06-29,Iowa State University,Master of Accountancy,2012-02-27,2015-02-27,Master
+Candidate-Education-3297,Candidate-175189,2017-06-29,Yale University,Bachelor of Computer Applications,2006-06-09,2009-06-09,Bachelor
+Candidate-Education-3298,Candidate-175189,2017-06-29,Middle Tennessee State University,Master of Applied Science,2009-06-09,2012-06-09,Master
+Candidate-Education-3299,Candidate-175190,2017-06-29,Syracuse University,Bachelor of Architecture,2007-11-17,2010-11-17,Bachelor
+Candidate-Education-3300,Candidate-175190,2017-06-29,University of Oklahoma,Master of Business Administration,2010-11-17,2013-11-17,Master
+Candidate-Education-3301,Candidate-175190,2017-06-29,Texas Christian University,Doctor of Business Administration,2013-11-17,2017-11-17,Doctor
+Candidate-Education-3302,Candidate-175191,2017-06-29,University of California Los Angeles,Bachelor of Architecture,2005-08-26,2008-08-26,Bachelor
+Candidate-Education-3303,Candidate-175191,2017-06-29,University of Michigan,Master of Business Administration,2008-08-26,2011-08-26,Master
+Candidate-Education-3304,Candidate-175192,2017-06-29,University of Virginia,Associate Degree of Geography,2006-12-21,2008-12-21,Associate Degree
+Candidate-Education-3305,Candidate-175193,2017-06-29,Marshall University,Bachelor of Architecture,2003-11-04,2006-11-04,Bachelor
+Candidate-Education-3306,Candidate-175193,2017-06-29,University of Connecticut,Master of Business Administration,2006-11-04,2009-11-04,Master
+Candidate-Education-3307,Candidate-175194,2017-06-29,Texas A&M University,Associate of Applied Science (AAS) of Business Information Systems,2003-04-07,2005-04-07,Associate of Applied Science (AAS)
+Candidate-Education-3308,Candidate-175195,2017-06-29,University of Florida,Bachelor of Computer Applications,2007-06-24,2010-06-24,Bachelor
+Candidate-Education-3309,Candidate-175195,2017-06-29,University of Missouri,Master of Applied Science,2010-06-24,2013-06-24,Master
+Candidate-Education-3310,Candidate-175195,2017-06-29,Auburn University,Doctor of Business Administration,2013-06-24,2017-06-24,Doctor
+Candidate-Education-3311,Candidate-175198,2017-06-29,Florida Atlantic University,Bachelor of Business Administration,2006-05-04,2009-05-04,Bachelor
+Candidate-Education-3312,Candidate-175198,2017-06-29,Duke University,Master of Business Administration,2009-05-04,2012-05-04,Master
+Candidate-Education-3313,Candidate-175200,2017-06-29,University of Southern California,Bachelor of Business Administration,2014-02-08,2017-02-08,Bachelor
+Candidate-Education-3314,Candidate-175203,2017-06-29,University of Florida,Bachelor of Business Administration,2007-09-24,2010-09-24,Bachelor
+Candidate-Education-3315,Candidate-175203,2017-06-29,Portland State University,Master of Business Administration,2010-09-24,2013-09-24,Master
+Candidate-Education-3316,Candidate-175203,2017-06-29,San Jose State University,Doctor of Business Administration,2013-09-24,2017-09-24,Doctor
+Candidate-Education-3317,Candidate-175204,2017-06-29,Columbia University,Bachelor of Construction Technology,2008-01-16,2011-01-16,Bachelor
+Candidate-Education-3318,Candidate-175204,2017-06-29,University of Cincinnati,Master of Bioinformatics,2011-01-16,2014-01-16,Master
+Candidate-Education-3319,Candidate-175204,2017-06-29,University of Miami,Doctor of Business Administration,2014-01-16,2018-01-16,Doctor
+Candidate-Education-3320,Candidate-175206,2017-06-29,Boise State University,Bachelor of Construction Technology,2008-08-22,2011-08-22,Bachelor
+Candidate-Education-3321,Candidate-175206,2017-06-29,University of Alabama,Master of Bioinformatics,2011-08-22,2014-08-22,Master
+Candidate-Education-3322,Candidate-175207,2017-06-29,Marshall University,Bachelor of Business Administration,2008-10-24,2011-10-24,Bachelor
+Candidate-Education-3323,Candidate-175207,2017-06-29,University of Alabama at Birmingham,Master of Business Administration,2011-10-24,2014-10-24,Master
+Candidate-Education-3324,Candidate-175208,2017-06-29,Middle Tennessee State University,Bachelor of Computer Applications,2009-03-22,2012-03-22,Bachelor
+Candidate-Education-3325,Candidate-175208,2017-06-29,University of Washington,Master of Applied Science,2012-03-22,2015-03-22,Master
+Candidate-Education-3326,Candidate-175209,2017-06-29,West Virginia University,Bachelor of Computer Applications,2009-03-10,2012-03-10,Bachelor
+Candidate-Education-3327,Candidate-175209,2017-06-29,Yale University,Master of Applied Science,2012-03-10,2015-03-10,Master
+Candidate-Education-3328,Candidate-175210,2017-06-29,University of California Berkeley,Bachelor of Computer Applications,2009-10-30,2012-10-30,Bachelor
+Candidate-Education-3329,Candidate-175210,2017-06-29,Rice University,Doctor of Business Administration,2012-10-30,2016-10-30,Doctor
+Candidate-Education-3330,Candidate-175211,2017-06-29,San Jose State University,Bachelor of Computer Applications,2008-10-01,2011-10-01,Bachelor
+Candidate-Education-3331,Candidate-175211,2017-06-29,University of Southern Mississippi,Master of Applied Science,2011-10-01,2014-10-01,Master
+Candidate-Education-3332,Candidate-175212,2017-06-29,Rutgers University,Bachelor of Computer Applications,2008-04-16,2011-04-16,Bachelor
+Candidate-Education-3333,Candidate-175212,2017-06-29,University of Central Florida,Master of Applied Science,2011-04-16,2014-04-16,Master
+Candidate-Education-3334,Candidate-175212,2017-06-29,Washington State University,Doctor of Business Administration,2014-04-16,2018-04-16,Doctor
+Candidate-Education-3335,Candidate-175213,2017-06-29,University of Tennessee,Bachelor of Management,2007-10-22,2010-10-22,Bachelor
+Candidate-Education-3336,Candidate-175213,2017-06-29,Baylor University,Master of Arts of Liberal Studies,2010-10-22,2013-10-22,Master of Arts
+Candidate-Education-3337,Candidate-175213,2017-06-29,Kansas State University,Doctor of Business Administration,2013-10-22,2017-10-22,Doctor
+Candidate-Education-3338,Candidate-175214,2017-06-29,University of Kansas,Bachelor of Management,2007-05-17,2010-05-17,Bachelor
+Candidate-Education-3339,Candidate-175214,2017-06-29,University of Kentucky,Master of Arts of Liberal Studies,2010-05-17,2013-05-17,Master of Arts
+Candidate-Education-3340,Candidate-175214,2017-06-29,University of Kansas,Doctor of Business Administration,2013-05-17,2017-05-17,Doctor
+Candidate-Education-3341,Candidate-175215,2017-06-29,Kansas State University,Bachelor of Management,2009-12-11,2012-12-11,Bachelor
+Candidate-Education-3342,Candidate-175215,2017-06-29,University of Texas at San Antonio,Doctor of Business Administration,2012-12-11,2016-12-11,Doctor
+Candidate-Education-3343,Candidate-175217,2017-06-29,Arizona State University,Bachelor of Business Administration,2009-06-07,2012-06-07,Bachelor
+Candidate-Education-3344,Candidate-175217,2017-06-29,University of Washington,Master of Accountancy,2012-06-07,2015-06-07,Master
+Candidate-Education-3345,Candidate-175221,2017-06-29,University of North Texas,Bachelor of Architecture,2009-02-25,2012-02-25,Bachelor
+Candidate-Education-3346,Candidate-175221,2017-06-29,University of Kansas,Master of Business Administration,2012-02-25,2015-02-25,Master
+Candidate-Education-3347,Candidate-175222,2017-06-29,Brown University,Bachelor of Architecture,2009-08-15,2012-08-15,Bachelor
+Candidate-Education-3348,Candidate-175222,2017-06-29,California State University Fullerton,Doctor of Business Administration,2012-08-15,2016-08-15,Doctor
+Candidate-Education-3349,Candidate-175223,2017-06-29,University of Louisville,Bachelor of Architecture,2009-05-12,2012-05-12,Bachelor
+Candidate-Education-3350,Candidate-175223,2017-06-29,California State University Fullerton,Master of Business Administration,2012-05-12,2015-05-12,Master
+Candidate-Education-3351,Candidate-175224,2017-06-29,University of Connecticut,Bachelor of Architecture,2009-11-06,2012-11-06,Bachelor
+Candidate-Education-3352,Candidate-175224,2017-06-29,Louisiana Tech University,Doctor of Business Administration,2012-11-06,2016-11-06,Doctor
+Candidate-Education-3353,Candidate-175225,2017-06-30,Washington State University,Associate of Applied Science (AAS) of Accounting Specialist,2006-03-07,2008-03-07,Associate of Applied Science (AAS)
+Candidate-Education-3354,Candidate-175229,2017-06-30,University of Texas at El Paso,Bachelor of Construction Technology,2004-12-07,2007-12-07,Bachelor
+Candidate-Education-3355,Candidate-175229,2017-06-30,University of Tulsa,Doctor of Business Administration,2007-12-07,2011-12-07,Doctor
+Candidate-Education-3356,Candidate-175231,2017-06-30,Louisiana Tech University,Bachelor of Computer Applications,2009-03-24,2012-03-24,Bachelor
+Candidate-Education-3357,Candidate-175231,2017-06-30,Cornell University,Master of Applied Science,2012-03-24,2015-03-24,Master
+Candidate-Education-3358,Candidate-175232,2017-06-30,Georgia Institute of Technology,Bachelor of Computer Applications,2005-01-03,2008-01-03,Bachelor
+Candidate-Education-3359,Candidate-175232,2017-06-30,Indiana University,Master of Applied Science,2008-01-03,2011-01-03,Master
+Candidate-Education-3360,Candidate-175238,2017-06-30,University of Tulsa,Bachelor of Business Administration,2004-06-02,2007-06-02,Bachelor
+Candidate-Education-3361,Candidate-175238,2017-06-30,California Polytechnic State University,Master of Business Administration,2007-06-02,2010-06-02,Master
+Candidate-Education-3362,Candidate-175238,2017-06-30,Florida Atlantic University,Doctor of Business Administration,2010-06-02,2014-06-02,Doctor
+Candidate-Education-3363,Candidate-175239,2017-06-30,California State University Bakersfield,Associate Degree of Advertising,2006-09-02,2008-09-02,Associate Degree
+Candidate-Education-3364,Candidate-175241,2017-06-30,Pennsylvania State University,Bachelor of Computer Applications,2007-02-25,2010-02-25,Bachelor
+Candidate-Education-3365,Candidate-175241,2017-06-30,University of Southern California,Master of Applied Science,2010-02-25,2013-02-25,Master
+Candidate-Education-3366,Candidate-175241,2017-06-30,University of California Los Angeles,Doctor of Business Administration,2013-02-25,2017-02-25,Doctor
+Candidate-Education-3367,Candidate-175244,2017-06-30,University of Washington,Associate of Applied Science (AAS) of Business Information Systems,2006-08-03,2008-08-03,Associate of Applied Science (AAS)
+Candidate-Education-3368,Candidate-175249,2017-06-30,Florida Atlantic University,Bachelor of Construction Technology,2007-10-26,2010-10-26,Bachelor
+Candidate-Education-3369,Candidate-175249,2017-06-30,University of South Carolina,Master of Bioinformatics,2010-10-26,2012-10-26,Master
+Candidate-Education-3370,Candidate-175251,2017-06-30,University of Southern Mississippi,Bachelor of Architecture,2004-09-05,2007-09-05,Bachelor
+Candidate-Education-3371,Candidate-175251,2017-06-30,Boise State University,Master of Business Administration,2007-09-05,2010-09-05,Master
+Candidate-Education-3372,Candidate-175254,2017-06-30,Indiana University,Associate Degree of Geography,1996-10-07,1998-10-07,Associate Degree
+Candidate-Education-3373,Candidate-175257,2017-06-30,University of Washington,Associate of Applied Science (AAS) of Accounting Specialist,2006-03-28,2008-03-28,Associate of Applied Science (AAS)
+Candidate-Education-3374,Candidate-175259,2017-06-30,Stanford University,Bachelor of Architecture,2005-06-04,2008-06-04,Bachelor
+Candidate-Education-3375,Candidate-175259,2017-06-30,University of Louisville,Doctor of Business Administration,2008-06-04,2012-06-04,Doctor
+Candidate-Education-3376,Candidate-175262,2017-06-30,University of Tennessee,Bachelor of Business Administration,2003-06-15,2006-06-15,Bachelor
+Candidate-Education-3377,Candidate-175262,2017-06-30,Western Kentucky University,Master of Accountancy,2006-06-15,2009-06-15,Master
+Candidate-Education-3378,Candidate-175262,2017-06-30,Michigan State University,Doctor of Business Administration,2009-06-15,2013-06-15,Doctor
+Candidate-Education-3379,Candidate-175263,2017-06-30,University of South Carolina,Bachelor of Computer Applications,2007-03-13,2010-03-13,Bachelor
+Candidate-Education-3380,Candidate-175263,2017-06-30,Vanderbilt University,Master of Applied Science,2010-03-13,2013-03-13,Master
+Candidate-Education-3381,Candidate-175263,2017-06-30,University of North Carolina at Chapel Hill,Doctor of Business Administration,2013-03-13,2017-03-13,Doctor
+Candidate-Education-3382,Candidate-175264,2017-06-30,Southern Methodist University,Bachelor of Computer Applications,2012-10-26,2015-10-26,Bachelor
+Candidate-Education-3383,Candidate-175266,2017-06-30,Baylor University,Bachelor of Computer Applications,2008-07-23,2011-07-23,Bachelor
+Candidate-Education-3384,Candidate-175266,2017-06-30,Florida International University,Master of Applied Science,2011-07-23,2014-07-23,Master
+Candidate-Education-3385,Candidate-175267,2017-06-30,Marshall University,Associate of Applied Science (AAS) of Business Information Systems,2008-10-25,2010-10-25,Associate of Applied Science (AAS)
+Candidate-Education-3386,Candidate-175270,2017-06-30,University of Texas at El Paso,Bachelor of Business Administration,2005-06-15,2008-06-15,Bachelor
+Candidate-Education-3387,Candidate-175270,2017-06-30,Oregon State University,Doctor of Business Administration,2008-06-15,2012-06-15,Doctor
+Candidate-Education-3388,Candidate-175273,2017-06-30,Ohio State University,Bachelor of Business Administration,2007-04-12,2010-04-12,Bachelor
+Candidate-Education-3389,Candidate-175273,2017-06-30,Middle Tennessee State University,Master of Business Administration,2010-04-12,2013-04-12,Master
+Candidate-Education-3390,Candidate-175273,2017-06-30,Vanderbilt University,Doctor of Business Administration,2013-04-12,2017-04-12,Doctor
+Candidate-Education-3391,Candidate-175274,2017-06-30,University of California Berkeley,Bachelor of Business Administration,2007-08-17,2010-08-17,Bachelor
+Candidate-Education-3392,Candidate-175274,2017-06-30,Stanford University,Master of Business Administration,2010-08-17,2013-08-17,Master
+Candidate-Education-3393,Candidate-175275,2017-06-30,University of Memphis,Bachelor of Computer Applications,2003-07-12,2007-07-12,Bachelor
+Candidate-Education-3394,Candidate-175278,2017-06-30,Harvard University,Associate of Applied Science (AAS) of Accounting Specialist,2005-11-18,2007-11-18,Associate of Applied Science (AAS)
+Candidate-Education-3395,Candidate-175281,2017-06-30,University of Arizona,Associate Degree of Automotive Maintenance Technology,2006-04-19,2008-04-19,Associate Degree
+Candidate-Education-3396,Candidate-175285,2017-06-30,Georgia Institute of Technology,Associate of Applied Science (AAS) of Business Information Systems,2005-06-20,2007-06-20,Associate of Applied Science (AAS)
+Candidate-Education-3397,Candidate-175286,2017-06-30,Arizona State University,Bachelor of Business Administration,2006-02-10,2010-02-10,Bachelor
+Candidate-Education-3398,Candidate-175288,2017-06-30,Florida Atlantic University,Bachelor of Business Administration,2006-01-05,2009-01-05,Bachelor
+Candidate-Education-3399,Candidate-175288,2017-06-30,Oklahoma State University,Master of Accountancy,2009-01-05,2012-01-05,Master
+Candidate-Education-3400,Candidate-175290,2017-06-30,Portland State University,Bachelor of Business Administration,2006-01-04,2009-01-04,Bachelor
+Candidate-Education-3401,Candidate-175290,2017-06-30,University of Pennsylvania,Master of Accountancy,2009-01-04,2012-01-04,Master
+Candidate-Education-3402,Candidate-175296,2017-06-30,University of Miami,Associate Degree of Geography,2003-02-14,2005-02-14,Associate Degree
+Candidate-Education-3403,Candidate-175297,2017-06-30,University of Arizona,Associate Degree of Geography,2005-08-10,2007-08-10,Associate Degree
+Candidate-Education-3404,Candidate-175301,2017-06-30,University of Connecticut,Bachelor of Business Administration,2007-04-06,2010-04-06,Bachelor
+Candidate-Education-3405,Candidate-175301,2017-06-30,University of Georgia,Master of Business Administration,2010-04-06,2013-04-06,Master
+Candidate-Education-3406,Candidate-175301,2017-06-30,University of Texas at Austin,Doctor of Business Administration,2013-04-06,2017-04-06,Doctor
+Candidate-Education-3407,Candidate-175303,2017-06-30,University of Texas at Austin,Bachelor of Business Administration,2007-12-10,2010-12-10,Bachelor
+Candidate-Education-3408,Candidate-175303,2017-06-30,North Carolina State University,Doctor of Business Administration,2010-12-10,2014-12-10,Doctor
+Candidate-Education-3409,Candidate-175307,2017-06-30,University of Arizona,Bachelor of Business Administration,2005-08-17,2008-08-17,Bachelor
+Candidate-Education-3410,Candidate-175307,2017-06-30,University of North Carolina at Chapel Hill,Master of Accountancy,2008-08-17,2011-08-17,Master
+Candidate-Education-3411,Candidate-175308,2017-06-30,University of Oklahoma,Bachelor of Business Administration,2009-07-21,2012-07-21,Bachelor
+Candidate-Education-3412,Candidate-175308,2017-06-30,Rice University,Doctor of Business Administration,2012-07-21,2016-07-21,Doctor
+Candidate-Education-3413,Candidate-175312,2017-06-30,University of Oregon,Bachelor of Construction Technology,2004-09-06,2007-09-06,Bachelor
+Candidate-Education-3414,Candidate-175312,2017-06-30,University of Tennessee,Doctor of Business Administration,2007-09-06,2011-09-06,Doctor
+Candidate-Education-3415,Candidate-175313,2017-06-30,University of North Carolina at Charlotte,Bachelor of Construction Technology,2007-01-08,2010-01-08,Bachelor
+Candidate-Education-3416,Candidate-175313,2017-06-30,University of Idaho,Master of Bioinformatics,2010-01-08,2013-01-08,Master
+Candidate-Education-3417,Candidate-175313,2017-06-30,Oklahoma State University,Doctor of Business Administration,2013-01-08,2017-01-08,Doctor
+Candidate-Education-3418,Candidate-175316,2017-06-30,Florida State University,Associate Degree of Geography,2005-08-01,2007-08-01,Associate Degree
+Candidate-Education-3419,Candidate-175318,2017-06-30,Clemson University,Bachelor of Management,2007-02-21,2010-02-21,Bachelor
+Candidate-Education-3420,Candidate-175318,2017-06-30,University of Idaho,Master of Arts of Liberal Studies,2010-02-21,2013-02-21,Master of Arts
+Candidate-Education-3421,Candidate-175318,2017-06-30,Portland State University,Doctor of Business Administration,2013-02-21,2017-02-21,Doctor
+Candidate-Education-3422,Candidate-175320,2017-06-30,Yale University,Bachelor of Construction Technology,2010-06-15,2014-06-15,Bachelor
+Candidate-Education-3423,Candidate-175323,2017-06-30,University of Washington,Bachelor of Computer Applications,2005-05-29,2008-05-29,Bachelor
+Candidate-Education-3424,Candidate-175323,2017-06-30,Michigan State University,Doctor of Business Administration,2008-05-29,2012-05-29,Doctor
+Candidate-Education-3425,Candidate-175324,2017-06-30,Utah State University,Bachelor of Computer Applications,2006-09-22,2009-09-22,Bachelor
+Candidate-Education-3426,Candidate-175324,2017-06-30,Louisiana Tech University,Master of Applied Science,2009-09-22,2012-09-22,Master
+Candidate-Education-3427,Candidate-175324,2017-06-30,Portland State University,Doctor of Business Administration,2012-09-22,2016-09-22,Doctor
+Candidate-Education-3428,Candidate-175325,2017-06-30,Texas A&M University,Bachelor of Computer Applications,2007-05-15,2010-05-15,Bachelor
+Candidate-Education-3429,Candidate-175325,2017-06-30,San Diego State University,Master of Applied Science,2010-05-15,2013-05-15,Master
+Candidate-Education-3430,Candidate-175325,2017-06-30,University of Texas at El Paso,Doctor of Business Administration,2013-05-15,2017-05-15,Doctor
+Candidate-Education-3431,Candidate-175326,2017-06-30,University of Memphis,Bachelor of Computer Applications,2009-06-17,2012-06-17,Bachelor
+Candidate-Education-3432,Candidate-175326,2017-06-30,Marshall University,Master of Applied Science,2012-06-17,2015-06-17,Master
+Candidate-Education-3433,Candidate-175327,2017-06-30,University of Kentucky,Associate of Applied Science (AAS) of Business Information Systems,2007-11-19,2009-11-19,Associate of Applied Science (AAS)
+Candidate-Education-3434,Candidate-175329,2017-06-30,Vanderbilt University,Associate Degree of General Psychology,2009-06-03,2011-06-03,Associate Degree
+Candidate-Education-3435,Candidate-175332,2017-06-30,Princeton University,Bachelor of Management,2005-10-24,2008-10-24,Bachelor
+Candidate-Education-3436,Candidate-175332,2017-06-30,Ohio State University,Master of Arts of Liberal Studies,2008-10-24,2011-10-24,Master of Arts
+Candidate-Education-3437,Candidate-175334,2017-06-30,Texas A&M University,Bachelor of Computer Applications,2009-12-07,2013-12-07,Bachelor
+Candidate-Education-3438,Candidate-175335,2017-06-30,University of Kansas,Bachelor of Business Administration,2006-05-06,2009-05-06,Bachelor
+Candidate-Education-3439,Candidate-175335,2017-06-30,Auburn University,Master of Accountancy,2009-05-06,2012-05-06,Master
+Candidate-Education-3440,Candidate-175335,2017-06-30,University of Oregon,Doctor of Business Administration,2012-05-06,2016-05-06,Doctor
+Candidate-Education-3441,Candidate-175338,2017-06-30,Marshall University,Bachelor of Computer Applications,1998-01-01,2001-01-01,Bachelor
+Candidate-Education-3442,Candidate-175339,2017-06-30,Texas Christian University,Bachelor of Management,2009-02-05,2013-02-05,Bachelor
+Candidate-Education-3443,Candidate-175342,2017-06-30,University of Pittsburgh,Bachelor of Construction Technology,2004-08-31,2007-08-31,Bachelor
+Candidate-Education-3444,Candidate-175342,2017-06-30,University of Kentucky,Master of Bioinformatics,2007-08-31,2010-08-31,Master
+Candidate-Education-3445,Candidate-175350,2017-06-30,Iowa State University,Associate of Applied Science (AAS) of Accounting Specialist,2009-02-26,2011-02-26,Associate of Applied Science (AAS)
+Candidate-Education-3446,Candidate-175351,2017-06-30,Marshall University,Bachelor of Business Administration,2007-01-24,2010-01-24,Bachelor
+Candidate-Education-3447,Candidate-175351,2017-06-30,California State University Bakersfield,Master of Accountancy,2010-01-24,2013-01-24,Master
+Candidate-Education-3448,Candidate-175354,2017-06-30,North Carolina State University,Bachelor of Management,2009-08-09,2012-08-09,Bachelor
+Candidate-Education-3449,Candidate-175354,2017-06-30,Stanford University,Doctor of Business Administration,2012-08-09,2016-08-09,Doctor
+Candidate-Education-3450,Candidate-175357,2017-06-30,Michigan State University,Bachelor of Computer Applications,2006-10-20,2009-10-20,Bachelor
+Candidate-Education-3451,Candidate-175357,2017-06-30,University of Cincinnati,Master of Applied Science,2009-10-20,2012-10-20,Master
+Candidate-Education-3452,Candidate-175357,2017-06-30,Dartmouth College,Doctor of Business Administration,2012-10-20,2016-10-20,Doctor
+Candidate-Education-3453,Candidate-175358,2017-06-30,University of Kentucky,Bachelor of Computer Applications,2007-09-23,2010-09-23,Bachelor
+Candidate-Education-3454,Candidate-175358,2017-06-30,Harvard University,Master of Applied Science,2010-09-23,2013-09-23,Master
+Candidate-Education-3455,Candidate-175358,2017-06-30,University of Maryland,Doctor of Business Administration,2013-09-23,2017-09-23,Doctor
+Candidate-Education-3456,Candidate-175359,2017-06-30,Marshall University,Bachelor of Architecture,2007-11-27,2010-11-27,Bachelor
+Candidate-Education-3457,Candidate-175359,2017-06-30,Auburn University,Master of Business Administration,2010-11-27,2013-11-27,Master
+Candidate-Education-3458,Candidate-175359,2017-06-30,Michigan State University,Doctor of Business Administration,2013-11-27,2017-11-27,Doctor
+Candidate-Education-3459,Candidate-175360,2017-06-30,University of Memphis,Bachelor of Computer Applications,2007-09-13,2010-09-13,Bachelor
+Candidate-Education-3460,Candidate-175360,2017-06-30,University of Idaho,Master of Applied Science,2010-09-13,2013-09-13,Master
+Candidate-Education-3461,Candidate-175360,2017-06-30,Michigan State University,Doctor of Business Administration,2013-09-13,2017-09-13,Doctor
+Candidate-Education-3462,Candidate-175362,2017-06-30,California State University Bakersfield,Bachelor of Business Administration,2007-08-23,2010-08-23,Bachelor
+Candidate-Education-3463,Candidate-175362,2017-06-30,Mississippi State University,Master of Business Administration,2010-08-23,2013-08-23,Master
+Candidate-Education-3464,Candidate-175362,2017-06-30,Virginia Tech,Doctor of Business Administration,2013-08-23,2017-08-23,Doctor
+Candidate-Education-3465,Candidate-175364,2017-06-30,Columbia University,Bachelor of Business Administration,2007-01-18,2010-01-18,Bachelor
+Candidate-Education-3466,Candidate-175364,2017-06-30,Tulane University,Master of Business Administration,2010-01-18,2013-01-18,Master
+Candidate-Education-3467,Candidate-175364,2017-06-30,Indiana University,Doctor of Business Administration,2013-01-18,2017-01-18,Doctor
+Candidate-Education-3468,Candidate-175365,2017-06-30,California State University Fullerton,Bachelor of Business Administration,2005-11-18,2008-11-18,Bachelor
+Candidate-Education-3469,Candidate-175365,2017-06-30,University of Texas at San Antonio,Master of Business Administration,2008-11-18,2011-11-18,Master
+Candidate-Education-3470,Candidate-175366,2017-06-30,Southern Methodist University,Bachelor of Business Administration,2006-09-10,2009-09-10,Bachelor
+Candidate-Education-3471,Candidate-175369,2017-06-30,Temple University,Bachelor of Business Administration,2009-09-27,2012-09-27,Bachelor
+Candidate-Education-3472,Candidate-175369,2017-06-30,University of North Texas,Doctor of Business Administration,2012-09-27,2016-09-27,Doctor
+Candidate-Education-3473,Candidate-175370,2017-06-30,Florida Atlantic University,Bachelor of Business Administration,2010-02-09,2013-02-09,Bachelor
+Candidate-Education-3474,Candidate-175370,2017-06-30,University of Georgia,Doctor of Business Administration,2013-02-09,2017-02-09,Doctor
+Candidate-Education-3475,Candidate-175371,2017-06-30,University of Colorado Boulder,Bachelor of Business Administration,2009-04-29,2012-04-29,Bachelor
+Candidate-Education-3476,Candidate-175371,2017-06-30,Iowa State University,Master of Business Administration,2012-04-29,2015-04-29,Master
+Candidate-Education-3477,Candidate-175373,2017-06-30,East Carolina University,Bachelor of Construction Technology,2007-09-01,2010-09-01,Bachelor
+Candidate-Education-3478,Candidate-175373,2017-06-30,University of Texas at San Antonio,Master of Bioinformatics,2010-09-01,2013-09-01,Master
+Candidate-Education-3479,Candidate-175373,2017-06-30,Ohio State University,Doctor of Business Administration,2013-09-01,2017-09-01,Doctor
+Candidate-Education-3480,Candidate-175374,2017-06-30,Florida Atlantic University,Bachelor of Construction Technology,2009-09-10,2012-09-10,Bachelor
+Candidate-Education-3481,Candidate-175374,2017-06-30,West Virginia University,Doctor of Business Administration,2012-09-10,2016-09-10,Doctor
+Candidate-Education-3482,Candidate-175375,2017-06-30,University of Florida,Bachelor of Business Administration,2008-09-06,2011-09-06,Bachelor
+Candidate-Education-3483,Candidate-175375,2017-06-30,University of Tennessee,Master of Business Administration,2011-09-06,2014-09-06,Master
+Candidate-Education-3484,Candidate-175377,2017-06-30,University of California Los Angeles,Bachelor of Business Administration,2009-02-25,2012-02-25,Bachelor
+Candidate-Education-3485,Candidate-175377,2017-06-30,Old Dominion University,Master of Business Administration,2012-02-25,2015-02-25,Master
+Candidate-Education-3486,Candidate-175378,2017-06-30,University of Texas at Austin,Bachelor of Business Administration,2009-07-07,2012-07-07,Bachelor
+Candidate-Education-3487,Candidate-175378,2017-06-30,University of Notre Dame,Doctor of Business Administration,2012-07-07,2016-07-07,Doctor
+Candidate-Education-3488,Candidate-175379,2017-06-30,Florida Atlantic University,Bachelor of Management,2007-03-17,2010-03-17,Bachelor
+Candidate-Education-3489,Candidate-175379,2017-06-30,Syracuse University,Master of Arts of Liberal Studies,2010-03-17,2013-03-17,Master of Arts
+Candidate-Education-3490,Candidate-175379,2017-06-30,University of South Florida,Doctor of Business Administration,2013-03-17,2017-03-17,Doctor
+Candidate-Education-3491,Candidate-175380,2017-06-30,University of Notre Dame,Bachelor of Business Administration,2009-12-08,2012-12-08,Bachelor
+Candidate-Education-3492,Candidate-175380,2017-06-30,Old Dominion University,Doctor of Business Administration,2012-12-08,2016-12-08,Doctor
+Candidate-Education-3493,Candidate-175381,2017-06-30,University of Colorado Boulder,Bachelor of Business Administration,2009-06-10,2012-06-10,Bachelor
+Candidate-Education-3494,Candidate-175381,2017-06-30,Oregon State University,Master of Accountancy,2012-06-10,2015-06-10,Master
+Candidate-Education-3495,Candidate-175382,2017-06-30,University of Kentucky,Bachelor of Business Administration,2010-08-21,2013-08-21,Bachelor
+Candidate-Education-3496,Candidate-175382,2017-06-30,University of Texas at Austin,Master of Accountancy,2013-08-21,2016-08-21,Master
+Candidate-Education-3497,Candidate-175383,2017-06-30,Michigan State University,Bachelor of Business Administration,2009-06-28,2012-06-28,Bachelor
+Candidate-Education-3498,Candidate-175383,2017-06-30,University of North Carolina at Charlotte,Master of Accountancy,2012-06-28,2015-06-28,Master
+Candidate-Education-3499,Candidate-175384,2017-06-30,Florida International University,Bachelor of Business Administration,2009-12-16,2012-12-16,Bachelor
+Candidate-Education-3500,Candidate-175384,2017-06-30,University of North Texas,Doctor of Business Administration,2012-12-16,2016-12-16,Doctor
+Candidate-Education-3501,Candidate-175385,2017-06-30,Texas A&M University,Bachelor of Business Administration,2007-05-26,2010-05-26,Bachelor
+Candidate-Education-3502,Candidate-175385,2017-06-30,Florida International University,Master of Accountancy,2010-05-26,2013-05-26,Master
+Candidate-Education-3503,Candidate-175385,2017-06-30,Vanderbilt University,Doctor of Business Administration,2013-05-26,2017-05-26,Doctor
+Candidate-Education-3504,Candidate-175387,2017-06-30,University of Tennessee,Bachelor of Business Administration,2007-06-14,2010-06-14,Bachelor
+Candidate-Education-3505,Candidate-175387,2017-06-30,Syracuse University,Master of Accountancy,2010-06-14,2013-06-14,Master
+Candidate-Education-3506,Candidate-175387,2017-06-30,Harvard University,Doctor of Business Administration,2013-06-14,2017-06-14,Doctor
+Candidate-Education-3507,Candidate-175388,2017-06-30,Mississippi State University,Bachelor of Business Administration,2009-11-27,2012-11-27,Bachelor
+Candidate-Education-3508,Candidate-175388,2017-06-30,Indiana University,Doctor of Business Administration,2012-11-27,2016-11-27,Doctor
+Candidate-Education-3509,Candidate-175390,2017-06-30,Clemson University,Bachelor of Business Administration,2009-07-07,2012-07-07,Bachelor
+Candidate-Education-3510,Candidate-175390,2017-06-30,Florida International University,Doctor of Business Administration,2012-07-07,2016-07-07,Doctor
+Candidate-Education-3511,Candidate-175391,2017-06-30,University of Colorado Boulder,Bachelor of Business Administration,2009-09-08,2012-09-08,Bachelor
+Candidate-Education-3512,Candidate-175391,2017-06-30,Western Kentucky University,Doctor of Business Administration,2012-09-08,2016-09-08,Doctor
+Candidate-Education-3513,Candidate-175392,2017-06-30,Duke University,Bachelor of Architecture,2008-05-14,2011-05-14,Bachelor
+Candidate-Education-3514,Candidate-175392,2017-06-30,North Carolina State University,Master of Business Administration,2011-05-14,2014-05-14,Master
+Candidate-Education-3515,Candidate-175392,2017-06-30,Washington State University,Doctor of Business Administration,2014-05-14,2018-05-14,Doctor
+Candidate-Education-3516,Candidate-175394,2017-06-30,Florida Atlantic University,Bachelor of Architecture,2007-05-06,2010-05-06,Bachelor
+Candidate-Education-3517,Candidate-175394,2017-06-30,Virginia Tech,Master of Business Administration,2010-05-06,2013-05-06,Master
+Candidate-Education-3518,Candidate-175394,2017-06-30,University of Utah,Doctor of Business Administration,2013-05-06,2017-05-06,Doctor
+Candidate-Education-3519,Candidate-175395,2017-06-30,Marshall University,Bachelor of Architecture,2007-04-30,2010-04-30,Bachelor
+Candidate-Education-3520,Candidate-175395,2017-06-30,San Jose State University,Master of Business Administration,2010-04-30,2013-04-30,Master
+Candidate-Education-3521,Candidate-175395,2017-06-30,Marshall University,Doctor of Business Administration,2013-04-30,2017-04-30,Doctor
+Candidate-Education-3522,Candidate-175399,2017-06-30,Clemson University,Bachelor of Architecture,2009-02-27,2012-02-27,Bachelor
+Candidate-Education-3523,Candidate-175399,2017-06-30,Columbia University,Master of Business Administration,2012-02-27,2015-02-27,Master
+Candidate-Education-3524,Candidate-175400,2017-06-30,University of Missouri,Bachelor of Architecture,2009-09-12,2012-09-12,Bachelor
+Candidate-Education-3525,Candidate-175400,2017-06-30,Portland State University,Doctor of Business Administration,2012-09-12,2016-09-12,Doctor
