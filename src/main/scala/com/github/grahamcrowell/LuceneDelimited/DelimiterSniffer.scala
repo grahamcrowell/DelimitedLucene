@@ -55,39 +55,32 @@ object DelimiterVarianceMetricHelper extends Ordering[DelimiterVarianceMetric] {
 
 trait DelimiterSniffer {
   val header: String
-  val lineSample: Traversable[String]
+  val lineSample: TraversableOnce[String]
   val possibleDelimiters: List[Char]
-
   /**
-    *
-    * @param header
-    * @param lineSample
     * @return
     */
-  def sniffDelimiter(header: String, lineSample: Traversable[String]): Char = {
-    val delimiter_variance_computer = computeDelimiterVariance(header, lineSample) _
-    val delimiter_variances = possibleDelimiters.map {
-      possible_delimiter => delimiter_variance_computer(possible_delimiter)
-    }.sorted(DelimiterVarianceMetricHelper)
-    delimiter_variances.head.delimiter
-  }
-
-  /**
-    *
-    * @param header
-    * @param lineSample
-    * @param testDelimiter
-    * @return
-    */
-  def computeDelimiterVariance(header: String,
-                               lineSample: Traversable[String])
-                              (testDelimiter: Char): DelimiterVarianceMetric = {
+  val computeDelimiterVariance: Char => DelimiterVarianceMetric = (testDelimiter: Char) => {
     val header_count = header.count(_ == testDelimiter)
-    val sample_counts = lineSample.map(_.count(_ == testDelimiter).toDouble)
-    val sample_count_average = sample_counts.sum / sample_counts.size
+    val lineList = lineSample.toList
+    val sample_counts = lineList.map(_.count(_ == testDelimiter).toDouble)
+    val sample_count_average = sample_counts.sum / sample_counts.length
+
     val delimiter_count_variance = sample_counts.map {
       sample_count => Math.pow(header_count - sample_count, 2.0)
     }.sum / sample_counts.size
     DelimiterVarianceMetric(header_count, sample_count_average, delimiter_count_variance, testDelimiter)
+  }
+
+  /**
+    *
+    * @return
+    */
+  def sniffDelimiter: Char = {
+    implicit val comparison = DelimiterVarianceMetricHelper
+    val delimiter_variances = possibleDelimiters.map {
+      possible_delimiter => computeDelimiterVariance(possible_delimiter)
+    }
+    delimiter_variances.max.delimiter
   }
 }

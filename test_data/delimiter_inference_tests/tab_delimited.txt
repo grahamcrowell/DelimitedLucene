@@ -1,4 +1,4 @@
-Column1	Column2	Column3	Column4	Column5	Column6
+Column1	Column2	Column3	Column4	Column5	Column6 Column7
 one	1	2	3	4	5	six
 two	1	2	3	4	5	six
 three	1	2	3	4	5	six
