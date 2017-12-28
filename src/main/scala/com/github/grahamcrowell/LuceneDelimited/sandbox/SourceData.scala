@@ -10,10 +10,12 @@ import org.apache.lucene.search.IndexSearcher
   * Isn't necessarily delimited.
   * Can be built from Lucene query or from File system
   */
-trait DataSourceTrait extends Comparable[DataSourceTrait] {
+trait AbstractFile extends Comparable[AbstractFile] {
   val absolutePath: String
   val hash: String
-  override def compareTo(o: DataSourceTrait): Int = {
+  val lineIterator: Iterator[String]
+
+  override def compareTo(o: AbstractFile): Int = {
     val this_tmp = this.absolutePath + this.hash
     val rhs = o.absolutePath + o.hash
     if (this_tmp < rhs)
@@ -22,34 +24,37 @@ trait DataSourceTrait extends Comparable[DataSourceTrait] {
       return 1
     0
   }
-  val lineIterator: Iterator[String]
 }
-
 /**
-  * Adds
+  * Represents any delimited text file (physical and/or indexed).
   */
-trait DelimitedFile extends DataSourceTrait {
+trait DelimitedFile extends AbstractFile {
   val delimiter: String
   val columnNames: IndexedSeq[String]
 }
+
 trait LuceneDocumentIterator {
   val luceneDocumentIterator: Iterator[Document]
 }
-trait DelimitedPhysicalFileTrait extends DelimitedFile with LuceneDocumentIterator {
-  protected val file: File
+
+trait DelimitedFsFileTrait extends DelimitedFile with LuceneDocumentIterator {
   val nameValueMapIterator: Iterator[Map[String, String]]
+  protected val file: File
 }
 
 /**
   * Represents the root data folder of a tenant.
   * esldata/WFF_f0o
   */
-trait TenantSourceFileService {
-  val delimitedSourceFileIterator: Iterator[DelimitedPhysicalFileTrait]
+trait TenantSourceFileServiceTrait {
+  val tenantSourceRootPath: String
+  val tenantIndexWriter: IndexWriter
+  val delimitedSourceFileIterator: Iterator[DelimitedFsFile]
 }
+
+
 trait TenantLuceneService {
   val tenantRootPath: String
-  val tenantIndexWriter: IndexWriter
   val tenantIndexSearcher: IndexSearcher
 }
 

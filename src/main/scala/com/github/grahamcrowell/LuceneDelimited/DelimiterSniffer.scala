@@ -1,5 +1,9 @@
 package com.github.grahamcrowell.LuceneDelimited
 
+import better.files.File
+
+import scala.util.{Failure, Success, Try}
+
 /**
   * Stores the computed metrics used to compare the validity of delimiters.
   *
@@ -54,8 +58,18 @@ object DelimiterVarianceMetricHelper extends Ordering[DelimiterVarianceMetric] {
 }
 
 trait DelimiterSniffer {
+  /**
+    * @return
+    */
+  lazy val sniffDelimiter: Option[Char] = {
+    implicit val comparison = DelimiterVarianceMetricHelper
+    val delimiter_variances: Seq[DelimiterVarianceMetric] = possibleDelimiters.map {
+      possible_delimiter => computeDelimiterVariance(possible_delimiter)
+    }//.filter((metric: DelimiterVarianceMetric) => metric.isValid & metric.isNonZero)
+    if (delimiter_variances.isEmpty) None else Option(delimiter_variances.max.delimiter)
+  }
   val header: String
-  val lineSample: TraversableOnce[String]
+  val lineSample: IndexedSeq[String]
   val possibleDelimiters: List[Char]
   /**
     * @return
@@ -63,8 +77,12 @@ trait DelimiterSniffer {
   val computeDelimiterVariance: Char => DelimiterVarianceMetric = (testDelimiter: Char) => {
     val header_count = header.count(_ == testDelimiter)
     val lineList = lineSample.toList
+    lineList.foreach(println)
+    println(s"lineList: $lineList")
     val sample_counts = lineList.map(_.count(_ == testDelimiter).toDouble)
-    val sample_count_average = sample_counts.sum / sample_counts.length
+    println(s"sample_counts: $sample_counts")
+    val sample_count_average = sample_counts.foldRight(0.0)(_ + _) / sample_counts.length
+    println(s"sample_count_average: $sample_count_average")
 
     val delimiter_count_variance = sample_counts.map {
       sample_count => Math.pow(header_count - sample_count, 2.0)
@@ -72,15 +90,65 @@ trait DelimiterSniffer {
     DelimiterVarianceMetric(header_count, sample_count_average, delimiter_count_variance, testDelimiter)
   }
 
-  /**
-    *
-    * @return
-    */
-  def sniffDelimiter: Char = {
-    implicit val comparison = DelimiterVarianceMetricHelper
-    val delimiter_variances = possibleDelimiters.map {
-      possible_delimiter => computeDelimiterVariance(possible_delimiter)
-    }
-    delimiter_variances.max.delimiter
+  def columnNames: Option[IndexedSeq[String]] = {
+    sniffDelimiter.map((delimiter: Char) => header.split(delimiter).toIndexedSeq)
   }
 }
+
+case class DelimiterSnifferImpl(header: String, lineSample: IndexedSeq[String])
+  extends DelimiterSniffer {
+  override val possibleDelimiters: List[Char] = {
+    List('|', ',', '\t')
+  }
+}
+
+object DelimiterSniffer {
+  def sniffFile(file: File): Option[DelimitedFile] = {
+    val lineIterator = file.lineIterator
+
+    val headerTry: Option[String] = Try {
+      lineIterator.next()
+    } match {
+      case Success(header) => Option(header)
+      case Failure(exception) => None
+    }
+    if (headerTry.isEmpty) return None
+    println("headerTry")
+    println(headerTry.get)
+
+    val lineSampleTry = Try {
+      lineIterator.take(5).toIndexedSeq
+    } match {
+      case Success(lineSample) => Option(lineSample)
+      case Failure(exception) => None
+    }
+    if (lineSampleTry.isEmpty) return None
+    println("lineSampleTry")
+    println(lineSampleTry.get)
+
+    val delimiterSniffer = DelimiterSnifferImpl(headerTry.get, lineSampleTry.get)
+    println("delimiterSniffer")
+
+    val delimiter = delimiterSniffer.sniffDelimiter
+    if (delimiter.isEmpty) return None
+    println("delimiter")
+    println(delimiter.get)
+
+    val columnNames = delimiterSniffer.columnNames
+    if (columnNames.isEmpty) return None
+    println("columnNames")
+    println(columnNames.get)
+    Option(DelimitedFileImpl(file, columnNames.get, delimiter.get))
+  }
+}
+
+trait DelimitedFile {
+  val file: File
+  val columnNames: IndexedSeq[String]
+  val delimiter: Char
+}
+
+case class DelimitedFileImpl(file: File,
+                             columnNames: IndexedSeq[String],
+                             delimiter: Char)
+  extends DelimitedFile
