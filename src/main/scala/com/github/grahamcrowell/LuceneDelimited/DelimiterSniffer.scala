@@ -77,12 +77,12 @@ trait DelimiterSniffer {
   val computeDelimiterVariance: Char => DelimiterVarianceMetric = (testDelimiter: Char) => {
     val header_count = header.count(_ == testDelimiter)
     val lineList = lineSample.toList
-    lineList.foreach(println)
-    println(s"lineList: $lineList")
+//    lineList.foreach(println)
+//    println(s"lineList: $lineList")
     val sample_counts = lineList.map(_.count(_ == testDelimiter).toDouble)
-    println(s"sample_counts: $sample_counts")
+//    println(s"sample_counts: $sample_counts")
     val sample_count_average = sample_counts.foldRight(0.0)(_ + _) / sample_counts.length
-    println(s"sample_count_average: $sample_count_average")
+//    println(s"sample_count_average: $sample_count_average")
 
     val delimiter_count_variance = sample_counts.map {
       sample_count => Math.pow(header_count - sample_count, 2.0)
@@ -113,8 +113,8 @@ object DelimiterSniffer {
       case Failure(exception) => None
     }
     if (headerTry.isEmpty) return None
-    println("headerTry")
-    println(headerTry.get)
+//    println("headerTry")
+//    println(headerTry.get)
 
     val lineSampleTry = Try {
       lineIterator.take(5).toIndexedSeq
@@ -123,21 +123,21 @@ object DelimiterSniffer {
       case Failure(exception) => None
     }
     if (lineSampleTry.isEmpty) return None
-    println("lineSampleTry")
-    println(lineSampleTry.get)
+//    println("lineSampleTry")
+//    println(lineSampleTry.get)
 
     val delimiterSniffer = DelimiterSnifferImpl(headerTry.get, lineSampleTry.get)
-    println("delimiterSniffer")
+//    println("delimiterSniffer")
 
     val delimiter = delimiterSniffer.sniffDelimiter
     if (delimiter.isEmpty) return None
-    println("delimiter")
-    println(delimiter.get)
+//    println("delimiter")
+//    println(delimiter.get)
 
     val columnNames = delimiterSniffer.columnNames
     if (columnNames.isEmpty) return None
-    println("columnNames")
-    println(columnNames.get)
+//    println("columnNames")
+//    println(columnNames.get)
     Option(DelimitedFileImpl(file, columnNames.get, delimiter.get))
   }
 }

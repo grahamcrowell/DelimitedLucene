@@ -1,0 +1,39 @@
+package com.github.grahamcrowell.LuceneDelimited
+
+import better.files.File
+import org.scalatest.{FunSpec, Matchers}
+
+class DataRootWalkerTest extends FunSpec with Matchers {
+  val tenantRoot: File = File("./test_data/indexing_tests/mock_tenant_root")
+
+  it("should find test data") {
+    tenantRoot.children.isEmpty shouldBe false
+  }
+
+  it("should build DelimitedFile's") {
+    object DataRootWalker extends DataRootWalkerBase(tenantRoot)
+    val root = DataRootWalker
+    val fileIter = root.delimitedFiles
+    fileIter shouldNot be(empty)
+    val fileIndexedSeq = fileIter.toIndexedSeq
+    fileIndexedSeq.length shouldBe 18
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170625/Absence.csv"), Vector("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0", "AbsenceReason1", "AbsenceHours", "AbsenceDays", "FunctionalCategory", "PlanningCategory", "CompensationCategory"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170625/Agency_Retained.csv"), Vector("AgencyID", "RequisitionID", "EventDate", "Caption", "Agency_Name", "Agency_Category", "Estimated_Cost_of_Agency", "ShareOfComp"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170625/BudgetedPay.csv"), Vector("BudgetPayID", "EventDate", "EmployeeID", "PaymentType", "BudgetHours", "BudgetAmount"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170702/Absence.csv"), Vector("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0", "AbsenceReason1", "AbsenceHours", "AbsenceDays", "FunctionalCategory", "PlanningCategory", "CompensationCategory"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170702/Applicant.csv"), Vector("ApplicantID", "CandidateID", "RequisitionID", "EventDate", "applicantStatus", "Caption", "Apply_Date", "Current_Status", "HiredAsID", "Application_Source", "applicantStage", "Applicant_Sub_Stage", "Stage_Category", "Expected_Start_Date", "Diverse_Flag", "Relocation"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170702/Assessment.csv"), Vector("AssessmentID", "CandidateID", "EventDate", "Caption", "Assessment_Type", "Assessment_Duration", "Vendor", "Outcome", "Overall_Score", "Detail_URL", "Cost"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170702/BudgetedPay.csv"), Vector("BudgetPayID", "EventDate", "EmployeeID", "PaymentType", "BudgetHours", "BudgetAmount"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170702/Candidate-Education.csv"), Vector("EducationID", "CandidateID", "EventDate", "Institution", "Degree", "Start_Date", "End_Date", "Level"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Absence.csv"), Vector("AbsenceID", "EventDate", "EmployeeID", "AbsenceReason0", "AbsenceReason1", "AbsenceHours", "AbsenceDays", "FunctionalCategory", "PlanningCategory", "CompensationCategory"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Applicant.csv"), Vector("ApplicantID", "CandidateID", "RequisitionID", "EventDate", "applicantStatus", "Caption", "Apply_Date", "Current_Status", "HiredAsID", "Application_Source", "applicantStage", "Applicant_Sub_Stage", "Stage_Category", "Expected_Start_Date", "Diverse_Flag", "Relocation"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Assessment.csv"), Vector("AssessmentID", "CandidateID", "EventDate", "Caption", "Assessment_Type", "Assessment_Duration", "Vendor", "Outcome", "Overall_Score", "Detail_URL", "Cost"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/BudgetedPay.csv"), Vector("BudgetPayID", "EventDate", "EmployeeID", "PaymentType", "BudgetHours", "BudgetAmount"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Candidate-Education.csv"), Vector("EducationID", "CandidateID", "EventDate", "Institution", "Degree", "Start_Date", "End_Date", "Level"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Candidate-Job_History.csv"), Vector("JobHistoryID", "CandidateID", "EventDate", "Organization", "Market_Role_Code", "Market_Level_Code", "Total_Compensation", "Start_Date", "End_Date", "Title"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Candidate.csv"), Vector("CandidateID", "EmployeeID", "Internal", "EventDate", "Current_Status", "Caption", "Current_Job_Title", "Current_Employer", "Current_Total_Compensation", "Technical_Skills_Level", "LinkedIn_URL", "Resume_URL", "Accumulated_work_experience", "Source", "ReferrerID", "Referral", "Gender", "First_Name", "Ethnicity", "Ethnicty_WFA", "Disability", "Last_Name", "Full_Name", "Veteran", "Birth_Date", "Union_Bargaining_Unit", "Union_Description", "Union_Seniority_Date", "Union_Status", "Region", "Country", "State", "City", "EconomicLevel"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/CandidateExperienceSurvey.csv"), Vector("SurveyID", "RequisitionID", "ApplicantReferenceID", "EventDate", "Overall_application_process", "Overall_recruiter_interaction", "Overall_selection_process", "Overall_offer_process"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Certification.csv"), Vector("CertificationID", "EventDate", "EmployeeID", "Certification_Name", "Certification_Type", "Certification_Category", "Certification_Authority", "Certification_Date", "Certification_Expiry_Date", "Region", "Country", "State", "City", "Site", "EconomicLevel"), ','))
+    fileIndexedSeq should contain(DelimitedFileImpl(File("./test_data/indexing_tests/mock_tenant_root/20170709/Employee.csv"), Vector("EmployeeID", "EventDate", "Current_Status", "NonActiveEmployee", "Employment_Status", "Employment_Type", "Contract_Type", "Permanent", "Start_Date", "Tenure_Start_Date", "Last_Promotion_Date", "Base_Compensation", "Total_Compensation", "Performance_Rating", "Performance_WFA", "Potential", "Potential_WFA", "Top_Talent_Status", "FTE_Factor", "Annual_Leave", "Annual_Sick_Days", "Critical_Employee_Status", "Direct_ManagerID", "Title", "Caption", "Currency", "Organization_ID", "Cost_Center", "Profit_Center", "ApplicantID", "EmailAddress", "ReadySuccessors", "ManagerStatus", "Region", "Country", "State", "City", "Site", "EconomicLevel", "Gender", "First_Name", "Ethnicity", "Ethnicty_WFA", "Disability", "Last_Name", "Full_Name", "Veteran", "Birth_Date", "Union_Bargaining_Unit", "Union_Description", "Union_Seniority_Date", "Union_Status", "Function", "Role", "Job_Family", "Job_Level", "Job_CodeWFA", "Functional_Area", "Functional_Seniority_Level", "Job_Family_Description", "Pay_Level", "Pay_Level_WFA", "EEOC_Function", "EEOC_Function_Code", "Market_Level_Code", "Market_Role_Code", "PayFrequency", "PayStyle", "VariablePayStyle", "Overtime_or_FLSA_Exempt", "Compensation_Minimum", "Compensation_Midpoint", "Compensation_Maximum", "BasePay_Percentage", "Direct_Percentage", "RequireSuccession"), ','))
+  }
+}
