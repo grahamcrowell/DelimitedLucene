@@ -65,7 +65,7 @@ trait DelimiterSniffer {
     implicit val comparison = DelimiterVarianceMetricHelper
     val delimiter_variances: Seq[DelimiterVarianceMetric] = possibleDelimiters.map {
       possible_delimiter => computeDelimiterVariance(possible_delimiter)
-    }//.filter((metric: DelimiterVarianceMetric) => metric.isValid & metric.isNonZero)
+    }.filter((metric: DelimiterVarianceMetric) => metric.isValid & metric.isNonZero)
     if (delimiter_variances.isEmpty) None else Option(delimiter_variances.max.delimiter)
   }
   val header: String
