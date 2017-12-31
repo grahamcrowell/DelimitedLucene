@@ -1,15 +1,13 @@
 package com.github.grahamcrowell.LuceneDelimited
 
-import better.files.File
 import org.apache.lucene.document.{Document, Field, TextField}
-import org.apache.lucene.index.{IndexWriter, IndexWriterConfig}
-import org.apache.lucene.store.NIOFSDirectory
 
 trait DocumentBuilder {
   val delimitedFile: DelimitedFile
 
   def documentBuilder: Iterator[Document] = {
     nameValueMapIterator map { nameValueMap =>
+//      println("documentBuilder")
       val document = new Document()
       document.add(new TextField("parent_path", delimitedFile.file.parent.path.toAbsolutePath.toString, Field.Store.YES))
       document.add(new TextField("filename", delimitedFile.file.name, Field.Store.YES))
@@ -30,32 +28,3 @@ trait DocumentBuilder {
 }
 
 case class DocumentBuilderImpl(delimitedFile: DelimitedFile) extends DocumentBuilder
-
-trait Indexer {
-  val indexWriter: IndexWriter
-
-  def indexDocument(document: Document): Boolean = {
-    indexWriter.addDocument(document)
-    //    indexWriter.commit()
-    true
-  }
-
-  def indexDocuments(documents: Iterator[Document]): Boolean = {
-    documents.map {
-      indexWriter.addDocument(_)
-    }
-    indexWriter.commit()
-    true
-  }
-}
-
-case class IndexerImpl(indexWriter: IndexWriter) extends Indexer
-
-object Indexer {
-  def apply(dataRoot: File): Indexer = {
-    val indexDirectory = new NIOFSDirectory(dataRoot.path)
-    val indexWriterConfig = new IndexWriterConfig()
-    val indexWriter = new IndexWriter(indexDirectory, indexWriterConfig)
-    IndexerImpl(indexWriter)
-  }
-}

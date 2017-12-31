@@ -16,7 +16,7 @@ object DataFilter {
     * @param file     potential data file
     * @return true if file is a delimited file and so should be indexed
     */
-  def timeStampFolder(dataRoot: File)(file: File): Boolean = {
+  def timeStampFolderFilter(dataRoot: File)(file: File): Boolean = {
     // no folders, symlinks etc
     file.isRegularFile &
       // must be a grand child of root (pattern is: <root>/<date stamp>/<data file name>
@@ -28,7 +28,7 @@ object DataFilter {
 
 trait DataRootWalker {
   val dataRoot: File
-  private val dataFileFilter = DataFilter.timeStampFolder(dataRoot) _
+  private val dataFileFilter = DataFilter.timeStampFolderFilter(dataRoot) _
 
   def delimitedFiles: Iterator[DelimitedFile] = {
     dataRoot.walk(2).filter(dataFileFilter)
