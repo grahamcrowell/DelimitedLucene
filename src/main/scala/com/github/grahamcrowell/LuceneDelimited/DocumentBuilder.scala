@@ -5,7 +5,7 @@ import org.apache.lucene.document.{Document, Field, TextField}
 trait DocumentBuilder {
   val delimitedFile: DelimitedFile
 
-  def documentBuilder: Iterator[Document] = {
+  def documentIterator: Iterator[Document] = {
     nameValueMapIterator map { nameValueMap =>
 //      println("documentBuilder")
       val document = new Document()

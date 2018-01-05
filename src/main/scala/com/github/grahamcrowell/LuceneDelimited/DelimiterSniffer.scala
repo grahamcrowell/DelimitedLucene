@@ -104,7 +104,11 @@ case class DelimiterSnifferImpl(header: String, lineSample: IndexedSeq[String])
 
 object DelimiterSniffer {
   def sniffFile(file: File): Option[DelimitedFile] = {
-    println("Sniffing delimiter...")
+//    println("Sniffing delimiter...")
+    if (! file.isRegularFile) {
+      println("NOT file.isRegularFile")
+      return None
+    }
     val lineIterator = Try {
       file.lineIterator
     } match {
@@ -123,8 +127,8 @@ object DelimiterSniffer {
       case Failure(exception) => None
     }
     if (headerTry.isEmpty) return None
-    println("headerTry")
-    println(headerTry.get)
+//    println("headerTry")
+//    println(headerTry.get)
 
     val lineSampleTry = Try {
       lineIterator.get.take(5).toIndexedSeq
@@ -133,20 +137,20 @@ object DelimiterSniffer {
       case Failure(exception) => None
     }
     if (lineSampleTry.isEmpty) return None
-    println("lineSampleTry")
-    println(lineSampleTry.get)
+//    println("lineSampleTry")
+//    println(lineSampleTry.get)
 
     val delimiterSniffer = DelimiterSnifferImpl(headerTry.get, lineSampleTry.get)
-    println("delimiterSniffer")
+//    println("delimiterSniffer")
 
     val delimiter = delimiterSniffer.sniffDelimiter
     if (delimiter.isEmpty) return None
-    println("delimiter")
-    println(delimiter.get)
+//    println("delimiter")
+//    println(delimiter.get)
 
     val columnNames = delimiterSniffer.columnNames
     if (columnNames.isEmpty) return None
-    println("columnNames")
+//    println("columnNames")
     println(columnNames.get)
     Option(DelimitedFileImpl(file, columnNames.get, delimiter.get))
   }

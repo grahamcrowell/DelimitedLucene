@@ -2,10 +2,13 @@ package com.github.grahamcrowell.LuceneDelimited
 
 import better.files.File
 
+import scala.collection.immutable
+//import scala.collection.parallel.immutable
+
 trait SyncStateReader {
   val root_abspath: String
 
-  def readSyncState: IndexedSeq[SyncElement]
+  def readSyncState: immutable.IndexedSeq[SyncElement]
 }
 
 /**
@@ -38,7 +41,7 @@ case class FileSystemSyncStateReader(root_folder: File)
   private val fileSystemSyncElementBuilder = FileSystemSyncElement.fileSystemSyncElementBuilder(root_folder) _
   private val dataFileFilter = DataFilter.timeStampFolderFilter(root_folder) _
 
-  override def readSyncState: IndexedSeq[SyncElement] = {
+  override def readSyncState: immutable.IndexedSeq[SyncElement] = {
     root_folder
       .walk(2)
       .filter(dataFileFilter)
@@ -53,7 +56,7 @@ object FileSystemSyncStateReader {
 
 case class LuceneSyncStateReader(root_abspath: String)
   extends SyncStateReader {
-  override def readSyncState: IndexedSeq[SyncElement] = ???
+  override def readSyncState: immutable.IndexedSeq[SyncElement] = ???
 }
 
 trait SyncStateDiff {
@@ -62,15 +65,15 @@ trait SyncStateDiff {
 
   /** @todo implement diff
     */
-  def sourceNotDestinationSyncElements: Iterable[SyncElement] = {
+  def sourceNotDestinationSyncElements: immutable.IndexedSeq[SyncElement] = {
     source_state.readSyncState
   }
 
-  def destinationNotSourceSyncElements: IndexedSeq[SyncElement] = {
+  def destinationNotSourceSyncElements: immutable.IndexedSeq[SyncElement] = {
     ???
   }
 
-  def syncedSyncElements: IndexedSeq[SyncElement] = {
+  def syncedSyncElements: immutable.IndexedSeq[SyncElement] = {
     ???
   }
 }

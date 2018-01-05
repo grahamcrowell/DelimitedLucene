@@ -1,11 +1,14 @@
 package com.github.grahamcrowell.LuceneDelimited
 
-import akka.NotUsed
+import akka.{Done, NotUsed}
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.{Flow, Source}
+import akka.stream.scaladsl.{Flow, RunnableGraph, Sink, Source}
 import better.files.File
+import org.apache.lucene.document.Document
 import org.scalatest.{BeforeAndAfter, FunSpec, Matchers}
+
+import scala.concurrent.Future
 
 class SyncManagerTest extends FunSpec with Matchers with BeforeAndAfter {
 
@@ -20,33 +23,28 @@ class SyncManagerTest extends FunSpec with Matchers with BeforeAndAfter {
       syncStateDiff = SyncStateDiffImpl(fileSystemSyncStateReader, fileSystemSyncStateReader)
       syncManager = SyncManagerImpl(syncStateDiff)
     }
-    it("should generateSourceTasks") {
+    it("compose Akka stream source, flow, and sink") {
       implicit val actorSystem: ActorSystem = ActorSystem("OneWaySyncManager")
-      implicit val materializer = ActorMaterializer()
-      val syncState = fileSystemSyncStateReader.readSyncState
+      implicit val materializer: ActorMaterializer = ActorMaterializer()
+      val process: Flow[SyncElement, Iterator[Document], NotUsed] = Flow[SyncElement]
+        .map(SyncElementHelper.toFile)
+        .alsoTo(Sink.foreach(file => println(file.name)))
+        .map(DelimiterSniffer.sniffFile)
+        .collect {
+          case delimit if delimit.isDefined => delimit.get
+        }
+        .map(DocumentBuilderImpl)
+        .map(_.documentIterator)
 
-      //      syncState.foreach(println(_))
-      //      syncStateDiff.source_state.readSyncState.foreach(println(_))
-      val func: () => Iterator[SyncElement] = () => {
-        syncStateDiff.sourceNotDestinationSyncElements.iterator
-      }
-      //      syncStateDiff.sourceNotDestinationSyncElements.iterator.foreach(println(_))
-      //      func().foreach(println(_))
-      val src: Source[SyncElement, NotUsed] = Source.fromIterator(func)
-      val flow = src.via(Flow[SyncElement]
-        //          .map(syncElement=>syncElement.filename)
-        .map(syncElement => SyncElementHelper.toFile(syncElement))
-//        .filter(file => file.isRegularFile)
-//        .map(DelimiterSniffer.sniffFile)
-//        .filter(_.isDefined)
-        //        .map(delimitedFile => s"${delimitedFile.get.columnNames.mkString(",")}")
-      )
-      flow.runForeach(println(_))
-      //      println(syncState.head.filename)
-      //      println(syncState(2).filename)
-      //      val y =
-      //      syncManager.generateSourceTasks.filter(x => true).foreach(println(_))
-      //      println(y.)
+      val source: Source[SyncElement, NotUsed] = Source[SyncElement](syncStateDiff.sourceNotDestinationSyncElements)
+      val idx: DocumentIndexerImpl = DocumentIndexerImpl(root_folder)
+      val sink: Sink[Iterator[Document], Future[Done]] = Sink.foreach[Iterator[Document]](idx.indexDocumentIterator)
+      val graph: RunnableGraph[NotUsed] = source.via(process).to(sink)
+//      val graph: RunnableGraph[NotUsed] = source.via(process).to(Sink.foreach(x=>println("")))
+      graph.run()(materializer)
+      println(actorSystem.settings)
+      1 should be (1)
+
     }
 
   }

@@ -21,7 +21,7 @@ abstract class DocumentIndexerBase
   lazy private[this] val writerConfig = new IndexWriterConfig(analyzer)
   lazy private[this] val luceneIndexRootFolder: File = delimitedDataRootPath / luceneFolderName
   lazy private[this] val fsDirectory: FSDirectory = FSDirectory.open(luceneIndexRootFolder.path)
-  lazy private[this] val indexWriter = new IndexWriter(fsDirectory, writerConfig)
+  private[this] val indexWriter = new IndexWriter(fsDirectory, writerConfig)
   writerConfig.setOpenMode(OpenMode.CREATE_OR_APPEND)
   writerConfig.setRAMBufferSizeMB(500)
   writerConfig.setCommitOnClose(true)
@@ -32,6 +32,9 @@ abstract class DocumentIndexerBase
       document => {
         indexWriter.addDocument(document)
         indexCount += 1
+        if(indexCount / 10.0 == (indexCount / 10.0).floor) {
+          println(s"document count: ${indexCount}")
+        }
       }
     }
     indexCount
