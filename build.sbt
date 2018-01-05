@@ -28,5 +28,18 @@ libraryDependencies ++= Seq(
   "org.apache.lucene" % "lucene-analyzers-icu" % "7.1.0",
   "org.apache.lucene" % "lucene-queryparser" % "7.1.0"
 )
+
 // https://mvnrepository.com/artifact/com.google.guava/guava
 libraryDependencies += "com.google.guava" % "guava" % "23.3-jre"
+
+// https://akka.io/docs/
+// actors
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor" % "2.5.8",
+  "com.typesafe.akka" %% "akka-testkit" % "2.5.8" % Test
+)
+// streams
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-stream" % "2.5.8",
+  "com.typesafe.akka" %% "akka-stream-testkit" % "2.5.8" % Test
+)
